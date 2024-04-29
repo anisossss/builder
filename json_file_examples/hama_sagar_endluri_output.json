@@ -1,0 +1,85 @@
+{
+    "candidate Profile Description": {
+      "summary": "A data scientist with 4 years of experience, Hema Sagar Endluri has successfully implemented machine learning models with statistical modeling and predictive analysis for healthcare needs. He is ready to adopt new technologies growing in and around the AI/cloud world and is seeking to establish a strong footprint in the challenging tech environment. Hema Sagar aims to build accurate AI solutions to fulfill various needs of clients in the data science, machine learning, and GenAI areas."
+    },
+    "personal_info": {
+      "name": "Hema Sagar Endluri",
+      "contact": {
+        "email": "sagarendluri@gmail.com",
+        "phone": "717-590-0909",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/hema-sagar-endluri-b1827818a"
+        }
+      }
+    },
+    "education": [
+      {
+        "institution": "Harrisburg University of Science and Technology",
+        "location": "Mechanicsburg, PA",
+        "degree": "Master of Science in Computer Systems & Technology & AI",
+        "expected_completion": "08/2025"
+      },
+      {
+        "institution": "Sri Venkateswara University",
+        "location": "Tirupati, India",
+        "degree": "Master of Science in Electronics",
+        "completion_date": "04/2019",
+        "gpa": "3.29"
+      }
+    ],
+    "work_history": [
+      {
+        "company": "AGS Health",
+        "location": "Chennai, India",
+        "position": "Data Scientist",
+        "duration": "01/2022 - 07/2023",
+        "responsibilities": [
+          "Created a logistic regression machine learning model to forecast the likelihood of a first-time denied application being successfully appealed.",
+          "Worked on transforming audio files into text using OpenAI's Whisper module.",
+          "Used LLMs to summarize conversations between an agent and a provider on each call."
+        ]
+      },
+      {
+        "company": "Piatrika Biosystems Pvt Ltd",
+        "location": "Hyderabad, India",
+        "position": "Data Scientist",
+        "duration": "09/2019 - 01/2022",
+        "responsibilities": [
+          "Worked with various data formats, including CSV, JSON, and VCF, to optimize crop yield and perform machine learning techniques using Python.",
+          "Developed a model building framework that allows experimentation with various models like XgboostRegressor, GradientBoostingRegressor, KNNRegressor, RandomForestRegressor, Ridge, and Lasso.",
+          "Utilized AWS Sagemaker for model construction, retraining, optimization, and deployment, with Elastic Container Registry (ECR)."
+        ]
+      }
+    ],
+    "skills": {
+      "technical_skills": [
+        "Neural Networks",
+        "Computer Vision",
+        "Python Programming",
+        "SQL",
+        "GCP - Vertex AI - Pipelines, GenAI with Large Language Models",
+        "AWS - EC2, Sagemaker, API, AutoML, S3, Lambda, Scikit-Learn, Pandas, Numpy, SM, ML, PD",
+        "Docker",
+        "Kubeflow",
+        "Bitbucket",
+        "Django",
+        "GitHub"
+      ]
+    },
+    "certifications": [
+      {
+        "title": "Generative AI with LLM's Certification",
+        "provider": "DeepLearning.AI and AWS from Coursera"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Data Pipeline for all Libs",
+        "description": "Developed a data pipeline involving deployment, feature selection, optimization, modeling building, and steady state extraction implemented using Lambda functions.",
+        "links": {
+          "github": "https://github.com/sagarendluri/Data-Pipeline-for-all-Libs"
+        }
+      }
+    ]
+  }
+  

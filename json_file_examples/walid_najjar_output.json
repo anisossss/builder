@@ -1,0 +1,123 @@
+{
+    "candidate Profile Description": {
+      "summary": "Data Alchemist and Python Maestro! Transforming raw data into strategic gold, I bring a trail of triumphs in Python development and cutting-edge data science. From crafting scalable AI models to mastering API wizardry, let's redefine your tech landscape together!"
+    },
+    "personal_info": {
+      "name": "Walid Najjar",
+      "contact": {
+        "email": "walidnk7@gmail.com",
+        "phone": "+971 56 1597265",
+        "location": "Dubai, United Arab Emirates"
+      },
+      "links": {
+        "Website": "https://walidnk.github.io/",
+        "LinkedIn": "https://www.linkedin.com/in/walidnk/",
+        "GitHub": "https://github.com/walidnk"
+      }
+    },
+    "relevant_experience": [
+      {
+        "title": "Machine Learning Engineer",
+        "company": "ikeGPS",
+        "location": "United States [Remote]",
+        "start_date": "08/2020",
+        "end_date": "12/2023",
+        "duration": "3 years, 4 months",
+        "achievements": [
+          "Engineered and deployed impactful machine learning models in real-world applications, achieving a 30% improvement in predictive accuracy.",
+          "Collaborated cross-disciplinarily to enhance recommendation systems and natural language understanding, resulting in a 20% increase in system effectiveness.",
+          "Utilized cloud platforms (AWS) and containerization tools (Docker, Kubernetes) for scalable solutions.",
+          "Applied deep learning techniques and frameworks in projects involving natural language processing."
+        ]
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Yokogawa ASEAN",
+        "location": "Singapore [Remote]",
+        "start_date": "08/2018",
+        "end_date": "07/2020",
+        "duration": "2 years",
+        "achievements": [
+          "Engineered algorithms and models, spearheading the development of customer-facing data products.",
+          "Conducted insightful analysis across various aspects of member experiences.",
+          "Developed predictive models using Python and SQL, deploying them in production environments with a 25% boost in model accuracy.",
+          "Leveraged DBT and Airflow for efficient data transformation and workflow orchestration, streamlining processes with a 20% increase in workflow efficiency."
+        ]
+      },
+      {
+        "title": "Python Developer",
+        "company": "Leniolabs_",
+        "location": "Chile [Remote]",
+        "start_date": "05/2016",
+        "end_date": "07/2018",
+        "duration": "2 years, 2 months",
+        "achievements": [
+          "Collaborated in developing robust and scalable backend applications using Python, contributing to a 20% improvement in application performance.",
+          "Implemented RESTful APIs for metadata management and other business needs, resulting in a 15% increase in API efficiency.",
+          "Worked on database management using SQL and NoSQL technologies.",
+          "Contributed to the deployment of applications in cloud environments, utilizing technologies like Docker and Kubernetes.",
+          "Participated in code reviews, providing feedback to ensure best practices and high-quality code, leading to a 20% improvement in code quality."
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Full Professional Proficiency"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Native Proficiency"
+      },
+      {
+        "language": "Arabic",
+        "proficiency": "Elementary Proficiency"
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Zulia",
+        "degree": "Mechanical Engineer",
+        "location": "Maracaibo, Venezuela",
+        "start_date": "10/2012",
+        "end_date": "12/2017",
+        "grade": "18.978 / 20",
+        "honors": "Graduated Magna Cum Laude"
+      }
+    ],
+    "skills": {
+      "programming_languages": [
+        "Python",
+        "Java"
+      ],
+      "data_science": [
+        "Machine Learning",
+        "Predictive Analytics",
+        "Data Analysis"
+      ],
+      "tools_libraries": [
+        "TensorFlow",
+        "SQL",
+        "PyTorch",
+        "Scikit-Learn",
+        "Keras",
+        "Jupyter Notebooks",
+        "Google Colab",
+        "Anaconda",
+        "Matlab"
+      ],
+      "big_data": [
+        "Hadoop",
+        "Apache Spark"
+      ],
+      "cloud_platforms": [
+        "Google Cloud Platform",
+        "AWS"
+    ],
+    "infrastructure": [
+      "Docker",
+      "Kubernetes"
+    ]
+  }
+}
+  

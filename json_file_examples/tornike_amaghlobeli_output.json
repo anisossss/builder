@@ -1,0 +1,95 @@
+{
+    "candidate Profile Description": {
+      "summary": "Machine Learning Engineer with expertise in Python, PyTorch, deep learning, computer vision, NLP, and AWS. Skilled in traditional machine learning algorithms, image processing, and data mining. Demonstrated proficiency in deploying solutions in computer vision and NLP."
+    },
+    "personal_info": {
+      "name": "Tornike Amaghlobeli"
+    },
+    "skills": {
+      "technical_skills": [
+        "Python",
+        "PyTorch",
+        "Higher Math (Linear Algebra, Calculus, Statistics)",
+        "Deep Learning (Computer Vision, NLP, LLMs)",
+        "Data Structures and Algorithms",
+        "Image Processing (OpenCV, Mediapipe)",
+        "Machine Learning Algorithms",
+        "Data Mining (Numpy, Pandas)",
+        "Langchain",
+        "Data Visualization (Matplotlib, Seaborn)",
+        "Web Scraping (BS4, Scrapy)",
+        "Scikit-learn",
+        "MySQL, SQL (Oracle)",
+        "Git",
+        "AWS"
+      ]
+    },
+    "experience": [
+      {
+        "company": "Making Science / Sweeft",
+        "title": "Machine Learning Engineer",
+        "location": "Tbilisi, Georgia",
+        "start_date": "May 2023",
+        "end_date": "Present",
+        "description": "Completed projects in traditional machine learning. Developed and deployed solutions in computer vision using deep learning techniques. Led personal projects in NLP, trained a new tokenizer on Georgian language, and applied fine-tuning techniques. Gained expertise in AWS and deployed projects."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Caucasus University",
+        "degree": "Bachelor's Degree in Computer Science",
+        "status": "Graduated"
+      },
+      {
+        "institution": "Georgian Technical University",
+        "degree": "Master's Degree in Artificial Intelligence",
+        "status": "Present"
+      }
+    ],
+    "personal_projects": [
+      {
+        "name": "Image Similarity Search Engine",
+        "framework": "PyTorch",
+        "libraries": ["boto", "Qdrant", "AWS CLI", "Scrapy", "BS4", "Streamlit"],
+        "description": "Designed an image similarity search engine to find similar images based on vector representations."
+      },
+      {
+        "name": "Pix2Pix Image-to-Image Translation",
+        "framework": "PyTorch",
+        "model": "Pix2Pix GAN",
+        "libraries": ["Numpy", "Pandas", "Torch", "OpenCV"],
+        "description": "Focused on image-to-image translation task, converting images from one domain to another."
+      },
+      {
+        "name": "Document Layout Detection",
+        "framework": "PyTorch",
+        "model": "Yolov8",
+        "libraries": ["OpenCV", "Numpy", "PIL", "MatPlotLib"],
+        "description": "Detected regions of the document layout using Yolov8 model."
+      },
+      {
+        "name": "Background Removal (Depth Estimation)",
+        "framework": "PyTorch",
+        "model": "U2NET",
+        "libraries": ["OpenCV", "PIL", "Transforms", "Numpy"],
+        "metric": "Binary Cross Entropy",
+        "description": "Removed background from images using U2NET model."
+      },
+      {
+        "name": "Semantic Segmentation",
+        "framework": "PyTorch",
+        "model": "Unet",
+        "libraries": ["Numpy", "Pandas", "OpenCV"],
+        "metrics": ["DiceLoss", "IoU"],
+        "description": "Performed semantic segmentation using Unet model."
+      },
+      {
+        "name": "Age-Gender-Emotion Classification",
+        "framework": "PyTorch",
+        "models": ["ResNet18", "ResNet50"],
+        "libraries": ["Numpy", "Pandas", "Imgaug", "Mediapipe", "OpenCV"],
+        "description": "Classified age, gender, and emotion using ResNet models."
+      }
+    ]
+  }
+  

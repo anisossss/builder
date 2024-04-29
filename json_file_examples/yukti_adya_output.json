@@ -1,0 +1,227 @@
+{
+    "candidate Profile Description": {
+      "summary": "Data Scientist/ML Engineer with a comprehensive academic background in machine learning and computer vision, specializing in time-series and predictive modeling. Proficient in SQL, PowerBI, and Google Cloud Platform. Seeking opportunities in AI/ML and Data Science while advancing German language skills for professional communication. Strong foundation in Scrum, Kanban, Jira, and SDLC, with hands-on experience implementing Agile for tangible business benefits. Eager to learn more about Cloud technologies."
+    },
+    "personal_info": {
+      "name": "Yukti Adya",
+      "contact": {
+        "email": "yuktiadya11@gmail.com",
+        "phone": "+49 17673933358",
+        "location": "Vettersstraße 72, Chemnitz, Germany"
+      },
+      "links": {
+        "LinkedIn": "https://linkedin.com/in/yukti-adya-673772189"
+      }
+    },
+    "skills": {
+      "programming_languages": [
+        "Python",
+        "C/C++",
+        "C#",
+        "VB.net"
+      ],
+      "machine_learning": [
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "Scikit-Learn",
+        "OpenCV",
+        "Matplotlib"
+      ],
+      "data_processing": [
+        "Numpy",
+        "Pandas",
+        "ETL"
+      ],
+      "database_management": [
+        "SQL",
+        "IBM DB2",
+        "PostgreSQL",
+        "Oracle APEX"
+      ],
+      "visualization_tools": [
+        "PowerBI",
+        "Excel"
+      ],
+      "version_control": [
+        "Git",
+        "GitLab"
+      ],
+      "containerization": [
+        "Docker"
+      ],
+      "project_management": [
+        "Scrum",
+        "Jira",
+        "Agile",
+        "Kanban"
+      ],
+      "cloud_platforms": [
+        "Azure ML Studio",
+        "Google Cloud Platform"
+      ],
+      "other_tools": [
+        "Tortoise SVN",
+        "Linux"
+      ]
+    },
+    "education": [
+      {
+        "institution": "Technische Universität Chemnitz",
+        "degree": "Masters in Information and Communication Systems",
+        "start_date": "10/2019",
+        "end_date": "03/2024",
+        "location": "Chemnitz, Germany",
+        "courses": [
+          "Computer Vision 1 and 2",
+          "Programming and Data Analytics",
+          "Image Processing and Pattern Recognition"
+        ]
+      },
+      {
+        "institution": "Amity University",
+        "degree": "Bachelors of Technology in Electronics and Communication Engineering",
+        "start_date": "08/2011",
+        "end_date": "06/2015",
+        "location": "Gurgaon, India",
+        "courses": [
+          "Image Processing",
+          "Statistics",
+          "Data Analysis"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Master Thesis",
+        "company": "Chemnitz University of Technology",
+        "start_date": "01/2023",
+        "end_date": "Present",
+        "location": "Chemnitz, Germany",
+        "project": "3D Human Pose Estimation and Activity Recognition in Omnidirectional Images",
+        "achievements": [
+          "Estimation of 3D pose from 2D joints in Omnidirectional Images.",
+          "Conducted 2D and 3D action recognition in top view images.",
+          "Refined the 3D action accuracy by 3.67% in the top-view images."
+        ]
+      },
+      {
+        "title": "Machine Learning Intern",
+        "company": "Technische Universität Chemnitz",
+        "start_date": "01/2022",
+        "end_date": "12/2022",
+        "location": "Chemnitz, Germany",
+        "project": "Human Pose Estimation in Omnidirectional Images using MMPose",
+        "achievements": [
+          "Implemented a Deep Learning pipeline with MMPose for Human Pose Estimation.",
+          "Refined the accuracy from the initial 70.6% to 73.2% in Top View Images.",
+          "Annotated Data for Top View (Omnidirectional Images) dataset using CVAT."
+        ]
+      },
+      {
+        "title": "Oracle APEX Database Developer Intern",
+        "company": "Detecon International GmbH",
+        "start_date": "06/2021",
+        "end_date": "03/2022",
+        "location": "Dresden, Germany",
+        "achievements": [
+          "Implemented the Web-based Administration         Application (User and Role Management, Statistics, Dashboard) for Network Database based on Oracle APEX.",
+          "Implemented the web page to maintain Catalog information in the network database.",
+          "Developed a Prototype for a Mobile App for collecting network data."
+        ]
+      },
+      {
+        "title": "Software Development Engineer I",
+        "company": "CSG Systems International Pvt Ltd",
+        "start_date": "07/2018",
+        "end_date": "09/2019",
+        "location": "Bengaluru, India",
+        "achievements": [
+          "Contributed to data processing software and print solutions for clients primarily in the telecommunication and utilities industries.",
+          "Performed code conversion of applications from Legacy clients VB6 to VB.net.",
+          "Contributed to coding, code reviews, implementation, training, and documentation."
+        ]
+      },
+      {
+        "title": "Associate Consultant",
+        "company": "Capgemini Tech Service Pvt Ltd",
+        "start_date": "09/2015",
+        "end_date": "07/2018",
+        "location": "Bengaluru, India",
+        "achievements": [
+          "Part of an agile team developing Windows and web applications for Royal Bank of Canada client.",
+          "Participated in SCR and PCR processes, analyzing customer requirements and developing code to ensure customer satisfaction.",
+          "Ensured effective design, development, validation and support for client requests on a timely basis."
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "title": "Human Pose Estimation in Monocular Omnidirectional Top-View Images",
+        "authors": "Jingrui Yu, Tobias Scheck, Roman Seidel, Yukti Adya, Dipankar Nandi, Gangolf Hirtz",
+        "year": "2023",
+        "conference": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+      },
+      {
+        "title": "Face Recognition Techniques – A Review",
+        "authors": "Swati Garg, Yukti Adya, Vasu Gambhir, Manisha Yadav, Manoj Kumar Pandey",
+        "year": "2015",
+        "journal": "International Journal of Scientific Research"
+      }
+    ],
+    "awards": [
+      {
+        "name": "STIBET I Scholarship by DAAD",
+        "date": "06/2023 - 12/2023",
+        "organization": "Chemnitz University of Technology"
+      },
+      {
+        "name": "WORLD OF THANKS for the DevOps Team",
+        "date": "03/2019 - 06/2019",
+        "organization": "CSG Systems International Pvt Ltd"
+      },
+      {
+        "name": "KAIZEN Publication for Very Innovative Idea for the contribution to RBC CAMPS DEV Team",
+        "date": "06/2017 - 09/2017",
+        "organization": "Capgemini Tech Service Pvt Ltd"
+      }
+    ],
+    "personal_projects": [
+      {
+        "title": "Exploratory Data Analysis on Titanic Dataset",
+        "date": "08/2023 - 09/2023",
+        "description": "Conducted Data cleaning of the dataset and performed Univariate, Bivariate analysis on the various columns."
+      },
+      {
+        "title": "Classification of Hand Written Alphabets",
+        "date": "06/2022 - 07/2022",
+        "description": "Created artificial neural networks (ANNs) in MATLAB for the classification of distinct characters, reaching an accuracy level of 92%."
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Artificial Intelligence Foundations: Machine Learning",
+        "date": "02/2022 - 03/2022"
+      },
+      {
+        "title": "Neural Network and Convolutional Neural Networks Essential Training",
+        "date": "02/2022 - 03/2022"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Full Professional Proficiency"
+      },
+      {
+        "language": "German",
+        "proficiency": "Limited Working Proficiency (Learning B1)"
+      },
+      {
+        "language": "French",
+        "proficiency": "Limited Working Proficiency"
+      }
+    ]
+  }
+  
+  

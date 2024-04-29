@@ -1,0 +1,164 @@
+{
+    "candidate Profile Description": {
+      "summary": "Computer science engineering student, specializing in data science. Passionate about applying computer science and data science to solve real-world problems and create innovative solutions. My goal is to continue developing my skills and working on challenging projects."
+    },
+    "personal_info": {
+      "name": "Chahyn Jday",
+      "contact": {
+        "email": "chahyn.jday@gmail.com",
+        "phone": "+216 22562576",
+        "location": "Monastir, Tunisie",
+        "Socials": "LinkedIn, GitHub"
+      },
+      "links": {
+        "GitHub": "https://github.com/Chah512",
+        "Linkedin": "https://linkedin.com/in/jday-chahyn"
+      }
+    },
+    "education": [
+      {
+        "institution": "IRA LE MANS",
+        "degree": "Double Diploma-Master in Actuarial science (Remote)",
+        "start_date": "2022",
+        "end_date": "Present",
+        "location": "Le Mans, France",
+        "Expected Graduation Year": "2023-2024"
+      },
+      {
+        "institution": "ESPRIT",
+        "degree": "Computer science Engineering",
+        "start_date": "2021",
+        "end_date": "Present",
+        "location": "Ariana, Tunisia",
+        "Expected Graduation Year": "2023-2024"
+      },
+      {
+        "institution": "ISSAT",
+        "degree": "Integrated Preparatory MPI",
+        "start_date": "2018",
+        "end_date": "2020",
+        "location": "Sousse, Tunisia"
+      }
+    ],
+    "skills": {
+      "languages": [
+        "Python",
+        "Java",
+        "Kotlin",
+        "C#",
+        "C++",
+        "C",
+        "PHP"
+      ],
+      "database_technologies": [
+        "PL/SQL",
+        "MySQL",
+        "Oracle",
+        "SQL Server",
+        "MongoDB"
+      ],
+      "data_analytic_and_data_science": [
+        "Machine Learning",
+        "Deep Learning",
+        "Artificial Intelligence",
+        "Statistical Analysis",
+        "OCR (Optical Character Recognition)",
+        "NLP (Natural Language Processing)",
+        "Probability Modeling",
+        "Data Visualization",
+        "PowerBI",
+        "PyTorch",
+        "TensorFlow"
+      ],
+      "web_development_frameworks": [
+        "Flask",
+        "Django",
+        "Springboot",
+        "Symfony",
+        ".NET"
+      ],
+      "devops": [
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "Nexus",
+        "SonarQube",
+        "Jenkins"
+      ],
+      "software_development_methodologies": [
+        "Scrum",
+        "Agile Methodologies"
+      ]
+    },
+    "experience": [
+      {
+        "company": "DataMay",
+        "title": "Data science Intern (Remote)",
+        "start_date": "07/2023",
+        "end_date": "09/2023",
+        "duration": "2 months",
+        "location": "Île-de-France, France",
+        "description": "Collection of labeled images data, implementation of StackGAN model, conducting of image preprocessing and implementation of StableDiffusion.",
+        "tools": "Python, Web Scraping, StackGAN, StableDiffusion, PyTorch"
+      },
+      {
+        "company": "SWconsulting",
+        "title": "Data Analytic Intern",
+        "start_date": "07/2022",
+        "end_date": "09/2022",
+        "duration": "2 months",
+        "location": "Monastir, Tunisie",
+        "description": "Engineering of scripts to extract important information from various scanned PDF files.",
+        "tools": "Python, OCR, Regular expressions, PyPDF"
+      },
+      {
+        "company": "Mobilite",
+        "title": "Software Engineering Intern",
+        "start_date": "07/2021",
+        "end_date": "09/2021",
+        "duration": "2 months",
+        "location": "Monastir, Tunisie",
+        "description": "Development of a Mobile Application for the management of world's events using Android Studio.",
+        "tools": "Java, XML, Firebase, API"
+      }
+    ],
+    "projects": [
+      {
+        "name": "CareerCenter",
+        "description": "Developed a web platform, CareerCenter, facilitating the management and matching of job offers and candidates. Engineered scripts to extract candidates data from LinkedIn and CV. Implemented a script for extracting job offers' information from PDFs. Optimized matching through word embedding and cosine similarity metrics. Extracted KPIs and crafted a PowerBI dashboard for insightful analytics. Deployed the system as a web application.",
+        "tools": "Python, Web scraping, OCR, NLP, NER, Word embedding, PowerBi, Django"
+      },
+      {
+        "name": "YogaPoseDetec",
+        "description": "Developed and deployed a machine learning application to detect and classify yoga poses. Conducted data preprocessing and implemented various image recognition models. Compared models and deployed the most effective one in a web application.",
+        "tools": "Python, TensorFlow, CNN, VGG16, Flask, Movenet"
+      }
+    ],
+    "certificates": [
+      {
+        "name": "NVIDIA Deep Learning Institute (DLI)",
+        "date": "10/2023",
+        "description": "Certificate in Building Transformer-Based Natural Language Processing Applications."
+      },
+      {
+        "name": "NVIDIA Deep Learning Institute (DLI)",
+        "date": "10/2023",
+        "description": "Certificate in Building AI Applications for Anomaly Detection."
+      }
+    ],
+    "languages": [
+      {
+        "language": "Arabic",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "French",
+        "proficiency": "Fluent"
+      }
+    ]
+  }
+  

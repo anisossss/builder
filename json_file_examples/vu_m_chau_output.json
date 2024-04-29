@@ -1,0 +1,196 @@
+{
+    "candidate Profile Description": {
+      "summary": "4+ years of research experience in machine learning applied to numerical materials modeling. Proficient in mathematical optimization/algorithms, with strong skills in Python, data visualization, and familiarity with big data analytic technologies like Hadoop, Spark, and high-performance computing."
+    },
+    "personal_info": {
+      "name": "Vu M. Chau",
+      "contact": {
+        "phone": "(+352) 621 764 338",
+        "email": "chauminhvu@gmail.com",
+        "location": "Luxembourg, Luxembourg"
+      },
+      "links": {
+        "LinkedIn": "https://linkedin.com/in/minh-vu-chau",
+        "GitHub": "https://github.com/chauminhvu"
+      }
+    },
+    "skills": {
+      "technical_skills": {
+        "programming_languages": [
+          "Python",
+          "SQL",
+          "Slurm",
+          "Bash",
+          "Shell scripting",
+          "MATLAB"
+        ],
+        "frameworks": [
+          "PyTorch",
+          "TensorFlow",
+          "Spark",
+          "JAX"
+        ],
+        "libraries": [
+          "NumPy",
+          "SciPy",
+          "SymPy",
+          "scikit-learn",
+          "Hugging Face",
+          "Jaxopt",
+          "pandas",
+          "Matplotlib",
+          "seaborn"
+        ],
+        "developer_tools": [
+          "Git",
+          "Git Action",
+          "Docker",
+          "Singularity",
+          "Podman",
+          "Unit Tests",
+          "Linux/Unix"
+        ]
+      },
+      "spoken_languages": [
+        "English (advanced: C1)",
+        "French (basic: A2)",
+        "Vietnamese (native)"
+      ]
+    },
+    "experience": [
+      {
+        "title": "Doctoral Researcher",
+        "company": "University of Luxembourg",
+        "location": "Luxembourg",
+        "start_date": "June 2019",
+        "end_date": "Oct 2023",
+        "description": "Researched ML techniques for modeling hyperelastic materials. Developed novel neural network architectures satisfying physical constraints. Achieved 99% accuracy comparing ML-based material models with experimental data through FE simulations. Created ML toolchain for hyperelastic modeling, reducing development time by 30%. Containerized ML toolchain for HPC cluster using Singularity/Podman, managed job scheduling with Slurm."
+      },
+      {
+        "title": "Visiting Postgraduate Researcher",
+        "company": "University of Glasgow",
+        "location": "Glasgow, Scotland, U.K.",
+        "start_date": "June 2022",
+        "end_date": "Sept 2022",
+        "description": "Researched on multi-task learning for modeling anisotropic materials, with application for multi-scale materials. Implemented novel data sampling techniques, reducing development time by 40%. Integrated in Github action to enhance efficiency and productivity for the ML toolchain."
+      },
+      {
+        "title": "Civil Engineer | Chief Site Supervisor",
+        "company": "America Indochina Management Ltd.",
+        "location": "Vietnam",
+        "start_date": "Aug 2014",
+        "end_date": "Oct 2016",
+        "description": "Managed over 5 projects with budgets of 500k-800k euros, contributing to 40% department revenue growth. Oversaw over 4 contractors ensuring timely and efficient delivery of projects. Established strong client and subcontractor relationships, ensuring the successful delivery of projects."
+      },
+      {
+        "title": "Construction Estimator",
+        "company": "Platinum Global Co., Ltd.",
+        "location": "Ho Chi Minh, Vietnam",
+        "start_date": "Oct 2012",
+        "end_date": "Aug 2014",
+        "description": "Interpreted architectural drawings, specifications, and designs of Australian timber buildings. Optimized designs of timber wall panels for maximizing cost efficiency, resulting in completion of 1600m2/week. Estimated construction costs and procurement process."
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Luxembourg",
+        "degree": "Ph.D. in Data-driven Computational Engineering",
+        "start_date": "Jun 2019",
+        "end_date": "Oct 2023",
+        "dissertation": "Constitutive Modeling of Non-Linear Isotropic Elasticity Using Deep Regression Neural Networks"
+      },
+      {
+        "institution": "Ruhr University Bochum",
+        "degree": "M.Sc. in Computational Engineering",
+        "start_date": "Oct 2016",
+        "end_date": "Dec 2018",
+        "thesis": "Numerical Investigation of Artificial Neural Networks Based Identification of Nonlinear Material Parameters"
+    },
+    {
+      "institution": "University Of Architecture Ho Chi Minh City",
+      "degree": "B.Eng. in Civil Engineering",
+      "start_date": "Oct 2007",
+      "end_date": "Oct 2012",
+      "thesis": "Structural Design and Analysis of 10-storey KTC Apartment"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Wood Surface Anomaly Detection with YOLOv5",
+      "date": "Dec 2022 - Feb 2022",
+      "tools": "Pytorch, imgaug, Matplotlib, Git, CD, Docker",
+      "description": "Leveraged YOLOv5 for wood surface defect detection (90% accuracy) with COCO transfer learning. Fine-tuned on 4000 images, annotated for 8 types of defects (marrow, live knot, crack, etc.). Augmented the training data with advanced techniques to improve generalization."
+    },
+    {
+      "name": "Constrained Non-linear Optimisation",
+      "date": "Sept 2022 - Nov 2023",
+      "tools": "Python, JAX, pandas, Matplotlib, Git, CD, Docker",
+      "description": "Developed non-linear optimisation models for parameter calibration of rubber materials. Utilised JAX's automatic differentiation, resulting in a 60% faster development time. Built Dockerfile and CI/CD pipeline for easy deployment."
+    },
+    {
+      "name": "Optimisation Tasks Using Machine Learning",
+      "date": "May 2018 - Nov 2018",
+      "tools": "Python, TensorFlow, Jupyter notebook, matplotlib, MATLAB, Mathematica",
+      "description": "Developed multi-task learning models for calibrating materials parameters of rubbers. Achieved a better mean squared error than published works on 67% of test cases. Awarded a travel grant to attend the DCMS Material 4.0 summer school in Dresden, Germany."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Data-driven constitutive laws for hyperelasticity in principal space: Mechanical challenges and remedies",
+      "authors": "Chau, M. V., & Zilian, A.",
+      "year": "2022",
+      "conference": "18th European Mechanics of Materials Conference, Oxford, the United Kingdom"
+    },
+    {
+      "title": "Structural dynamics analysis of 3-U cubesat",
+      "authors": "Chau, V. M., & Vo, H. B.",
+      "year": "2019",
+      "journal": "Applied Mechanics and Materials",
+      "volume": "894",
+      "pages": "164-170",
+      "doi": "10.4028/www.scientific.net/AMM.894.164"
+    },
+    {
+      "title": "Numerical investigation of an artificial neural network based identification of nonlinear material parameters",
+      "authors": "Chau, V. M.",
+      "year": "2018",
+      "conference": "DCMS Material 4.0 - Summer School 2018: Deep Materials: Perspectives on data-driven materials research, TU Dresden, Dresden, Germany",
+      "presentation_type": "Poster Presentation"
+    }
+  ],
+  "awards": [
+    {
+      "name": "PhD grant for doctoral research in Luxembourg",
+      "date": "Jun 2019",
+      "organization": "PRIDE programme, Luxembourg National Research Fund"
+    },
+    {
+      "name": "Travel grant for International Summer School MATERIALS 4.0",
+      "date": "Aug 2018",
+      "organization": "Technische Universität Dresden, Germany"
+    },
+    {
+      "name": "DAAD Scholarship for doing Master's thesis",
+      "date": "Jun 2018",
+      "organization": "The German Academic Exchange Service (DAAD)"
+    },
+    {
+      "name": "Summer Internship scholarship",
+      "date": "Jul 2017",
+      "organization": "The National Chung Cheng University, Taiwan"
+    },
+    {
+      "name": "Opportunity Scholarship for master program",
+      "date": "Dec 2016",
+      "organization": "The Vietnamese German University and the World Bank"
+    }
+  ],
+  "personal_interests": [
+    "Volunteering at the Code Club Luxembourg, teaching coding skills to children and young adults",
+    "Participating in entrepreneurship activities, networking with other innovators and exchanging ideas",
+    "Enjoying outdoor activities such as hiking, cycling, and camping",
+    "Reading books, especially in the areas of science and technology",
+    "Visiting museums and art galleries, learning about history and culture"
+  ]
+}
+  

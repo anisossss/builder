@@ -1,0 +1,176 @@
+{
+    "candidate Profile Description": {
+      "summary": "AI Engineer with a strong background in data science and machine learning. Skilled in Python, SQL, TensorFlow, PyTorch, and various data analysis and visualization tools. Experienced in building and evaluating AI models, data cleaning pipeline development, and programming. Proficient in English, French, and Arabic."
+    },
+    "personal_info": {
+      "name": "Wissem Ellefi",
+      "contact": {
+        "phone": "+216 55 791 621",
+        "email": "wissemellefi1@gmail.com",
+        "location": "Tunis, Tunisia"
+      },
+      "links": {
+        "LinkedIn": "https://www.linkedin.com/in/wissemellefi",
+        "GitHub": "https://github.com/wissemellefi"
+      }
+    },
+    "education": [
+      {
+        "institution": "ESPRIT",
+        "degree": "Data Science Engineering",
+        "location": "Ariana, Tunisia",
+        "start_date": "09/2020",
+        "end_date": "06/2023",
+        "duration": "3 years",
+        "description": "Three years of dedicated education in IT engineering with a specialized focus on the field of data science."
+      },
+      {
+        "institution": "Bizerte Faculty of Science",
+        "degree": "Bachelor's Degree in Physics",
+        "location": "Bizerte, Tunisia",
+        "start_date": "09/2017",
+        "end_date": "06/2020",
+        "duration": "3 years",
+        "awards": [
+          "First Class Scholarship (2014, 2015)",
+          "Beijing Outstanding Graduates (Top 3%)"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Data Scientist",
+        "company": "FREELANCE",
+        "location": "Tunis, Tunisia",
+        "start_date": "08/2023",
+        "end_date": "01/2024",
+        "duration": "5 months",
+        "achievements": [
+          "Developed and implemented an end-to-end documentation helper leveraging Large Language Models (LLM) to facilitate developers in understanding documentation and addressing their queries using Python and LangChain.",
+          "Designed and crafted the user interface using Streamlit, ensuring an intuitive and user-friendly experience for developers interacting with the documentation helper.",
+          "Established a cutting-edge code interpreter built on GPT-4, leading the efforts to enable the system to generate code, execute it and provide comprehensive output results."
+        ],
+        "methodology": "Agile"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "TALAN",
+        "location": "Tunis, Tunisia",
+        "start_date": "02/2023",
+        "end_date": "08/2023",
+        "duration": "6 months",
+        "achievements": [
+          "Conducted a data-driven solution aimed at addressing the needs of both recruiters and job-seekers by creating an intelligent job matching and resume ranking system based on Machine Learning and NLP using Python.",
+          "Designed and developed data pipeline jobs to facilitate efficient data extraction, transformation, and loading (ETL) processes using Talend Open Studio for the ETL and MySQL for the data storage.",
+          "Analyzing and Managing Data to conduct exploratory data analysis (EDA) and generate descriptive statistics using Python and libraries such as Pandas, NumPy, and Matplotlib.",
+          "Utilized Natural Language Processing (NLP) techniques to perform text cleaning and preprocessing tasks, ensuring high-quality data for analysis and modeling.",
+          "Leveraged Word2Vec, a popular word embedding technique, to transform text data into continuous vector representations, capturing semantic relationships and context.",
+          "Developed an interactive dashboard to provide recruiters with comprehensive reporting and key performance indicators (KPIs) about applicants using PowerBI.",
+          "Designed and developed various recommender systems to deliver personalized job suggestions for job seekers. Additionally, engineered an AI system for recruiters that autonomously identifies the top N candidates by analyzing candidate profiles and job requirements using Python and Spark."
+        ],
+        "methodology": "Agile - Crisp DM"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "AMEN BANK",
+        "location": "Tunis, Tunisia",
+        "start_date": "06/2022",
+        "end_date": "08/2022",
+        "duration": "2 months",
+        "achievements": [
+          "Designed a time-saving software to extract and inject information from balance sheets to the database automatically, resulting in enhancing agent efficiency using Python.",
+          "Utilized various image processing techniques, such as noise removal and sharpening, to enhance image quality and extract relevant features using OpenCV library.",
+          "Transformed AI/ML models into accessible APIs, facilitating seamless integration for fellow developers using Flask.",
+          "Worked cross-functionally to understand the business objective, including the balance sheet components and the project's specific requirements and objectives."
+        ],
+        "methodology": "Agile - Crisp DM"
+      },
+      {
+        "title": "Software Engineer Intern",
+        "company": "Group Web Solution",
+        "location": "Tunis, Tunisia",
+        "start_date": "07/2021",
+        "end_date": "08/2021",
+        "duration": "1 month",
+        "achievements": [
+          "Gained hands-on experience in utilizing key Spring Boot components for efficient application development.",
+          "Highlighted fundamental aspects of Spring Boot, showcasing the ability to build a basic yet robust web application."
+        ]
+      }
+    ],
+    "skills": {
+      "data_analysis": [
+        "SQL",
+        "Exploratory Data Analysis",
+        "Microsoft Excel",
+        "Pandas",
+        "Spark"
+      ],
+      "data_cleaning": [
+        "Talend Open Studio",
+        "Python",
+        "Text Cleaning"
+      ],
+      "data_reporting": [
+        "PowerBI",
+        "Matplotlib",
+        "Seaborn",
+        "Analytical Thinking"
+      ],
+      "ai_modeling": [
+        "Python",
+        "NLP",
+        "LLMs",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-Learn",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "programming": [
+        "Python",
+        "Object-Oriented Design (OOD)",
+        "Java",
+        "Problem Solving"
+      ],
+      "languages": [
+        "English",
+        "French",
+        "Arabic"
+      ]
+    },
+    "certificates": [
+      {
+        "title": "HCIA-AI",
+        "issuer": "HUAWEI",
+        "year": "2022",
+        "expiration": "2025"
+      },
+      {
+        "title": "Application of AI for Anomaly Detection",
+        "issuer": "NVIDIA",
+        "year": "2022",
+        "expiration": "No Expiration"
+      },
+      {
+        "title": "Application of AI for Predictive Maintenance",
+        "issuer": "NVIDIA",
+        "year": "2022",
+        "expiration": "No Expiration"
+      },
+      {
+        "title": "Natural Language Processing",
+        "issuer": "NVIDIA",
+        "year": "2022",
+        "expiration": "No Expiration"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Default of Credit Card Clients - Predictive Models",
+        "year": "2021",
+        "description": "Built and evaluated machine learning models using real-world data to predict if the client of the bank is going to pay his debt in the next month. This application is developed using Python."
+      }
+    ]
+  }
+  

@@ -1,0 +1,104 @@
+{
+    "candidate Profile Description": {
+      "summary": "Bargav Jagatha is a Data Scientist with experience in AI-driven model architecture, ETL pipeline design, and advanced deep learning techniques. Skilled in Python, C++, Java, Scala, PyTorch, TensorFlow, Scikit-Learn, OpenCV, Numpy, Pandas, SQL, ETL, PySpark, BeautifulSoup, AWS, Azure, Git, Docker, OOP, MLOps, Computer Vision, U-Net, HuggingFace, Large Language Models, and REST APIs. Adept in Data Science & Analysis, Deep Learning, Linear Algebra, Natural Language Processing, Reinforcement Learning, and Statistics."
+    },
+    "personal_info": {
+      "name": "Bargav Jagatha",
+      "contact": {
+        "phone": "857-398-8179",
+        "email": "bargav25@bu.edu",
+        "linkedin": "https://www.linkedin.com/in/bargav-jagatha/",
+        "website": "https://sites.google.com/view/bargav-jagatha/home",
+        "github": "https://github.com/bargav-bunny"
+      }
+    },
+    "education": [
+      {
+        "institution": "Boston University",
+        "location": "Boston, MA, USA",
+        "degree": "Master of Science in Artificial Intelligence",
+        "start_date": "09/2023",
+        "end_date": "12/2024",
+        "duration": "1 year 3 months",
+        "gpa": "3.93"
+      },
+      {
+        "institution": "National Institute of Technology",
+        "location": "Bhopal, India",
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
+        "start_date": "07/2018",
+        "end_date": "05/2022",
+        "duration": "3 years 10 months"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Teaching Assistant",
+        "company": "Boston University",
+        "location": "Boston, MA, USA",
+        "start_date": "01/2024",
+        "end_date": "Present",
+        "duration": "Ongoing",
+        "description": "Lead Teaching Assistant for the graduate-level Data Engineering at Scale course, covering Database Design, ETL/ELT, Distributed Systems, Docker, Azure, and BI strategies."
+      },
+      {
+        "title": "Data Scientist",
+        "company": "OLA",
+        "location": "Bangalore, India",
+        "start_date": "07/2022",
+        "end_date": "07/2023",
+        "duration": "1 year",
+        "description": "Architected AI-driven models for cab pricing and driver-customer allocation, boosting GMV by 6%. Developed LSTM-based proximity unlock model for EVs with a 97% accuracy rate."
+      },
+      {
+        "title": "Data Science Intern",
+        "company": "OLA Electric",
+        "location": "Bangalore, India",
+        "start_date": "02/2022",
+        "end_date": "07/2022",
+        "duration": "5 months",
+        "description": "Engineered a RASA-based customer support chatbot with a 96% accuracy rate post-intent detection. Designed a multi-label text classification system for VoC tagging with a weighted F1 score above 70%."
+      },
+      {
+        "title": "Software Engineering Intern",
+        "company": "Samsung Research",
+        "location": "Bangalore, India",
+        "start_date": "05/2021",
+        "end_date": "07/2021",
+        "duration": "2 months",
+        "description": "Executed a solo project within the Edge AI team, devising a database solution using Android Java and SQLite for smart home security clips."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Cancer Type Classifier",
+        "description": "Leveraged RESNET50 to accurately classify cancer types from high-resolution WSI histopathology images."
+      },
+      {
+        "title": "Multi-Object Tracking and Data Association",
+        "description": "Enhanced multi-object tracking and data association by employing Kalman Filter and Hungarian Algorithm to accurately track multiple cars within a scene."
+      },
+      {
+        "title": "3D Pose Estimation",
+        "description": "Engaged in a project aimed at optimizing physical exercises using 3D Pose estimation from a monocular view, focusing on real-time posture analysis and improvement."
+      }
+    ],
+    "fellowships": [
+      {
+        "title": "AWS AI & ML Advanced Nanodegree Scholarship Program 2023",
+        "description": "Excelled in the AWS Advanced AI & ML    Scholarship, developing an image classifier for roadway footage analysis using SageMaker, and secured a gold badge for mastering the full ML workflow."
+    },
+    {
+      "title": "Microsoft MARS Colonization Program 2020",
+      "description": "Developed an AI-driven Tic Tac Toe web game for a team innovation challenge."
+    }
+  ],
+  "others": [
+    {
+      "title": "iNeuron AI/ML Hackathon winner",
+      "description": "Orchestrated the design and deployment of an advanced RASA chatbot for iNeuron, securing first place and a $2,500 prize. The project involved crafting conversational AI, focusing on its seamless integration and functionality."
+    }
+  ]
+}
+
+  

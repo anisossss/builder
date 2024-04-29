@@ -1,0 +1,74 @@
+{
+    "candidate Profile Description": {
+      "name": "Dauhson Capps",
+      "contact": {
+        "phone": "(435) 695-8846",
+        "email": "dauhson13@gmail.com",
+        "location": "Vernal, Utah 84078",
+        "linkedin": "https://linkedin.com/in/dauhson-capps",
+        "website": "https://dauhsoncapps.info"
+      },
+      "summary": "Dedicated professional experienced in information technology, AI, hardware, software development, and networking. Skilled in providing technical assistance, troubleshooting, and process improvements. Pursuing a Master of Engineering in systems engineering to become a DevOps Engineer."
+    },
+    "education": [
+      {
+        "degree": "Bachelor of Software Development, Software Development",
+        "institution": "DeVry University, Online",
+        "completion_date": "February 2024",
+        "duration": "Ongoing"
+      },
+      {
+        "degree": "Associate of Applied Science, Information Technology and Networking",
+        "institution": "DeVry University, Online",
+        "completion_date": "December 2021",
+        "duration": "2 years"
+      }
+    ],
+    "experience": [
+      {
+        "title": "IT & Software Development",
+        "company": "Superior Drilling Products",
+        "location": "Vernal, UT",
+        "start_date": "November 2022",
+        "end_date": "Present",
+        "duration": "Ongoing",
+        "responsibilities": [
+          "Managed local server projects and optimized a Python-based reporting system using pandas.",
+          "Administered two cloud instances on GCP and HiVelocity, including managing Atlassian Jira application for SOX compliance.",
+          "Maintained and updated the company website hosted on Microsoft 2012 server and Ubuntu machines.",
+          "Repaired and maintained 18 machines to ensure smooth operation of company applications in the shop.",
+          "Provided help desk support for MENA employees, managers, and the executive team."
+        ]
+      },
+      {
+        "title": "Intel AI Enabling Specialist",
+        "company": "Market Star",
+        "location": "Ogden, UT",
+        "start_date": "September 2021",
+        "end_date": "November 2022",
+        "duration": "1 year 2 months",
+        "responsibilities": [
+          "Assisted multimillion-dollar companies by enabling AI for their specific needs using the Intel AI Builder's program.",
+          "Covered 115 accounts and had weekly meetings with most concerning their enablement.",
+          "Learned basic principles of ML, AI, DL, Docker, and other types of data science.",
+          "Worked remotely and was responsible for own schedule."
+        ]
+      }
+    ],
+    "core_competencies": [
+      "Technical Support",
+      "AI Automation",
+      "Report Systems",
+      "Information Systems",
+      "Hardware & Software",
+      "Database Engineering",
+      "Troubleshooting",
+      "Process Improvements",
+      "Strategic Thinking",
+      "Front End Development",
+      "Ticketing Systems",
+      "Account Management",
+      "Technical Skills: Windows, Mac OS, Linux OS, C#, Python, Flask, SCSS, JavaScript, React, Java, AI & ML concepts, Jira & Atlassian, Azure, AWS, GCP"
+    ]
+  }
+  

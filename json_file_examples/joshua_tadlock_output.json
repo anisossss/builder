@@ -1,0 +1,176 @@
+{
+    "candidate Profile Description": {
+      "summary": "Dynamic AI Engineer with over 10 years of experience passionate about harnessing the power of AI to tackle real-world challenges. Expertise spans Computer Vision and Gen AI, spearheading impactful projects across diverse industries like robotics, healthcare, autonomous vehicles, and satellite technology."
+    },
+    "personal_info": {
+      "name": "Joshua Tadlock"
+    },
+    "education": {
+      "degrees": [
+        {
+          "level": "Master of Artificial Intelligence",
+          "institution": "The University of Texas at Dallas, TX",
+          "dates": "09/2008 to 5/2014"
+        },
+        {
+          "level": "Bachelor of Computer Science",
+          "institution": "The University of Texas at Dallas, TX",
+          "dates": "09/2008 to 5/2014"
+        }
+      ]
+    },
+    "work_history": [
+      {
+        "position": "Senior Deep learning Engineer",
+        "company": "Motional",
+        "location": "Boston, Massachusetts",
+        "dates": "01/2021 to 1/2024",
+        "achievements": [
+          "Level 4 AV Computer Vision and Generative AI Development",
+          "NLP and Generative AI for Enhanced Interaction",
+          "Pioneered the integration of NLP into Hyundai's AV4 prototype",
+          "Synthetic Data Generation for AV Testing",
+          "Directed R&D efforts for NLP applications",
+          "Orchestrated collaborations with industry giants like Cerence",
+          "Generative AI for Dynamic Route Optimization",
+          "Innovated with Generative AI in sensor data simulation"
+        ]
+      },
+      {
+        "position": "Deep learning Researcher | Data Scientist",
+        "company": "Aurora",
+        "location": "Pittsburgh, Pennsylvania",
+        "dates": "01/2020 to 12/2020",
+        "achievements": [
+          "Advanced Computer Vision with AI",
+          "Generative AI for Enhanced Perception",
+          "Mastered and utilized deep learning frameworks",
+          "Pioneered novel network architectures and training strategies",
+          "Seamlessly integrated the vision system with planning and control modules",
+          "Championed the integration of the vision system with Hyundai's existing car systems",
+          "Conducted groundbreaking research in Generative AI for autonomous vehicles"
+        ]
+      },
+      {
+        "position": "Deep learning Engineer | Data Scientist",
+        "company": "Intel Corporation",
+        "location": "Santa Clara, California",
+        "dates": "11/2016 to 12/2019",
+        "achievements": [
+          "Pioneered AI-Driven Earth Observation",
+          "Reduced Data Transmission Costs",
+          "Focused on Environmental and Disaster Response Applications",
+          "Facilitated Advanced Agricultural and Maritime Security",
+          "Laid Groundwork for Future AI-Driven Satellites"
+        ]
+      },
+      {
+        "position": "Machine learning Engineer",
+        "company": "United Health Group",
+        "location": "Minnetonka, Minnesota",
+        "dates": "05/2014 to 10/2016",
+        "achievements": [
+          "Innovated in Medical Imaging with Deep Learning",
+          "Integrated Generative AI for Enhanced Imaging",
+          "Enhanced Tumor Detection Accuracy",
+          "Streamlined Clinical Workflows",
+          "Pioneered Personalized Treatment Planning with Generative AI",
+          "Facilitated Clinician Adoption and Trust in AI"
+        ]
+      },
+      {
+        "position": "SDE Internship",
+        "company": "Amazon",
+        "location": "Seattle, Washington",
+        "dates": "5/2013 to 07/2013",
+        "responsibilities": [
+          "Design, build, and maintain infrastructure and software platforms within AWS based environments",
+          "Migrate existing on-premises services from physical data centers to cloud",
+          "Write scripts to automate operations and server management"
+        ]
+      }
+    ],
+    "skills": {
+      "programming_languages": [
+        "Python",
+        "Java",
+        "C++",
+        "R",
+        "C#",
+        ".Net",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Prolog",
+        "Lisp"
+      ],
+      "frameworks_libraries": [
+        "Pytorch",
+        "Tensorflow",
+        "Keras",
+        "Scikit-learn",
+        "MXnet",
+        "PaddlePaddle",
+        "Pandas",
+        "OpenCV",
+        "Matplotlib",
+        "Tableau",
+        "NLTK",
+        "Spacy",
+        "Hugging face",
+        "Apache Hadoop",
+        "Spark",
+        "LangChain"
+      ],
+      "cloud_services": [
+        "Amazon SageMaker",
+        "Amazon Rekognition",
+        "Amazon Comprehend",
+        "Amazon Forecast",
+        "Amazon EC2",
+        "Amazon S3",
+        "Azure Machine learning Studio",
+        "Azure Machine Learning Service",
+        "Azure Databricks",
+        "GCP Vertex AI",
+        "Vertex AI Workbench",
+        "Vertex AI BigQuery",
+        "Vertex AI TensorFlow Enterprise",
+        "IBM Cloud Service"
+      ],
+      "mlops": [
+        "Docker",
+        "Kubernates",
+        "Git",
+        "Jenkins",
+        "MLflow",
+        "Kubeflow",
+        "Airflow",
+        "Metaflow",
+        "Comet ML",
+        "TensorFlow Serving"
+      ],
+      "full_stack_development": [
+        "React.js",
+        "Angular.js",
+        "Vue",
+        "Next.js",
+        "Nest.js",
+        "Python (Django)",
+        "FastAPI",
+        "RESTful APIs",
+        "API Design",
+        "Databases (PostgreSQL, MySQL)"
+      ],
+      "communication": [
+        "Slack",
+        "Zoom",
+        "Google Meeting",
+        "Google Chat",
+        "Skype",
+        "Microsoft Teams"
+      ]
+    }
+  }
+  
+  
