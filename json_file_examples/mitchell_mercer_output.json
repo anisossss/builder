@@ -1,11 +1,138 @@
-{"candidate Profile Description": {"summary": "Passionate Computer Science graduate with a strong interest in software development and data analysis. Has experience working as a Student Engineer, Security Guard, and Server, and has completed various innovative projects. Proficient in multiple programming languages, frameworks, and tools."}, 
- "personal_info": {"name": "Mitchell Mercer", "contact": {"email": "mitchell.mercer2@gmail.com", "phone": "818-857-2091"}, "links": {"Linkedin": "https://www.linkedin.com/in/mitchell-mercer-software-dev/", "GitHub": "github.com/matfitchell"}}, 
- "education": [{"institution": "California State University Northridge", "degree": "Bachelor of Science in Computer Science", "end_date": "December 2023"}, 
-  {"institution": "Los Angeles Pierce College", "degree": "Associate's in Japanese", "end_date": "August 2021"}], 
- "experience": [{"company": "Los Angeles Dept. of Sanitation", "title": "Student Engineer", "start_date": "October 2023", "end_date": "Present", "location": "Playa Del Rey, CA", "responsibilities": ["Utilizing Python to develop a comprehensive data analysis and extraction tool, leveraging pandas for efficient data manipulation and analysis.", "Designed and implemented custom data extraction application automating daily event log analysis.", "Assisted in the reduction of nuisance alarms by 10 percent utilizing best alarm management strategies.", "Observing management of DCS architecture including controllers, I/O modules, and network configuration."]}, 
-  {"company": "Allied Universal Security", "title": "Security Guard", "start_date": "June 2023", "end_date": "October 2023", "location": "Simi Valley, CA", "responsibilities": ["Oversaw daily monitoring and patrolled buildings, exterior grounds, over multiple locations", "Responded quickly to incidents and calmly resolved active crises", "Successfully resolved 3 critical incidents"]},
-  {"company": "Nordstrom", "title": "Server", "start_date": "May 2021", "end_date": "April 2023", "location": "Canoga Park, CA", "responsibilities": ["Achieved 10,000 dollars revenue in sales weekly", "Swiftly and effectively took detailed and complex food orders with accuracy, maintaining mindfulness of client needs", "Cultivated warm relationships with regular customers"]}], 
- "projects": [{"name": "The Crucible", "time_period": "Sept. 2023 - Dec. 2023", "description": "A python application that takes a video provided at runtime, and removes frames of the video as requested by \\u201deditors\\u201d for further post-processing.", "technologies_used": ["Python", "MongoDB", "FFmpeg"]},
-   {"name": "Non Amazona", "time_period": "Sept. 2023 - Dec. 2023", "description": "Created a MySQL database resistant to SQL injection, and botnet attack/spoofing and developed a website in React which runs locally, to display the items in the database, purchase items, leave reviews, etc", "technologies_used": ["MySQL", "React", "Flask", "Git"]},
-   {"name": "EarWorm", "time_period": "Aug. 2022 - May 2023", "description": "An application akin to Tinder, that matches users based on their music preferences, using Spotify's API to retrieve users Spotify listening data and assign each a music taste.", "technologies_used": ["Firebase", "React", "Git"]}],
- "skills": {"languages": ["Java", "Python", "C/C++", "SQL (MySQL)", "JavaScript", "HTML/CSS", "R"], "frameworks": ["React", "Node.js", "Flask", "JUnit"], "developer_tools": ["Git", "Docker", "Google Cloud Platform", "VS Code", "Gnu C Compiler/Debugger (GCC/GDB)", "IntelliJ", "Eclipse"], "libraries": ["pandas", "NumPy", "Matplotlib"], "other": ["DCS", "Honeywell Experion", "PLC", "HMI", "Reading/Creating Technical Diagrams"]}}
+{
+  "candidate Profile Description": {
+    "summary": "Passionate Computer Science graduate with a strong interest in software development and data analysis. Has experience working as a Student Engineer, Security Guard, and Server, and has completed various innovative projects. Proficient in multiple programming languages, frameworks, and tools."
+  },
+  "personal_info": {
+    "name": "Mitchell Mercer",
+    "contact": {
+      "email": "mitchell.mercer2@gmail.com",
+      "phone": "818-857-2091"
+    },
+    "links": {
+      "Linkedin": "https://www.linkedin.com/in/mitchell-mercer-software-dev/",
+      "GitHub": "github.com/matfitchell"
+    }
+  },
+  "education": [
+    {
+      "institution": "California State University Northridge",
+      "degree": "Bachelor of Science in Computer Science",
+      "end_date": "December 2023"
+    },
+    {
+      "institution": "Los Angeles Pierce College",
+      "degree": "Associate's in Japanese",
+      "end_date": "August 2021"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Los Angeles Dept. of Sanitation",
+      "title": "Student Engineer",
+      "start_date": "October 2023",
+      "end_date": "Present",
+      "location": "Playa Del Rey, CA",
+      "responsibilities": [
+        "Utilizing Python to develop a comprehensive data analysis and extraction tool, leveraging pandas for efficient data manipulation and analysis.",
+        "Designed and implemented custom data extraction application automating daily event log analysis.",
+        "Assisted in the reduction of nuisance alarms by 10 percent utilizing best alarm management strategies.",
+        "Observing management of DCS architecture including controllers, I/O modules, and network configuration."
+      ]
+    },
+    {
+      "company": "Allied Universal Security",
+      "title": "Security Guard",
+      "start_date": "June 2023",
+      "end_date": "October 2023",
+      "location": "Simi Valley, CA",
+      "responsibilities": [
+        "Oversaw daily monitoring and patrolled buildings, exterior grounds, over multiple locations",
+        "Responded quickly to incidents and calmly resolved active crises",
+        "Successfully resolved 3 critical incidents"
+      ]
+    },
+    {
+      "company": "Nordstrom",
+      "title": "Server",
+      "start_date": "May 2021",
+      "end_date": "April 2023",
+      "location": "Canoga Park, CA",
+      "responsibilities": [
+        "Achieved 10,000 dollars revenue in sales weekly",
+        "Swiftly and effectively took detailed and complex food orders with accuracy, maintaining mindfulness of client needs",
+        "Cultivated warm relationships with regular customers"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "The Crucible",
+      "time_period": "Sept. 2023 - Dec. 2023",
+      "description": "A python application that takes a video provided at runtime, and removes frames of the video as requested by \\u201deditors\\u201d for further post-processing.",
+      "technologies_used": [
+        "Python",
+        "MongoDB",
+        "FFmpeg"
+      ]
+    },
+    {
+      "name": "Non Amazona",
+      "time_period": "Sept. 2023 - Dec. 2023",
+      "description": "Created a MySQL database resistant to SQL injection, and botnet attack/spoofing and developed a website in React which runs locally, to display the items in the database, purchase items, leave reviews, etc",
+      "technologies_used": [
+        "MySQL",
+        "React",
+        "Flask",
+        "Git"
+      ]
+    },
+    {
+      "name": "EarWorm",
+      "time_period": "Aug. 2022 - May 2023",
+      "description": "An application akin to Tinder, that matches users based on their music preferences, using Spotify's API to retrieve users Spotify listening data and assign each a music taste.",
+      "technologies_used": [
+        "Firebase",
+        "React",
+        "Git"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Java",
+      "Python",
+      "C/C++",
+      "SQL (MySQL)",
+      "JavaScript",
+      "HTML/CSS",
+      "R"
+    ],
+    "frameworks": [
+      "React",
+      "Node.js",
+      "Flask",
+      "JUnit"
+    ],
+    "developer_tools": [
+      "Git",
+      "Docker",
+      "Google Cloud Platform",
+      "VS Code",
+      "Gnu C Compiler/Debugger (GCC/GDB)",
+      "IntelliJ",
+      "Eclipse"
+    ],
+    "libraries": [
+      "pandas",
+      "NumPy",
+      "Matplotlib"
+    ],
+    "other": [
+      "DCS",
+      "Honeywell Experion",
+      "PLC",
+      "HMI",
+      "Reading/Creating Technical Diagrams"
+    ]
+  }
+}

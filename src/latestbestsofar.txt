@@ -73,6 +73,7 @@ const JsonViewer = () => {
       );
     }
   };
+
   const renderSection = (sectionTitle, sectionData) => {
     return (
       <div className="mt-4">
@@ -85,7 +86,7 @@ const JsonViewer = () => {
                 <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
                   {value.map((item, index) => (
                     <div key={`${sectionTitle}-${key}-${index}`}>
-                      {renderItem(key, item, `${sectionTitle}.${key}`)}
+                      {displayKeyValue(index, item, `${sectionTitle}.${key}`)}
                     </div>
                   ))}
                 </div>
@@ -96,7 +97,11 @@ const JsonViewer = () => {
                 <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
                   {Object.entries(value).map(([subKey, subValue]) => (
                     <div key={`${sectionTitle}-${key}-${subKey}`}>
-                      {renderItem(subKey, subValue, `${sectionTitle}.${key}`)}
+                      {displayKeyValue(
+                        subKey,
+                        subValue,
+                        `${sectionTitle}.${key}`
+                      )}
                     </div>
                   ))}
                 </div>
@@ -105,7 +110,7 @@ const JsonViewer = () => {
               // Otherwise, render key-value pair
               return (
                 <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
-                  {renderItem(key, value, sectionTitle)}
+                  {displayKeyValue(key, value, sectionTitle)}
                 </div>
               );
             }
@@ -113,56 +118,6 @@ const JsonViewer = () => {
         </div>
       </div>
     );
-  };
-
-  const renderItem = (key, value, path) => {
-    const newPath = path ? `${path}.${key}` : key;
-
-    if (key === "start_date" || key === "end_date") {
-      // Render start and end dates aligned on one line
-      return (
-        <div key={newPath} className="flex">
-          <div>
-            <span className="font-bold capitalize flex">
-              {key.replace("_", " ")}:
-            </span>
-          </div>
-          <div>
-            <input
-              className="italic bg-gray-100 rounded p-1 ml-2 w-full"
-              value={value}
-              onChange={(e) => handleEdit(newPath, e.target.value)}
-              type="text"
-            />
-          </div>
-        </div>
-      );
-    } else if (!isNaN(parseInt(key))) {
-      return (
-        <div key={newPath} className="ml-6 mt-2">
-          <span className="font-bold">{key}:</span>
-          <input
-            type="text"
-            value={value}
-            onChange={(e) => handleEdit(newPath, e.target.value)}
-            className="italic bg-gray-100 rounded p-1 ml-2 w-full"
-          />
-        </div>
-      );
-    } else {
-      // Render both key (static) and value (input) for other types of keys
-      return (
-        <div key={newPath} className="ml-6 mt-2">
-          <span className="font-bold">{key}:</span>
-          <input
-            type="text"
-            value={value}
-            onChange={(e) => handleEdit(newPath, e.target.value)}
-            className="italic bg-gray-100 rounded p-1 ml-2 w-full"
-          />
-        </div>
-      );
-    }
   };
   const displaySkills = (skills) => {
     return (
@@ -201,33 +156,32 @@ const JsonViewer = () => {
     document.body.appendChild(element);
     element.click();
   };
+
   return (
-    <div className="flex justify-around bg-gradient-to-r from-green-100 to-blue-100  ">
-      <div className="text-left py-10 ">
-        <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
-          Enhanced and Editable JSON Viewer
-        </h1>
-        <input
-          type="file"
-          accept=".json"
-          onChange={handleFileChange}
-          className="mb-6 block mx-auto text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-pink-200 file:text-gray-700 hover:file:bg-pink-300"
-        />
-        {Object.entries(editData).map(([key, value]) => {
-          if (key === "skills") {
-            return displaySkills(value);
-          } else {
-            return renderSection(key, value);
-          }
-        })}
-        <div className="flex justify-center space-x-2 mt-4">
-          <button
-            onClick={downloadJson}
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          >
-            Download Modified JSON
-          </button>
-        </div>
+    <div className="text-left   px-4 py-10 bg-gradient-to-r from-green-100 to-blue-100    ">
+      <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
+        Enhanced and Editable JSON Viewer
+      </h1>
+      <input
+        type="file"
+        accept=".json"
+        onChange={handleFileChange}
+        className="mb-6 block mx-auto text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-pink-200 file:text-gray-700 hover:file:bg-pink-300"
+      />
+      {Object.entries(editData).map(([key, value]) => {
+        if (key === "skills") {
+          return displaySkills(value);
+        } else {
+          return renderSection(key, value);
+        }
+      })}
+      <div className="flex justify-center space-x-2 mt-4">
+        <button
+          onClick={downloadJson}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download Modified JSON
+        </button>
       </div>
     </div>
   );

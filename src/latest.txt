@@ -1,0 +1,148 @@
+import React, { useState } from "react";
+
+const JsonViewer = () => {
+  const [editData, setEditData] = useState({});
+
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (evt) => {
+      try {
+        const data = JSON.parse(evt.target.result);
+        setEditData(data);
+      } catch (error) {
+        console.error("Failed to parse JSON:", error);
+      }
+    };
+    reader.readAsText(file);
+  };
+
+  const handleEdit = (path, newValue, isKey = false) => {
+    let keys = path.split(".");
+    const lastKey = keys.pop();
+    let updatedData = JSON.parse(JSON.stringify(editData)); // Deep clone
+
+    let subObject = updatedData;
+    for (const key of keys) {
+      subObject = subObject[key] = subObject[key] || {};
+    }
+
+    if (isKey) {
+      // Replace numbers with hyphens
+      const newPath = keys
+        .map((key) => (isNaN(parseInt(key)) ? key : `-${key}`))
+        .join(".");
+      if (newValue in subObject) {
+        alert("Key already exists. Choose a different name.");
+        return;
+      }
+      const oldValue = subObject[lastKey];
+      delete subObject[lastKey];
+      subObject[newValue] = oldValue;
+      // Update the key in the path
+      keys = newPath.split(".");
+    }
+
+    // Update the state with the transformed key
+    subObject = updatedData;
+    for (const key of keys) {
+      subObject = subObject[key];
+    }
+    subObject[lastKey] = newValue;
+
+    setEditData(updatedData);
+  };
+  const displayKeyValue = (key, value, path = "") => {
+    const newPath = path ? `${path}.${key}` : key;
+    const capitalizedKey = key.charAt(0).toUpperCase() + key.slice(1);
+    const newKey = isNaN(parseInt(key)) ? capitalizedKey : `-${capitalizedKey}`;
+
+    if (typeof value === "object" && value !== null) {
+      return Object.entries(value).map(([subKey, subValue]) => {
+        return displayKeyValue(subKey, subValue, newPath);
+      });
+    } else {
+      // Check if the key is "start_date" or "end_date"
+      if (key === "start_date") {
+        return (
+          <div key={newPath} className="ml-6 mt-2">
+            <span className="font-bold">{value} - </span>
+          </div>
+        );
+      } else if (key === "end_date") {
+        return (
+          <span key={newPath} className="font-bold">
+            {value}
+          </span>
+        );
+      } else {
+        return (
+          <div key={newPath} className="ml-6 mt-2">
+            <span className="font-bold">{newKey}:</span>
+            <input
+              type="text"
+              value={value}
+              onChange={(e) => handleEdit(newPath, e.target.value)}
+              className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+            />
+          </div>
+        );
+      }
+    }
+  };
+  const renderSection = (sectionTitle, sectionData) => {
+    return (
+      <div className="mt-4">
+        <h2 className="font-bold text-lg">{sectionTitle}</h2>
+        <div className="ml-4">
+          {Object.entries(sectionData).map(([key, value]) => {
+            return displayKeyValue(key, value, sectionTitle);
+          })}
+        </div>
+      </div>
+    );
+  };
+
+  const downloadJson = () => {
+    const element = document.createElement("a");
+    const file = new Blob([JSON.stringify(editData, null, 2)], {
+      type: "application/json",
+    });
+    element.href = URL.createObjectURL(file);
+    element.download = "modified-json.json";
+    document.body.appendChild(element);
+    element.click();
+  };
+
+  return (
+    <div className="container mx-auto px-4 py-10 bg-gradient-to-r from-green-100 to-blue-100 font-sans leading-normal tracking-normal">
+      <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
+        Enhanced and Editable JSON Viewer
+      </h1>
+      <input
+        type="file"
+        accept=".json"
+        onChange={handleFileChange}
+        className="mb-6 block mx-auto text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-pink-200 file:text-gray-700 hover:file:bg-pink-300"
+      />
+      {renderSection("", editData.personal_info || {})}
+      {renderSection("Education", editData.education || {})}
+      {renderSection("Experience", editData.experience || {})}
+      {renderSection("Skills", editData.skills || {})}
+      {renderSection("Projects", editData.projects || {})}
+      {renderSection("Certificates", editData.certificates || {})}
+      <div className="flex justify-center space-x-2 mt-4">
+        <button
+          onClick={downloadJson}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download Modified JSON
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default JsonViewer;
