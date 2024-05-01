@@ -42,37 +42,7 @@ const JsonViewer = () => {
 
     setEditData(updatedData);
   };
-  const displayKeyValue = (key, value, path = "") => {
-    const newPath = path ? `${path}.${key}` : key;
 
-    if (!isNaN(parseInt(key))) {
-      // If the key is a number, render the key static and the value as an input
-      return (
-        <div key={newPath} className="ml-6 mt-2">
-          <span className="font-bold">{key}:</span>
-          <input
-            type="text"
-            value={value}
-            onChange={(e) => handleEdit(newPath, e.target.value)}
-            className="italic bg-gray-100 rounded p-1 ml-2 w-full"
-          />
-        </div>
-      );
-    } else {
-      // Render both key (static) and value (input) for other types of keys
-      return (
-        <div key={newPath} className="ml-6 mt-2">
-          <span className="font-bold">{key}:</span>
-          <input
-            type="text"
-            value={value}
-            onChange={(e) => handleEdit(newPath, e.target.value)}
-            className="italic bg-gray-100 rounded p-1 ml-2 w-full"
-          />
-        </div>
-      );
-    }
-  };
   const renderSection = (sectionTitle, sectionData) => {
     return (
       <div className="mt-4">
@@ -80,7 +50,6 @@ const JsonViewer = () => {
         <div className="ml-4">
           {Object.entries(sectionData).map(([key, value]) => {
             if (Array.isArray(value)) {
-              // If the value is an array, render each item
               return (
                 <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
                   {value.map((item, index) => (
@@ -91,7 +60,6 @@ const JsonViewer = () => {
                 </div>
               );
             } else if (typeof value === "object" && value !== null) {
-              // If the value is an object, render its key-value pairs
               return (
                 <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
                   {Object.entries(value).map(([subKey, subValue]) => (
@@ -119,7 +87,6 @@ const JsonViewer = () => {
     const newPath = path ? `${path}.${key}` : key;
 
     if (key === "start_date" || key === "end_date") {
-      // Render start and end dates aligned on one line
       return (
         <div key={newPath} className="flex">
           <div>
@@ -139,20 +106,20 @@ const JsonViewer = () => {
       );
     } else if (!isNaN(parseInt(key))) {
       return (
-        <div key={newPath} className="ml-6 mt-2">
-          <span className="font-bold">{key}:</span>
+        <div key={newPath} className="ml-6 mt-2 capitalize">
+          <span className="font-bold capitalize">{key}:</span>
           <input
             type="text"
             value={value}
             onChange={(e) => handleEdit(newPath, e.target.value)}
-            className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+            className="italic bg-gray-100 rounded p-1 ml-2 w-full "
           />
         </div>
       );
     } else {
       // Render both key (static) and value (input) for other types of keys
       return (
-        <div key={newPath} className="ml-6 mt-2">
+        <div key={newPath} className="ml-6 mt-2 capitalize">
           <span className="font-bold">{key}:</span>
           <input
             type="text"
@@ -165,32 +132,196 @@ const JsonViewer = () => {
     }
   };
   const displaySkills = (skills) => {
+    const groupedSkills = {};
+
+    // Group skills by category
+    for (const category in skills) {
+      skills[category].forEach((skill) => {
+        if (!(category in groupedSkills)) {
+          groupedSkills[category] = [];
+        }
+        groupedSkills[category].push(skill);
+      });
+    }
+
     return (
       <div>
         <h2 className="font-bold text-lg">Skills</h2>
-        {Object.entries(skills).map(([category, items]) => (
+        {Object.entries(groupedSkills).map(([category, items]) => (
           <div key={category} className="ml-6 mt-4">
-            <h3 className="font-bold">{category}</h3>
-            <ul>
-              {items.map((item, index) => (
-                <li key={`${category}-${index}`}>
-                  <input
-                    type="text"
-                    value={item}
-                    onChange={(e) =>
-                      handleEdit(`skills.${category}.${index}`, e.target.value)
-                    }
-                    className="italic bg-gray-100 rounded p-1 ml-2 w-full"
-                  />
-                </li>
-              ))}
-            </ul>
+            <h3 className="font-bold capitalize">
+              {category.replace("_", " ")}
+            </h3>
+            {items.map((item, index) => (
+              <div
+                key={`${category}-${index}`}
+                className="ml-6 mt-2 capitalize"
+              >
+                <input
+                  type="text"
+                  value={item}
+                  onChange={(e) =>
+                    handleEdit(`skills.${category}.${index}`, e.target.value)
+                  }
+                  className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+                />
+              </div>
+            ))}
           </div>
         ))}
       </div>
     );
   };
+  const displayLanguages = (languages) => {
+    return (
+      <div>
+        <h2 className="font-bold text-lg">Languages</h2>
+        {languages.map((language, index) => (
+          <div key={`language-${index}`} className="ml-6 mt-4">
+            <div>
+              <span className="font-bold">Language:</span>
+              <input
+                type="text"
+                value={language.language}
+                onChange={(e) =>
+                  handleEdit(
+                    `languages.${index}.language`,
+                    e.target.value,
+                    true
+                  )
+                }
+                className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+              />
+            </div>
+            <div>
+              <span className="font-bold">Proficiency:</span>
+              <select
+                value={language.proficiency}
+                onChange={(e) =>
+                  handleEdit(`languages.${index}.proficiency`, e.target.value)
+                }
+                className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+              >
+                <option value="Elementary Proficiency">
+                  Elementary Proficiency
+                </option>
+                <option value="Limited Working Proficiency">
+                  Limited Working Proficiency
+                </option>
+                <option value="Full Professional Proficiency">
+                  Full Professional Proficiency
+                </option>
+              </select>
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  };
+  const displayProjects = (projects) => {
+    const projectItems = projects.map((project, index) => (
+      <div key={`project-${index}`} className="ml-6 mt-2">
+        {Object.entries(project).map(([key, value]) => (
+          <div key={`${key}-${index}`} className="ml-6 mt-2 capitalize">
+            <span className="font-bold">{key.replace("_", " ")}:</span>
+            <input
+              type="text"
+              value={value}
+              onChange={(e) =>
+                handleEdit(`projects.${index}.${key}`, e.target.value)
+              }
+              className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+            />
+          </div>
+        ))}
+      </div>
+    ));
 
+    return (
+      <div>
+        <h2 className="font-bold text-lg">Projects</h2>
+        {projectItems}
+      </div>
+    );
+  };
+  const displayCertifications = (certifications) => {
+    const certificationItems = certifications.map((cert, index) => (
+      <div key={`certification-${index}`} className="ml-6 mt-2">
+        {Object.entries(cert).map(([key, value]) => (
+          <div key={`${key}-${index}`} className="ml-6 mt-2 capitalize">
+            <span className="font-bold">{key.replace("_", " ")}:</span>
+            <input
+              type="text"
+              value={value}
+              onChange={(e) =>
+                handleEdit(`certificates.${index}.${key}`, e.target.value)
+              }
+              className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+            />
+          </div>
+        ))}
+      </div>
+    ));
+
+    return (
+      <div>
+        <h2 className="font-bold text-lg">Certifications</h2>
+        {certificationItems}
+      </div>
+    );
+  };
+  const displayExperience = (experience) => {
+    const experienceItems = experience.map((exp, index) => (
+      <div key={`experience-${index}`} className="ml-6 mt-2">
+        {Object.entries(exp).map(([key, value]) => (
+          <div key={`${key}-${index}`} className="ml-6 mt-2 capitalize">
+            <span className="font-bold">{key.replace("_", " ")}:</span>
+            <input
+              type="text"
+              value={value}
+              onChange={(e) =>
+                handleEdit(`experience.${index}.${key}`, e.target.value)
+              }
+              className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+            />
+          </div>
+        ))}
+      </div>
+    ));
+
+    return (
+      <div>
+        <h2 className="font-bold text-lg">Experience</h2>
+        {experienceItems}
+      </div>
+    );
+  };
+  const displayEducation = (education) => {
+    const educationItems = education.map((edu, index) => (
+      <div key={`education-${index}`} className="ml-6 mt-2">
+        {Object.entries(edu).map(([key, value]) => (
+          <div key={`${key}-${index}`} className="ml-6 mt-2 capitalize">
+            <span className="font-bold">{key.replace("_", " ")}:</span>
+            <input
+              type="text"
+              value={value}
+              onChange={(e) =>
+                handleEdit(`education.${index}.${key}`, e.target.value)
+              }
+              className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+            />
+          </div>
+        ))}
+      </div>
+    ));
+
+    return (
+      <div>
+        <h2 className="font-bold text-lg">Education</h2>
+        {educationItems}
+      </div>
+    );
+  };
   const downloadJson = () => {
     const element = document.createElement("a");
     const file = new Blob([JSON.stringify(editData, null, 2)], {
@@ -214,8 +345,18 @@ const JsonViewer = () => {
           className="mb-6 block mx-auto text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-pink-200 file:text-gray-700 hover:file:bg-pink-300"
         />
         {Object.entries(editData).map(([key, value]) => {
-          if (key === "skills") {
+          if (key === "languages") {
+            return displayLanguages(value);
+          } else if (key === "skills") {
             return displaySkills(value);
+          } else if (key === "projects") {
+            return displayProjects(value);
+          } else if (key === "experience") {
+            return displayExperience(value);
+          } else if (key === "education") {
+            return displayEducation(value);
+          } else if (key === "certificates") {
+            return displayCertifications(value);
           } else {
             return renderSection(key, value);
           }
@@ -229,8 +370,8 @@ const JsonViewer = () => {
           </button>
         </div>
       </div>
+      <div className="w-1/2"></div>
     </div>
   );
 };
-
 export default JsonViewer;

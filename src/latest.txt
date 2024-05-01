@@ -30,7 +30,6 @@ const JsonViewer = () => {
     }
 
     if (isKey) {
-      // Replace numbers with hyphens
       const newPath = keys
         .map((key) => (isNaN(parseInt(key)) ? key : `-${key}`))
         .join(".");
@@ -41,11 +40,9 @@ const JsonViewer = () => {
       const oldValue = subObject[lastKey];
       delete subObject[lastKey];
       subObject[newValue] = oldValue;
-      // Update the key in the path
       keys = newPath.split(".");
     }
 
-    // Update the state with the transformed key
     subObject = updatedData;
     for (const key of keys) {
       subObject = subObject[key];
@@ -64,7 +61,6 @@ const JsonViewer = () => {
         return displayKeyValue(subKey, subValue, newPath);
       });
     } else {
-      // Check if the key is "start_date" or "end_date"
       if (key === "start_date") {
         return (
           <div key={newPath} className="ml-6 mt-2">
