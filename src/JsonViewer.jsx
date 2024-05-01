@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 const JsonViewer = () => {
   const [editData, setEditData] = useState({});
-
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (!file) return;
@@ -44,36 +46,38 @@ const JsonViewer = () => {
   };
 
   const renderSection = (sectionTitle, sectionData) => {
+    // Replace underscores with spaces in sectionTitle
+    const title = sectionTitle.replace(/_/g, " ");
+
     return (
       <div className="mt-4">
-        <h2 className="font-bold text-lg">{sectionTitle}</h2>
+        <h2 className="font-bold text-lg">{title}</h2>
         <div className="ml-4">
           {Object.entries(sectionData).map(([key, value]) => {
             if (Array.isArray(value)) {
               return (
-                <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
+                <div key={`${title}-${key}`} className="ml-6 mt-2">
                   {value.map((item, index) => (
-                    <div key={`${sectionTitle}-${key}-${index}`}>
-                      {renderItem(key, item, `${sectionTitle}.${key}`)}
+                    <div key={`${title}-${key}-${index}`}>
+                      {renderItem(key, item, `${title}.${key}`)}
                     </div>
                   ))}
                 </div>
               );
             } else if (typeof value === "object" && value !== null) {
               return (
-                <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
+                <div key={`${title}-${key}`} className="ml-6 mt-2">
                   {Object.entries(value).map(([subKey, subValue]) => (
-                    <div key={`${sectionTitle}-${key}-${subKey}`}>
-                      {renderItem(subKey, subValue, `${sectionTitle}.${key}`)}
+                    <div key={`${title}-${key}-${subKey}`}>
+                      {renderItem(subKey, subValue, `${title}.${key}`)}
                     </div>
                   ))}
                 </div>
               );
             } else {
-              // Otherwise, render key-value pair
               return (
-                <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
-                  {renderItem(key, value, sectionTitle)}
+                <div key={`${title}-${key}`} className="ml-6 mt-2">
+                  {renderItem(key, value, title)}
                 </div>
               );
             }
@@ -82,7 +86,6 @@ const JsonViewer = () => {
       </div>
     );
   };
-
   const renderItem = (key, value, path) => {
     const newPath = path ? `${path}.${key}` : key;
 
@@ -117,15 +120,18 @@ const JsonViewer = () => {
         </div>
       );
     } else {
-      // Render both key (static) and value (input) for other types of keys
+      const isLongValue = value.length > 50; // Adjust this threshold as needed
+      const RenderComponent = isLongValue ? "textarea" : "input";
+
       return (
         <div key={newPath} className="ml-6 mt-2 capitalize">
           <span className="font-bold">{key}:</span>
-          <input
-            type="text"
+          <RenderComponent
             value={value}
             onChange={(e) => handleEdit(newPath, e.target.value)}
-            className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+            className={`italic bg-gray-100 rounded p-1 ml-2 w-full ${
+              isLongValue ? "h-40" : ""
+            }`}
           />
         </div>
       );
@@ -297,6 +303,10 @@ const JsonViewer = () => {
     );
   };
   const displayEducation = (education) => {
+    if (!education || education.length === 0) {
+      return null; // If there's no education data, return null to prevent rendering
+    }
+
     const educationItems = education.map((edu, index) => (
       <div key={`education-${index}`} className="ml-6 mt-2">
         {Object.entries(edu).map(([key, value]) => (
@@ -333,8 +343,8 @@ const JsonViewer = () => {
     element.click();
   };
   return (
-    <div className="flex justify-around bg-gradient-to-r from-green-100 to-blue-100  ">
-      <div className="text-left py-10 ">
+    <div className="flex justify-between bg-gradient-to-r from-green-100 to-blue-100">
+      <div className="text-left w-1/2 px-4 py-10 ">
         <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
           Enhanced and Editable JSON Viewer
         </h1>
@@ -345,20 +355,30 @@ const JsonViewer = () => {
           className="mb-6 block mx-auto text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-pink-200 file:text-gray-700 hover:file:bg-pink-300"
         />
         {Object.entries(editData).map(([key, value]) => {
-          if (key === "languages") {
+          const capitalizedKey =
+            key.toUpperCase() !== key ? capitalizeFirstLetter(key) : key;
+
+          if (capitalizedKey === "Languages") {
             return displayLanguages(value);
-          } else if (key === "skills") {
+          } else if (capitalizedKey === "Skills") {
             return displaySkills(value);
-          } else if (key === "projects") {
+          } else if (capitalizedKey === "Projects") {
             return displayProjects(value);
-          } else if (key === "experience") {
+          } else if (
+            capitalizedKey === "Experience" ||
+            capitalizedKey === "Work_experience" ||
+            capitalizedKey === "Work_history"
+          ) {
             return displayExperience(value);
-          } else if (key === "education") {
+          } else if (capitalizedKey === "Education") {
             return displayEducation(value);
-          } else if (key === "certificates") {
+          } else if (
+            capitalizedKey === "Certificates" ||
+            capitalizedKey === "Certifications"
+          ) {
             return displayCertifications(value);
           } else {
-            return renderSection(key, value);
+            return renderSection(capitalizedKey, value);
           }
         })}
         <div className="flex justify-center space-x-2 mt-4">
