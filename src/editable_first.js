@@ -11,14 +11,14 @@ const JsonViewer = () => {
     reader.onload = (evt) => {
       try {
         const data = JSON.parse(evt.target.result);
-        const newData = replaceUnderscoresAndCapitalize(data);
-        setEditData(newData);
+        setEditData(data);
       } catch (error) {
         console.error("Failed to parse JSON:", error);
       }
     };
     reader.readAsText(file);
   };
+
   const handleEdit = (path, newValue) => {
     const keys = path.split(".");
     const lastKey = keys.pop();
@@ -43,7 +43,7 @@ const JsonViewer = () => {
   );
 
   const renderSection = (sectionTitle, sectionData) => {
-    const title = sectionTitle.replace(/_/g, " ").toUpperCase();
+    const title = sectionTitle.replace(/_/g, " ");
 
     return (
       <div className="mt-4">
@@ -53,42 +53,23 @@ const JsonViewer = () => {
         <div className="ml-4 mt-8">
           {Object.entries(sectionData).map(([key, value]) => (
             <div key={`${sectionTitle}-${key}`} className="ml-6 mt-2">
-              {Array.isArray(value)
-                ? renderArray(key, value, `${sectionTitle}.${key}`)
-                : typeof value === "object"
-                ? renderSection(key, value)
-                : renderItem(key, value, `${sectionTitle}.${key}`)}
+              {renderItem(key, value, `${sectionTitle}.${key}`)}
             </div>
           ))}
         </div>
       </div>
     );
   };
-  const renderArray = (key, value, path) => (
-    <div className="flex flex-col">
-      <div className="font-bold">{renderInput(key, path)}</div>
-      {value.map((item, index) => (
-        <div key={`${path}-${index}`} className="ml-2 mt-2">
-          {typeof item === "object"
-            ? renderSection(index, item)
-            : renderItem(
-                index,
-                item.toString().replace(/\d/g, "-"),
-                `${path}.${index}`
-              )}
-        </div>
-      ))}
-    </div>
-  );
 
   const renderItem = (key, value, path) => (
     <div key={path} className="flex">
       <div>
-        <span className="font-bold">{renderInput(key, path)}</span>
+        <span className="font-bold">{renderInput(key, path)}</span>:
       </div>
       <div>{renderInput(value, path)}</div>
     </div>
   );
+
   const downloadJson = () => {
     const element = document.createElement("a");
     const file = new Blob([JSON.stringify(editData, null, 2)], {
@@ -99,20 +80,7 @@ const JsonViewer = () => {
     document.body.appendChild(element);
     element.click();
   };
-  const replaceUnderscoresAndCapitalize = (data) => {
-    if (typeof data === "object") {
-      const replacedData = {};
-      for (const [key, value] of Object.entries(data)) {
-        const replacedKey = key
-          .replace(/_/g, " ")
-          .replace(/\b\w/g, (char) => char.toUpperCase());
-        replacedData[replacedKey] = replaceUnderscoresAndCapitalize(value);
-      }
-      return replacedData;
-    } else {
-      return data;
-    }
-  };
+
   return (
     <div className="flex justify-center bg-gradient-to-r from-green-100 to-blue-100">
       <div className="text-left w-full px-4 py-10 ">
