@@ -46,13 +46,12 @@ const JsonViewer = () => {
   };
 
   const renderSection = (sectionTitle, sectionData) => {
-    // Replace underscores with spaces in sectionTitle
     const title = sectionTitle.replace(/_/g, " ");
 
     return (
       <div className="mt-4">
         <h2 className="font-bold text-lg">{title}</h2>
-        <div className="ml-4">
+        <div className="ml-4 mt-8">
           {Object.entries(sectionData).map(([key, value]) => {
             if (Array.isArray(value)) {
               return (
@@ -66,7 +65,7 @@ const JsonViewer = () => {
               );
             } else if (typeof value === "object" && value !== null) {
               return (
-                <div key={`${title}-${key}`} className="ml-6 mt-2">
+                <div key={`${title}-${key}`} className="ml-6 mt-4">
                   {Object.entries(value).map(([subKey, subValue]) => (
                     <div key={`${title}-${key}-${subKey}`}>
                       {renderItem(subKey, subValue, `${title}.${key}`)}
@@ -86,16 +85,16 @@ const JsonViewer = () => {
       </div>
     );
   };
-  const renderItem = (key, value, path) => {
+  const renderItem = (key, value, path, parentData = null) => {
     const newPath = path ? `${path}.${key}` : key;
+
+    const formattedKey = key.replace(/_/g, " ");
 
     if (key === "start_date" || key === "end_date") {
       return (
         <div key={newPath} className="flex">
           <div>
-            <span className="font-bold capitalize flex">
-              {key.replace("_", " ")}:
-            </span>
+            <span className="font-bold   flex">{formattedKey}:</span>
           </div>
           <div>
             <input
@@ -120,7 +119,7 @@ const JsonViewer = () => {
         </div>
       );
     } else {
-      const isLongValue = value.length > 50; // Adjust this threshold as needed
+      const isLongValue = value.length > 50;
       const RenderComponent = isLongValue ? "textarea" : "input";
 
       return (
@@ -140,7 +139,6 @@ const JsonViewer = () => {
   const displaySkills = (skills) => {
     const groupedSkills = {};
 
-    // Group skills by category
     for (const category in skills) {
       skills[category].forEach((skill) => {
         if (!(category in groupedSkills)) {
@@ -154,7 +152,7 @@ const JsonViewer = () => {
       <div>
         <h2 className="font-bold text-lg">Skills</h2>
         {Object.entries(groupedSkills).map(([category, items]) => (
-          <div key={category} className="ml-6 mt-4">
+          <div key={category} className="ml-6 mt-6">
             <h3 className="font-bold capitalize">
               {category.replace("_", " ")}
             </h3>
@@ -279,19 +277,50 @@ const JsonViewer = () => {
   const displayExperience = (experience) => {
     const experienceItems = experience.map((exp, index) => (
       <div key={`experience-${index}`} className="ml-6 mt-2">
-        {Object.entries(exp).map(([key, value]) => (
-          <div key={`${key}-${index}`} className="ml-6 mt-2 capitalize">
-            <span className="font-bold">{key.replace("_", " ")}:</span>
-            <input
-              type="text"
-              value={value}
-              onChange={(e) =>
-                handleEdit(`experience.${index}.${key}`, e.target.value)
-              }
-              className="italic bg-gray-100 rounded p-1 ml-2 w-full"
-            />
-          </div>
-        ))}
+        {Object.entries(exp).map(([key, value]) => {
+          if (key === "Title") {
+            return (
+              <div key={`job-experience-${index}`} className="ml-6 mt-2">
+                <h3 className="font-bold text-lg">Job Experience: {value}</h3>
+                {Object.entries(exp).map(([innerKey, innerValue]) => (
+                  <div
+                    key={`${innerKey}-${index}`}
+                    className="ml-6 mt-2 capitalize"
+                  >
+                    <span className="font-bold">
+                      {innerKey.replace("_", " ")}:
+                    </span>
+                    <input
+                      type="text"
+                      value={innerValue}
+                      onChange={(e) =>
+                        handleEdit(
+                          `experience.${index}.${innerKey}`,
+                          e.target.value
+                        )
+                      }
+                      className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+                    />
+                  </div>
+                ))}
+              </div>
+            );
+          } else {
+            return (
+              <div key={`${key}-${index}`} className="ml-6 mt-2 capitalize">
+                <span className="font-bold">{key.replace("_", " ")}:</span>
+                <input
+                  type="text"
+                  value={value}
+                  onChange={(e) =>
+                    handleEdit(`experience.${index}.${key}`, e.target.value)
+                  }
+                  className="italic bg-gray-100 rounded p-1 ml-2 w-full"
+                />
+              </div>
+            );
+          }
+        })}
       </div>
     ));
 
@@ -302,6 +331,7 @@ const JsonViewer = () => {
       </div>
     );
   };
+
   const displayEducation = (education) => {
     if (!education || education.length === 0) {
       return null; // If there's no education data, return null to prevent rendering
@@ -343,9 +373,9 @@ const JsonViewer = () => {
     element.click();
   };
   return (
-    <div className="flex justify-between bg-gradient-to-r from-green-100 to-blue-100">
-      <div className="text-left w-1/2 px-4 py-10 ">
-        <h1 className="text-4xl font-bold text-center mb-6 text-gray-800">
+    <div className="flex justify-center bg-gradient-to-r from-green-100 to-blue-100">
+      <div className="text-left w-full px-4 py-10 ">
+        <h1 className="text-4xl font-bold text-left mb-6 text-gray-800">
           Enhanced and Editable JSON Viewer
         </h1>
         <input
@@ -390,7 +420,6 @@ const JsonViewer = () => {
           </button>
         </div>
       </div>
-      <div className="w-1/2"></div>
     </div>
   );
 };
