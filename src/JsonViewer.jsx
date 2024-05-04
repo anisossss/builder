@@ -62,15 +62,19 @@ const JsonViewer = () => {
     setIsEditing(true);
   };
 
+  const capitalize = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
   const renderSection = (sectionTitle, sectionData) => {
     const editableTitle = sectionData.title || sectionTitle;
     return (
       <div className="mt-4">
         <h2
-          className="font-bold text-lg"
+          className="font-bold text-lg uppercase"
           onClick={() => openModal(`${sectionTitle}.title`, editableTitle)}
         >
-          <span>{editableTitle}</span>
+          <span>{capitalize(editableTitle)}</span>
         </h2>
         <div className="ml-4 mt-8">
           {Object.entries(sectionData).map(([key, value]) => {
@@ -82,7 +86,8 @@ const JsonViewer = () => {
                 key={`${sectionTitle}-${key}`}
                 onClick={() => openModal(`${sectionTitle}.${key}`, value)}
               >
-                <span className="font-bold">{key}:</span> <span>{value}</span>
+                <span className="font-bold uppercase">{capitalize(key)}:</span>{" "}
+                <span>{value}</span>
               </div>
             );
           })}
