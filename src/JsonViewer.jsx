@@ -33,9 +33,7 @@ const JsonViewer = () => {
     }
 
     if (path.endsWith(".title")) {
-      // Special handling to merge titles correctly
       if (!isNaN(pList[pList.length - 2])) {
-        // Is part of an array, retain numeric index
         schema.title = value;
       } else {
         const parentPath = pList.slice(0, pList.length - 1).join(".");
@@ -76,7 +74,7 @@ const JsonViewer = () => {
         </h2>
         <div className="ml-4 mt-8">
           {Object.entries(sectionData).map(([key, value]) => {
-            if (key === "title") return null; // Do not render the title field separately
+            if (key === "title") return null;
             return typeof value === "object" && !Array.isArray(value) ? (
               renderSection(`${sectionTitle}.${key}`, value)
             ) : (
@@ -132,9 +130,15 @@ const JsonViewer = () => {
             {index !== Object.keys(editData).length - 1 && (
               <>
                 <br></br>
-                <hr className="" />
+                <hr
+                  style={{
+                    backgroundColor: "black",
+                    height: "1px",
+                    border: "none",
+                  }}
+                />
               </>
-            )}{" "}
+            )}
           </div>
         ))}
         {isEditing && renderModal()}
