@@ -95,10 +95,10 @@ const JsonViewer = () => {
 
   const renderModal = () => (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-5 rounded w-50">
+      <div className="bg-white p-5 rounded">
         <textarea
-          rows={10}
-          cols={100}
+          rows={20}
+          cols={80}
           value={currentValue}
           onChange={handleModalChange}
           className="mb-4 p-2"
@@ -108,7 +108,7 @@ const JsonViewer = () => {
           onClick={handleEdit}
           className="p-2 bg-blue-500 text-white rounded"
         >
-          Update
+          Save
         </button>
       </div>
     </div>
@@ -126,8 +126,16 @@ const JsonViewer = () => {
           onChange={handleFileChange}
           className="mb-6 block mx-auto text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-pink-200 file:text-gray-700 hover:file:bg-pink-300"
         />
-        {Object.entries(editData).map(([key, value]) => (
-          <div key={key}>{renderSection(key, value)}</div>
+        {Object.entries(editData).map(([key, value], index) => (
+          <div key={key}>
+            {renderSection(key, value)}
+            {index !== Object.keys(editData).length - 1 && (
+              <>
+                <br></br>
+                <hr className="" />
+              </>
+            )}{" "}
+          </div>
         ))}
         {isEditing && renderModal()}
       </div>
