@@ -67,14 +67,30 @@ const JsonViewer = () => {
   };
 
   const renderSection = (sectionTitle, sectionData) => {
-    const editableTitle = sectionData.title || sectionTitle;
+    if (typeof sectionData === "string") {
+      // If sectionData is a string, simply render it
+      return (
+        <div className="mt-4">
+          <h2 className="p-2 bg-red-100 rounded-lg my-2 border border-red-800">
+            <span className="font-bold uppercase">
+              {capitalize(sectionTitle)}
+            </span>
+          </h2>
+          <div className="ml-4 mt-8">{sectionData}</div>
+        </div>
+      );
+    }
+
+    // Otherwise, if sectionData is an object, render it recursively
     return (
       <div className="mt-4">
         <h2
-          className="font-bold text-lg uppercase"
-          onClick={() => openModal(`${sectionTitle}.title`, editableTitle)}
+          className="p-2 bg-red-100 rounded-lg my-2 border border-red-800 uppercase"
+          onClick={() => openModal(`${sectionTitle}.title`, sectionData.title)}
         >
-          <span>{capitalize(editableTitle)}</span>
+          <span className="font-bold uppercase">
+            {capitalize(sectionData.title || sectionTitle)}
+          </span>
         </h2>
         <div className="ml-4 mt-8">
           {Object.entries(sectionData).map(([key, value]) => {
