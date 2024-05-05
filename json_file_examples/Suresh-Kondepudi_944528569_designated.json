@@ -1,0 +1,177 @@
+{
+  "Name": "N. Suresh K. Kondepudi",
+  "Education": [
+    {
+      "Institution": "Arizona State University",
+      "Location": "Tempe, AZ",
+      "Degree": "M.S. Robotics and Autonomous Systems",
+      "StartDate": "Aug 2022",
+      "EndDate": "May 2024",
+      "GPA": "4.0",
+      "Coursework": [
+        "Robotics Systems",
+        "Perception",
+        "Optimal Control",
+        "Deep Neural Nets",
+        "Embedded ML"
+      ]
+    }
+  ],
+  "Skills": {
+    "Programming Languages": [
+      "C",
+      "C++",
+      "Python",
+      "MATLAB",
+      "Julia",
+      "Rust",
+      "SQL",
+      "Bash"
+    ],
+    "ML Frameworks": [
+      "Pytorch",
+      "Tensorflow-Keras",
+      "Tf MLIR",
+      "Scikit-Learn",
+      "Pytorch Lightning",
+      "OpenVINO"
+    ],
+    "Robotics Frameworks": [
+      "ROS/ROS2",
+      "Gazebo",
+      "MoveIt",
+      "Mujoco",
+      "Stable baselines",
+      "CoppeliaSim"
+    ],
+    "Software and Tools": [
+      "OpenCV",
+      "Cuda",
+      "OpenCL",
+      "Unity",
+      "Unreal Engine",
+      "Git",
+      "Windows",
+      "Linux",
+      "gdb",
+      "OpenMP"
+    ],
+    "Robotics": [
+      "Kalman Filters",
+      "Planning",
+      "Localization",
+      "Computer Vision",
+      "Reinforcement Learning",
+      "SLAM"
+    ],
+    "ML": [
+      "Transformers",
+      "Diffusion models",
+      "GAN models",
+      "LSTMs",
+      "CNNs",
+      "Resnets",
+      "DETR",
+      "TRPO",
+      "PPO"
+    ],
+    "Hardware": [
+      "Nvidia Jetson boards",
+      "Arduino",
+      "Node MCU",
+      "ESP chipset",
+      "PX4"
+    ]
+  },
+  "Experience": [
+    {
+      "Company": "Arizona State University",
+      "Location": "Tempe, AZ",
+      "Position": "Graduate Services Assistant",
+      "StartDate": "Jan 2024",
+      "EndDate": "Present",
+      "TotalDuration": "Current",
+      "Tasks": [
+        "Course Grader for CSE598: Perception in Robotics under Dr. Nakul Gopalan"
+      ]
+    },
+    {
+      "Company": "Arizona State University",
+      "Location": "Tempe, AZ",
+      "Position": "Graduate Services Assistant",
+      "StartDate": "Aug 2023",
+      "EndDate": "Dec 2023",
+      "TotalDuration": "4 months",
+      "Tasks": [
+        "Course Grader for CSE574: Planning and Learning Methods in AI under Dr. Ransalu Senanayake"
+      ]
+    },
+    {
+      "Company": "Eternal Robotics",
+      "Location": "Hyderabad, India",
+      "Position": "Robotics Engineer",
+      "StartDate": "Dec 2021",
+      "EndDate": "Jul 2022",
+      "TotalDuration": "7 months",
+      "Tasks": [
+        "Platformed a Heavy duty AGV Robot project. Lead System and Software design efforts and built working prototype in a 4-month period in a Startup environment.",
+        "Programmed STM32 embedded devices as control units for the features required on the AGV robot. Integrated performance-oriented programming concepts using FreeRTOS for task scheduling.",
+        "Integrated Visual Odometry and wire guided capabilities using Python into the AGV robot. Integrated task systems with Parallelism and Concurrency in mind. Worked with Jira for team programming efforts.",
+        "Designed efficient PCB layouts on KiCAD and Altium minimizing space without sacrificing performance or safety.",
+        "Coded C++ driver programs for Ethernet, Wi-Fi and BLE capabilities on a Texas Instruments System-on-Module (SoM) Linux board. Crafted the Communication System to run coherently with Android and iOS apps for Operator usage.",
+        "Built a robot driver testing and maintenance toolkits that enables robot unit and full testing during manufacturing. It helped bring down the robot testing phase from 3 weeks to 1 week before deploying."
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Title": "Human Pose Estimate using IMU devices",
+      "Institution": "Arizona State University",
+      "StartDate": "Aug 2023",
+      "EndDate": "Dec 2023",
+      "TotalDuration": "4 months",
+      "Description": [
+        "Developed an Autoregressive model using PyTorch for posture estimation with multi-device IMU data.",
+        "Used an LSTMs Encoder-Decoder model to generate 144 body pose estimates, which were then processed to SMPL poses for enhanced visualization. Made use of Wandb loggers for Data Visualization.",
+        "Optimized the model into a compact 2MB size TFlite model for efficient deployment on an Arduino Nano board."
+      ]
+    },
+    {
+      "Title": "Monocular Camera Depth Estimation",
+      "Institution": "Arizona State University",
+      "StartDate": "Jan 2023",
+      "EndDate": "May 2023",
+      "TotalDuration": "4 months",
+      "Description": [
+        "Turned a Smartphone camera into a Camera – IMU system to estimate distance, utilizing Affine Homography and a Kalman Filter observer. Enabled to accurately measure object distances with a tolerance of ±5cm.",
+        "Compared against other VIO frameworks, such as VINS-Mono and ROVIO, and optimized for better performance. Our Stack ran 20% faster than either VIO framework while maintaining object detection to 95% of the tests.",
+        "Used SIFT techniques to find similar patches within frames to form a localized pattern recognition model."
+      ]
+    },
+    {
+      "Title": "Propaganda Detection Machine",
+      "Institution": "Arizona State University",
+      "StartDate": "Jan 2023",
+      "EndDate": "May 2023",
+      "TotalDuration": "4 months",
+      "Description": [
+        "Conducted a detailed literature review focusing on fine-grained propaganda analysis, experimenting with NLP techniques like word2vec and tiktoken.",
+        "Employed a pre-trained HuggingFace BERT model, augmented with a transformer architecture, to enhance the accuracy and efficiency in propaganda detection.",
+        "Trained over the Proppy Dataset with Pytorch and evaluated with FLC and SLC benchmarks and has comparable F1 benchmarks with the original published paper."
+      ]
+    },
+    {
+      "Title": "GPU-Accelerated Matrix Decomposition Project",
+      "Institution": "Arizona State University",
+      "StartDate": "Aug 2022",
+      "EndDate": "Dec 2022",
+      "TotalDuration": "4 months",
+      "Description": [
+        "Implemented GPU-accelerated matrix decomposition algorithms to enhance computation speed.",
+        "Leveraged CUDA and cuBLAS on NVIDIA GPUs for efficient linear algebra operations.",
+        "Achieved significant speedup over CPU implementations, demonstrating advanced GPU programming proficiency."
+      ]
+    }
+  ],
+  "Candidate Profile Description": "N. Suresh K. Kondepudi is a highly skilled Robotics and Autonomous Systems graduate student at Arizona State University, with a strong background in cutting-edge technologies. He possesses an impressive technical skillset, including proficiency in programming languages, machine learning frameworks, robotics frameworks, and hardware platforms. Suresh's project experience spans a diverse range of areas, from human pose estimation using IMU devices to monocular camera depth estimation and propaganda detection using advanced deep learning techniques. His ability to optimize algorithms for GPU acceleration further demonstrates his versatility and expertise in the field. With a 4.0 GPA and a solid academic foundation, Suresh is well-poised to make significant contributions in the dynamic and rapidly evolving world of robotics and autonomous systems."
+}

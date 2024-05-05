@@ -1,0 +1,127 @@
+{
+  "Name": "Zichen Zhao",
+  "Contact": {
+    "Mobile": "(646) 939-0504",
+    "Address": "21 W End Ave, New York, NY, 10023",
+    "Email": "zichen.zhao@columbia.edu",
+    "LinkedIn": "linkedin.com/in/zichenzhao6"
+  },
+  "Education": [
+    {
+      "Institution": "Columbia University, Graduate School of Arts and Science",
+      "Location": "New York, NY",
+      "Degree": "Master of Arts in Quantitative Methods in the Social Sciences (QMSS)",
+      "GPA": "4.11/4.0",
+      "StartDate": "September 2023",
+      "EndDate": "December 2024",
+      "Courses": [
+        "Data Analysis",
+        "Machine Learning",
+        "Quantitative Theory and Methodology",
+        "NLP"
+      ]
+    },
+    {
+      "Institution": "DePauw University",
+      "Location": "Greencastle, IN",
+      "Degree": "Bachelor of Arts in Psychology & Mathematics",
+      "GPA": "3.72/4.0",
+      "StartDate": "August 2018",
+      "EndDate": "May 2023",
+      "Courses": [
+        "Linear Algebra",
+        "Differential Equations",
+        "Behavioral Statistics",
+        "Research Method"
+      ],
+      "Honors": [
+        "Recipient of Merit Academic Scholarship",
+        "Dean's List"
+      ]
+    }
+  ],
+  "Experience": [
+    {
+      "Company": "KPMG",
+      "Position": "Data Science Fellow",
+      "Location": "New York, NY",
+      "StartDate": "September 2023",
+      "EndDate": "December 2023",
+      "TotalDuration": "3 months",
+      "Tasks": [
+        "Conducted sentiment analysis on 400k+ movie reviews using NLP models (VADER, TextBlob, BERT, LSTM, Naive Bayes Classifier, GPT-3.5, etc.), having 89.2% accuracy",
+        "Utilized NLTK for tokenization, lemmatization, and Scikit-learn for TF-IDF matrices, augmenting feature engineering for ML models",
+        "Engineered features for box office prediction encompassing historical revenues, genres, budgets, social media and review sentiments, critic/audience ratings, cast/crew track records, runtime, release timing, market competition, promotional budgets, international market score, etc.",
+        "Developed Random Forest, Gradient Boosting, XGBoost, SVM, and Neural Network models for box office revenue forecasting, improving model performance with a lower RMSE by 15%, MAPE reduction by 20% comparing to baseline, and a R^2 of 0.87"
+      ]
+    },
+    {
+      "Company": "USA for UNHCR",
+      "Position": "Data Analysis Fellow",
+      "Location": "New York, NY",
+      "StartDate": "September 2023",
+      "EndDate": "December 2023",
+      "TotalDuration": "3 months",
+      "Tasks": [
+        "Utilized Python for advanced data cleansing and R for statistical analysis of high-frequency datasets from South American refugees, identifying a negative correlation between relocation plans and school attendance, providing insights on educational support strategies for refugee children",
+        "Developed an interactive Tableau dashboard, emphasizing demographic, health, and education trends in refugee data. Implemented Sankey Flow charts to depict immigration trends, aiding in the visualization of asylum movements, resulting in clearer, actionable insights for UNHCR's policy development"
+      ]
+    },
+    {
+      "Company": "Techlent",
+      "Position": "Data Analysis Fellow",
+      "Location": "Pleasanton, CA",
+      "StartDate": "June 2023",
+      "EndDate": "September 2023",
+      "TotalDuration": "3 months",
+      "Tasks": [
+        "Developed and maintained data pipelines using SQL to extract and load the sales data of the supermarkets' sales table into a PostgreSQL database on AWS",
+        "Defined metrics to measure the sales table, and created dashboards and reports using Tableau to visualize daily and monthly sales trends and product ratings by categories in different retail stores",
+        "Identified the key factors affecting daily and monthly sales; delivered actionable insights to retail managers to help them optimize the stock inventory"
+      ]
+    },
+    {
+      "Company": "NEXT Studio",
+      "Position": "Product Management Intern",
+      "Location": "Indianapolis, IN",
+      "StartDate": "May 2022",
+      "EndDate": "September 2022",
+      "TotalDuration": "4 months",
+      "Tasks": [
+        "Leveraged SQL to conduct a comprehensive analysis of survey content from over 100 target customers, identifying key themes and trends for formulating data-driven promotional strategies",
+        "Led a team of interns in employing Python to analyze product survey data, transforming customer engagement data into quantifiable metrics, enhancing our social networking strategy"
+      ]
+    }
+  ],
+  "Skills": {
+    "Programming and Technical": [
+      "Python",
+      "SQL",
+      "SPSS",
+      "R",
+      "Tableau",
+      "Microsoft Excel",
+      "Jupyter Notebook",
+      "AWS",
+      "Survey Design",
+      "Data Preprocessing",
+      "Feature Engineering",
+      "Model Optimization",
+      "NLP",
+      "Statistical Analysis",
+      "Machine Learning Algorithms",
+      "EDA",
+      "Product management"
+    ]
+  },
+  "Activities and Interests": {
+    "Leadership": [
+      "Alumni Outreach Coordinator in QMSS Club (2023-2024)",
+      "President of International Student Ambassador (2022-2023)",
+      "Secretary of Association of Student Interested in Asia (ASIA) (2019-2020)",
+      "Tutor of Speaking and Quant (2020)",
+      "International Admission Assistant (2019)"
+    ]
+  },
+  "Candidate Profile Description": "Zichen Zhao is a skilled and experienced data professional with a strong background in quantitative methods, machine learning, and data analysis. He holds a Master's degree in Quantitative Methods in the Social Sciences from Columbia University and a Bachelor's degree in Psychology and Mathematics from DePauw University, where he excelled academically. Zichen has demonstrated his expertise in various data-driven roles, including as a Data Science Fellow at KPMG, a Data Analysis Fellow at USA for UNHCR, and a Data Analysis Fellow at Techlent. He has a proven track record of leveraging advanced analytical techniques, such as natural language processing, feature engineering, and machine learning model development, to drive impactful insights and solutions. Zichen's leadership experience, including roles in student organizations, further showcases his ability to collaborate effectively and contribute to diverse initiatives. With his well-rounded skillset, academic achievements, and practical experience, Zichen is poised to excel in data-focused positions that require a blend of technical proficiency and strategic thinking."
+}

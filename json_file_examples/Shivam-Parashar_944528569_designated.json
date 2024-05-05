@@ -1,0 +1,162 @@
+{
+  "name": "SHIVAM PARASHAR",
+  "contact": {
+    "mobile": "+1-585-481-9419",
+    "email": "sp3466@rit.edu",
+    "linkedIn": "linkedin.com/in/ShivamParashar"
+  },
+  "objective": "Seeking internship opportunities in Software Development or Data Science",
+  "Education": [
+    {
+      "Institution": "Rochester Institute of Technology",
+      "Location": "Rochester, NY",
+      "Degree": "Master of Science, Computer Science",
+      "StartDate": "N/A",
+      "EndDate": "Dec 2024",
+      "Duration": "N/A",
+      "Courses": [
+        "Advance Object-Oriented Programming",
+        "Algorithms",
+        "Data Science",
+        "Artificial Intelligence",
+        "Machine Learning"
+      ]
+    },
+    {
+      "Institution": "Vellore Institute of Technology",
+      "Location": "Vellore, India",
+      "Degree": "Bachelor of Technology, Computer Science and Engineering",
+      "StartDate": "N/A",
+      "EndDate": "Jun 2019",
+      "Duration": "N/A",
+      "Courses": [
+        "Mathematics",
+        "Data Mining",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "Data Visualization",
+        "Web Mining",
+        "Data Structures and Algorithms",
+        "Image Processing"
+      ]
+    }
+  ],
+  "Experience": [
+    {
+      "Company": "Deloitte Consulting USI",
+      "Location": "Gurugram, India",
+      "Position": "BTA /Application Associate, Solution Network (SNET)",
+      "StartDate": "Aug 2019",
+      "EndDate": "Dec 2021",
+      "TotalDuration": "2 years 4 months",
+      "Tasks": [
+        "Designed, maintained and delivered databases for diverse clients in healthcare, finance, retail, and state funded projects, both on cloud and on-premises, ensuring efficient data management and accessibility by automating monitoring scripts to generate alerts.",
+        "Created interactive dashboards and visualizations that effectively communicated key findings and recommendations to stakeholders.",
+        "Performed End-to-end development of predictive models for Fortune 500 firms using Python, SQL, and Tableau.",
+        "Conducted data preprocessing, model optimization, and generated actionable insights through insightful visualizations which led to development & implementation of predictive models & algorithms that generate valuable insights & enhance business performance.",
+        "Delivered client training on data management, analytics, and visualization best practices, optimizing their data asset utilization.",
+        "Demonstrated proficiency in data collection, data science methodologies, data visualization techniques, & algorithm development.",
+        "Possess strong skills in data warehousing, data analysis, and Python programming, with a track record of delivering high-quality solutions that resulted in cost savings and increased revenue for clients across healthcare, finance, and retail industries."
+      ]
+    },
+    {
+      "Company": "I3CLogic Technologies Pvt. Ltd.",
+      "Location": "Noida, India",
+      "Position": "Data Scientist Intern",
+      "StartDate": "May 2018",
+      "EndDate": "Jun 2018",
+      "TotalDuration": "1 month",
+      "Tasks": [
+        "Employed Pandas framework to meticulously manage and efficiently cleanse Call Data Records (CDR) within Data Warehouse. Achieved 48% reduction in data loading process duration into database and facilitated clearer insights for clients.",
+        "Enhanced data presentation which helped in deriving actionable business insights, contributing to informed decision-making.",
+        "Spearheaded development of Python-based Machine Learning model with 92.7% accuracy rate for predicting missing values in CDR, significantly improving data completeness contributing to enhanced strategy planning processes and overall data reliability.",
+        "Oversaw end-to-end data lifecycle management encompassing data collection, processing, analysis, and generated insightful visualizations that enhanced data interpretation, contributing to significant increase in data-driven reasoning effectiveness."
+      ]
+    },
+    {
+      "Company": "Oracle Financial Services Software Ltd.",
+      "Location": "Pune, India",
+      "Position": "Data Analyst Intern",
+      "StartDate": "May 2017",
+      "EndDate": "Jul 2017",
+      "TotalDuration": "2 months",
+      "Tasks": [
+        "Engaged in working on Oracle Database & WebLogic Administration, contributing to Integration Unit Testing efforts, ensuring seamless software functionality resulting in 8% reduction in integration issues & overall improvement in software reliability.",
+        "Attained proficiency in Data Analytics through rigorous utilization of SQL. Applied industry best practices to analyze complex datasets & query optimization techniques using index & views, resulting in more effective use of data to improve business outcomes.",
+        "Worked on data cleaning in Warehouse & streamlined data-driven processes, resulting in 19% increase in operational efficiency."
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Title": "AI-based Android Security Evaluation Application using Java",
+      "Institution": "Rochester Institute of Technology",
+      "StartDate": "May 2023",
+      "EndDate": "Jun 2023",
+      "Duration": "1 month",
+      "Description": [
+        "Created AI-Expert System (ES) for security & risk evaluation of smartphones in Android Studio with risk matrix of over 50 features.",
+        "Implemented ML techniques like Linear Regression and ANN, utilizing Python libraries such as TensorFlow and Scikit-Learn to train model on dataset generated by ES resulting in 94.7% accuracy, aiding in robust risk evaluation and informed decision-making.",
+        "Employed Federated Learning techniques to blend multiple ANN models, each trained on distinct datasets. Achieved overall model accuracy rate of 92%, showcasing ability to harness diverse datasets generated by distinct ES for optimal predictive outcomes."
+      ]
+    },
+    {
+      "Title": "Predictive Modelling of Call Detail Records",
+      "Institution": "I3CLogic Technologies",
+      "StartDate": "May 2018",
+      "EndDate": "Jun 2018",
+      "Duration": "1 month",
+      "Description": [
+        "Conducted Exploratory Data Analysis on CDR in Python, utilizing data visualization and statistical analysis to extract insights.",
+        "Leveraged Ensemble Learning methodologies and Voting Classifier techniques using Scikit-Learn and TensorFlow libraries which enhanced predictive model performance, resulting in substantial 31% boost in overall accuracy compared to previous model.",
+        "Developed a final ML model that demonstrated remarkable 37% enhancement in predictive accuracy for identifying missing values and also significantly improved data completeness and reliability, contributing to more informed decision-making processes."
+      ]
+    },
+    {
+      "Title": "Visualization and Predictive Modelling of Stock Trading Techniques",
+      "Institution": "Vellore Institute of Technology",
+      "StartDate": "Dec 2017",
+      "EndDate": "Feb 2018",
+      "Duration": "2 months",
+      "Description": [
+        "Utilized Unsupervised Learning like K-means clustering, to analyze a normalized dataset by using the convex hull methodology to get accurate clusters. Achieved 25% reduction in data dimensionality, enhancing efficiency of data processing and interpretation.",
+        "Conducted rigorous accuracy assessments using Logistic Regression analysis, ensuring precise predictive modeling outcomes.",
+        "Implemented final predictive model in Python and created Tableau visualizations, resulting in 20% increase in investment accuracy."
+      ]
+    }
+  ],
+  "Skills": {
+    "Software": [
+      "Tableau",
+      "PowerBI",
+      "SPSS",
+      "Android Studio",
+      "SQLPlus",
+      "MS Excel",
+      "MongoDB"
+    ],
+    "Programming": [
+      "Python",
+      "Java",
+      "SQL",
+      "R",
+      "C",
+      "C++"
+    ],
+    "Python Libraries": [
+      "Pandas",
+      "NumPy",
+      "TensorFlow",
+      "ScikitLearn",
+      "NLTK",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "Certifications": [
+      "Oracle SQL Fundamentals (1Z0-071)",
+      "Oracle WebLogic Middleware Administrator (1Z0-062)"
+    ]
+  },
+  "Candidate_Profile_escription": "Shivam Parashar is a skilled Computer Science professional with a strong academic background from the Rochester Institute of Technology and Vellore Institute of Technology. He has demonstrated expertise in software development, data science, and machine learning, with a track record of delivering high-quality solutions that have resulted in cost savings and increased revenue for clients across various industries. Shivam's experience includes internships at Deloitte Consulting, I3CLogic Technologies, and Oracle Financial Services Software, where he showcased proficiency in data management, predictive modeling, and data visualization. His diverse project portfolio, ranging from an AI-based Android security evaluation application to predictive modeling of stock trading techniques, showcases his versatility and problem-solving abilities. With a strong foundation in programming languages, including Python, Java, and SQL, as well as expertise in cutting-edge technologies like Tableau, TensorFlow, and Scikit-Learn, Shivam is well-equipped to excel in internship opportunities in software development or data science."
+}

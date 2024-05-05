@@ -67,6 +67,20 @@ const JsonViewer = () => {
   };
 
   const renderSection = (sectionTitle, sectionData) => {
+    if (typeof sectionData !== "object" || sectionData === null) {
+      // Handle primitive values like strings, numbers, booleans directly without mapping
+      return (
+        <div className="ml-4 mt-8">
+          <h2 className="font-bold text-lg uppercase">
+            {capitalize(sectionTitle)}:
+          </h2>
+          <span onClick={() => openModal(sectionTitle, sectionData)}>
+            {sectionData}
+          </span>
+        </div>
+      );
+    }
+
     const editableTitle = sectionData.title || sectionTitle;
     return (
       <div className="mt-4">
