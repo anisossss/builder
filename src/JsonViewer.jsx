@@ -21,7 +21,6 @@ const JsonViewer = () => {
     };
     reader.readAsText(file);
   };
-
   const updateObjectByPath = (object, path, value) => {
     let schema = object;
     const pList = path.split(".");
@@ -29,29 +28,32 @@ const JsonViewer = () => {
     for (let i = 0; i < len - 1; i++) {
       const elem = pList[i];
       if (!schema[elem]) schema[elem] = {};
-      schema = schema[elem];
+      if (elem.includes("[")) {
+        const match = elem.match(/(\w+)\[(\d+)\]/);
+        if (match && match.length === 3) {
+          schema = schema[match[1]][parseInt(match[2])];
+        }
+      } else {
+        schema = schema[elem];
+      }
     }
 
-    if (path.endsWith(".title")) {
-      if (!isNaN(pList[pList.length - 2])) {
-        schema.title = value;
-      } else {
-        const parentPath = pList.slice(0, pList.length - 1).join(".");
-        updateObjectByPath(object, parentPath, { ...schema, title: value });
-        return;
+    const lastElem = pList[len - 1];
+    if (lastElem.includes("[")) {
+      const match = lastElem.match(/(\w+)\[(\d+)\]/);
+      if (match && match.length === 3) {
+        schema[match[1]][parseInt(match[2])] = value;
       }
     } else {
-      schema[pList[len - 1]] = value;
+      schema[lastElem] = value;
     }
   };
-
   const handleEdit = () => {
-    const newEditData = { ...editData };
+    const newEditData = JSON.parse(JSON.stringify(editData));
     updateObjectByPath(newEditData, currentPath, currentValue);
     setEditData(newEditData);
     setIsEditing(false);
   };
-
   const handleModalChange = (e) => {
     setCurrentValue(e.target.value);
   };
@@ -65,42 +67,50 @@ const JsonViewer = () => {
   const capitalize = (str) => {
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
-
   const renderSection = (sectionTitle, sectionData) => {
     if (typeof sectionData === "string") {
-      // If sectionData is a string, simply render it
       return (
         <div className="mt-4">
           <h2 className="p-2 bg-red-100 rounded-lg my-2 border border-red-800">
-            <span className="font-bold uppercase">
+            <span
+              className="font-bold uppercase cursor-pointer"
+              onClick={() => openModal(`${sectionTitle}`, sectionData)}
+            >
               {capitalize(sectionTitle)}
             </span>
           </h2>
-          <div className="ml-4 mt-8">{sectionData}</div>
+          <div
+            className="ml-4 mt-8 cursor-pointer"
+            onClick={() => openModal(`${sectionTitle}`, sectionData)}
+          >
+            {sectionData}
+          </div>
         </div>
       );
     }
 
-    // Otherwise, if sectionData is an object, render it recursively
     return (
       <div className="mt-4">
         <h2
           className="p-2 bg-red-100 rounded-lg my-2 border border-red-800 uppercase"
-          onClick={() => openModal(`${sectionTitle}.title`, sectionData.title)}
+          onClick={() =>
+            openModal(`${sectionTitle}.title`, sectionData.title || "")
+          }
         >
           <span className="font-bold uppercase">
             {capitalize(sectionData.title || sectionTitle)}
           </span>
         </h2>
-        <div className="ml-4 mt-8">
+        <div className="ml-4 mt-8 h-30">
           {Object.entries(sectionData).map(([key, value]) => {
             if (key === "title") return null;
-            return typeof value === "object" && !Array.isArray(value) ? (
+            return typeof value === "object" ? (
               renderSection(`${sectionTitle}.${key}`, value)
             ) : (
               <div
                 key={`${sectionTitle}-${key}`}
                 onClick={() => openModal(`${sectionTitle}.${key}`, value)}
+                className="cursor-pointer"
               >
                 <span className="font-bold uppercase">{capitalize(key)}:</span>{" "}
                 <span>{value}</span>
@@ -111,7 +121,6 @@ const JsonViewer = () => {
       </div>
     );
   };
-
   const renderModal = () => (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
       <div className="bg-white p-5 rounded">
@@ -134,7 +143,7 @@ const JsonViewer = () => {
   );
 
   return (
-    <div className="flex justify-center bg-gradient-to-r from-green-100 to-blue-100">
+    <div className="flex justify-center w-50 bg-gradient-to-r from-green-100 to-blue-100">
       <div className="text-left w-full px-4 py-10">
         <h1 className="text-4xl font-bold text-left mb-6 text-gray-800">
           Enhanced and Editable JSON Viewer
