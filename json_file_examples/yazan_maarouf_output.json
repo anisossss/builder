@@ -1,0 +1,166 @@
+{
+    "candidate Profile Description": {
+      "summary": "Software Engineer specializing in Machine Learning and Full-Stack development. Proficient in Python, Go, Java, C#, C, JS, HTML, CSS, Dart, and various machine learning frameworks. Skilled in cloud technologies, DevOps, and fundamental computer science concepts. Experienced in backend and frontend development, with a strong background in programming, machine learning, and data science."
+    },
+    "personal_info": {
+      "name": "Yazan Maarouf",
+      "contact": {
+        "location": "Montreal, Quebec, CA",
+        "email": "yazan.maarouf.1@gmail.com",
+        "phone": "+14389929084"
+      },
+      "links": {
+        "LinkedIn": "https://www.linkedin.com/in/yazanmaarouf/",
+        "GitHub": "https://github.com/Yazington"
+      }
+    },
+    "education": [
+      {
+        "institution": "École de technologie supérieure",
+        "degree": "Software Engineering Bachelor's Degree",
+        "start_date": "2018",
+        "end_date": "2021",
+        "details": "Specialized in machine learning. Learned about data structures and algorithms, object-oriented programming, design patterns, project management, networking communication distributed systems, and operating systems. Final project was a self-driving hover boat using reinforcement learning and a Coral Dev Board for edge inference."
+      },
+      {
+        "institution": "Université du Québec à Montréal (UQAM)",
+        "degree": "Actuarial Sciences Bachelor's Degree",
+        "start_date": "2015",
+        "end_date": "2016",
+        "details": "Took courses related to advanced probabilities and statistics, insurance, and finance."
+      }
+    ],
+    "experience": [
+      {
+        "title": "Backend Developer",
+        "company": "US Mobile",
+        "location": "Remote",
+        "start_date": "May 2022",
+        "end_date": "Present",
+        "duration": "Ongoing",
+        "achievements": [
+          "Improved data retrieval time by 80% from a database, enhancing user experience.",
+          "Engineered a robust data integration system, processing ~2 million rows daily from a 3rd party provider.",
+          "Optimized log management across key services using a 3rd party logging solution.",
+          "Implemented an in-house distributed feature flagging system.",
+          "Helped QA team integrate automated testing in applications."
+        ]
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Octav",
+        "location": "Remote",
+        "start_date": "January 2022",
+        "end_date": "April 2022",
+        "duration": "4 months",
+        "achievements": [
+          "Designed and implemented advanced Web3 functionalities.",
+          "Developed both backend and frontend features for a cohesive system architecture.",
+          "Created responsive applications with optimal performance across various devices."
+        ]
+      },
+      {
+        "title": "Full Stack Developer (Internship)",
+        "company": "Université Laval",
+        "location": "Remote",
+        "start_date": "May 2021",
+        "end_date": "August 2021",
+        "duration": "4 months",
+        "achievements": [
+          "Assisted in React Native development for research purposes.",
+          "Contributed to backend development and brainstorming.",
+          "Supported database management across different environments."
+        ]
+      },
+      {
+        "title": "Programmer Analyst (Internship)",
+        "company": "Equisoft",
+        "location": "Remote",
+        "start_date": "January 2020",
+        "end_date": "April 2020",
+        "duration": "4 months",
+        "achievements": [
+          "Gained experience with .NET MVC 5 and Entity Framework 6.",
+          "Worked with modern DevOps technologies like TeamCity, Jira, and Bitbucket.",
+          "Contributed to the maintenance of a large-scale monolithic application.",
+          "Assisted in managing SQL and SQL Server environments."
+        ]
+      },
+      {
+        "title": "Programmer Analyst (Internship)",
+        "company": "CAE",
+        "location": "Remote",
+        "start_date": "January 2019",
+        "end_date": "April 2019",
+        "duration": "4 months",
+        "achievements": [
+          "Assisted in developing C# features used across various client interfaces.",
+          "Collaborated with development and product teams for project success.",
+          "Supported .NET-based Web Services integration with third-party applications.",
+          "Participated in an Agile development environment."
+        ]
+      }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "Go",
+            "Java",
+            "C#",
+            "C",
+            "JavaScript (JS)",
+            "HTML",
+            "CSS",
+            "Dart"
+          ],
+          "machine_learning": [
+            "Deep Learning (MLPs, CNNs, RNNs, KNN, Transformers)",
+            "Data Preprocessing",
+            "Model Improvements",
+            "PyTorch",
+            "TensorFlow",
+            "Keras",
+            "Computer Vision Models"
+          ],
+          "fundamental_cs_concepts": [
+            "Data Structures and Algorithms",
+            "Object-Oriented Programming (OOP)",
+            "Design Patterns",
+            "Low-Level Concepts",
+            "Database Concepts"
+          ],
+          "cloud_technologies": [
+            "AWS",
+            "GCP",
+            "Docker",
+            "Railway"
+          ]
+        },
+        "certifications": [
+          {
+            "title": "Neural Networks and Deep Learning",
+            "provider": "Coursera",
+            "details": "Created a neural network from scratch to classify cats and dogs pictures."
+          },
+          {
+            "title": "Improving Deep Neural Networks: Hyperparameter tuning, regularization and optimization",
+            "provider": "Coursera"
+          },
+          {
+            "title": "Structuring Machine Learning Projects",
+            "provider": "Coursera"
+          }
+        ],
+        "projects": [
+          {
+            "title": "Wear It Fashion App",
+            "description": "Trained U-Net with a MobileNetV3 backbone to segment the human body using PyTorch + TorchServe. Developed an app for managing outfits using React-Native with Expo on the frontend and NodeJS on the backend. Integrated Google SSO for authentication, AWS S3 for object storage, AWS Lambda for server communication, and MongoDB as the database.",
+            "github_link": "https://github.com/Yazington/MobileNetV3-Classif/blob/main/classification.ipynb"
+          },
+          {
+            "title": "Stock Price Prediction using Machine Learning",
+            "description": "Currently working on a machine learning model to predict stock price movements based on financial statements, prices, volume, tweets, and general market conditions. The model is a Transformer with a 3-month timeframe for logistic regression tasks."
+          }
+        ]
+      }
+  

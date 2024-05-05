@@ -1,0 +1,192 @@
+{
+    "candidate Profile Description": {
+      "summary": "Data Science and Software Engineering professional with experience in developing products for Advanced Driving Assistance Systems at Continental AG and writing technical blogs for TowardsAI and Stackademic. Skilled in machine learning algorithms, deep learning, data mining, time series analysis, and software development with expertise in Python, R, C, SQL, MongoDB, and various ML and DL frameworks."
+    },
+    "personal_info": {
+      "name": "Anand Raj",
+      "contact": {
+        "email": "anand.raj@gwu.edu",
+        "phone": "(703) 457-0873",
+        "location": "Arlington, VA 22203"
+      },
+      "links": {
+        "Portfolio": "https://anandr07.github.io/",
+        "LinkedIn": "https://www.linkedin.com/in/anand-raj-4334a91b3/",
+        "GitHub": "https://github.com/anandr07"
+      }
+    },
+    "education": [
+      {
+        "institution": "The George Washington University",
+        "degree": "Master of Science, Data Science",
+        "start_date": "May 2025 (Expected)",
+        "gpa": "4.00",
+        "relevant_courses": [
+          "Data Warehousing",
+          "Data Science",
+          "Data Mining",
+          "Machine Learning",
+          "Algorithms"
+        ]
+      },
+      {
+        "institution": "RNS Institute of Technology",
+        "degree": "Bachelor of Engineering, Electrical and Electronics",
+        "start_date": "Sep 2021",
+        "relevant_courses": [
+          "Data Structures",
+          "Mathematics",
+          "Object Oriented Programming Using C++",
+          "Python Programming"
+        ]
+      }
+    ],
+    "technical_skills": {
+      "programming_languages": [
+        "R",
+        "Python",
+        "C"
+      ],
+      "databases": [
+        "SQL",
+        "MongoDB",
+        "Neo4j"
+      ],
+      "machine_learning_algorithms": [
+        "Linear/Logistic/Lasso/Ridge Regression",
+        "Decision Trees",
+        "Naive Bayes",
+        "KNN",
+        "Random Forest",
+        "Stacking",
+        "SVM",
+        "XGBM",
+        "Bagging Methods",
+        "Cascading Classifiers"
+      ],
+      "data_mining": [
+        "PCA",
+        "t-SNE",
+        "Recommendation Systems & Matrix Factorization",
+        "K Means",
+        "Hierarchical",
+        "DBSCAN"
+      ],
+      "time_series_analysis_forecasting": [
+        "AR",
+        "ARMA",
+        "ARIMA",
+        "SARIMA"
+      ],
+      "deep_learning": [
+        "Artificial Neural Networks",
+        "Convolutional Neural Networks",
+        "Multilayer Perceptron",
+        "Long Short Term Memory(LSTM)",
+        "Recurrent Neural Network(RNN)",
+        "Generative Adversarial Networks(GAN)"
+      ],
+      "product_development": [
+        "Agile Methodology",
+        "Product Life Cycle",
+        "JIRA for Ticketing",
+        "Git",
+        "GitHub"
+      ],
+      "others": [
+        "Tableau",
+        "Flask",
+        "AWS EC-2",
+        "Streamlit",
+        "Heroku",
+        "TensorFlow",
+        "Keras"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Ezflow.ai",
+        "status": "Ongoing",
+        "description": "Leading the development of EzFlow.ai, a user-friendly platform designed to empower users with no coding experience to learn and implement machine learning projects. By automating data preprocessing, model training, and result visualization, EzFlow.ai provides users with predictions and comprehensive summary reports.",
+        "github_link": "https://github.com/anandr07/EzFlow.ai"
+      },
+      {
+        "title": "Quora Question Pair Similarity",
+        "date": "Jan 2024",
+        "description": "Applied Natural Language Processing techniques to determine if two questions have similar meaning. Performed comprehensive data analysis, feature engineering, and text data featurization to develop a predictive model.",
+        "github_link": "https://github.com/anandr07/Quora-Question-Pair-Similarity/tree/main"
+      },
+      {
+        "title": "New York City Taxi Trip Duration Prediction",
+        "date": "Dec 2023",
+        "description": "Developed a model for predicting trip duration using New York City pick-up and drop-off coordinates, involving extensive data cleaning, analysis, and training various ML models, achieving the lowest RMSE of 224 seconds.",
+        "github_link": "https://github.com/shanunDS/NYC-Taxi-Trip-Duration" 
+    },
+    {
+      "title": "Sentiment Prediction from Amazon Reviews",
+      "date": "Sep 2023",
+      "description": "Developed a model to predict if a text review of a product given by a user is positive or negative. Performed extensive text cleaning and featurizing text data, achieved an AUC score of 0.90 using SGD Classifier. Deployed using Flask on AWS EC-2 virtual machine.",
+      "github_link": "https://github.com/anandr07/Sentiment-prediction-from-Amazon-reviews/tree/main",
+      "deployment_link": "http://3.142.210.154:8080/index"
+    }
+  ],
+  "research_publications": [
+    {
+      "title": "Facial Feature Extraction and Emotional Analysis Using ML",
+      "date": "Jan 2023",
+      "link": "https://www.ijaresm.com/uploaded_files/document_file/Caryn_DsouzaVPMZ.pdf"
+    },
+    {
+      "title": "Performance Comparison of Prediction Algorithms for Forecasting of Wind Power Generation",
+      "date": "Sep 2022",
+      "link": "https://ieeexplore.ieee.org/document/9951967"
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "Technical Writer",
+      "company": "TowardsAI & Stackademic",
+      "location": "Remote",
+      "start_date": "Dec 2023",
+      "end_date": "Present",
+      "responsibilities": [
+        "Authored engaging technical blogs focused on Artificial Intelligence and Autonomous Cars."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Continental AG",
+      "location": "Remote",
+      "start_date": "Sep 2021",
+      "end_date": "Aug 2023",
+      "responsibilities": [
+        "Worked on Advanced Driving Assistance Systems and developed products like Emergency Brake Assist and Rear Pre-Crash Predict.",
+        "Developed algorithm using C and implemented automation using Python scripting.",
+        "Delivered better performance with just 2 false positives per 10,000 kilometers, optimizing key performance indicators.",
+        "Major products: Volkswagen ID Buzz and Mercedes Benz Sprinter Van."
+      ]
+    },
+    {
+      "title": "Data Science Intern",
+      "company": "Innodatatics",
+      "location": "Remote",
+      "start_date": "Jun 2020",
+      "end_date": "Aug 2020",
+      "responsibilities": [
+        "Collaborated with a dynamic team to conduct in-depth data analysis utilizing Python and Tableau, providing valuable insights into client's sales data.",
+        "Formulated data-driven recommendations and compelling narratives and communicated to our client."
+      ]
+    },
+    {
+      "title": "Intern",
+      "company": "Defense Research Development Organization",
+      "location": "Remote",
+      "start_date": "Jan 2020",
+      "end_date": "Feb 2020",
+      "responsibilities": [
+        "Worked on validation and verification process standards in avionics hardware.",
+        "Collaborated with different teams and reviewed standards of all the validation and verification processes."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+    "candidate Profile Description": {
+      "summary": "Cheng-Chen Huang is a Master's student in Computer Science at Virginia Tech with a background in Computer Science and Management Information System from Soochow University. Experienced in research, teaching, and software development, with skills in Java, Python, C/C++, SQL, NoSQL, JavaScript, HTML, Node.js, and REST API."
+    },
+    "personal_info": {
+      "name": "Cheng-Chen Huang",
+      "contact": {
+        "phone": "571-241-6531",
+        "email": "jjooeeyh@vt.edu",
+        "linkedin": "https://www.linkedin.com/in/cheng-chen-huang-66408a287/"
+      }
+    },
+    "education": [
+      {
+        "institution": "Virginia Tech",
+        "location": "Falls Church, VA",
+        "degree": "Master's in Computer Science",
+        "start_date": "Aug. 2024",
+        "end_date": "Present",
+        "duration": "Ongoing"
+      },
+      {
+        "institution": "Soochow University",
+        "location": "Taiwan",
+        "degree": "Bachelor's in Computer Science and Management Information System",
+        "start_date": "Aug. 2018",
+        "end_date": "Jun. 2022",
+        "duration": "3 years 10 months"
+      }
+    ],
+    "activities_and_awards": [
+      {
+        "award": "Second prize in 2021 Nationwide Cloud APP Application Idea in Use Competition",
+        "date": "Dec. 2021",
+        "duration": "1 day"
+      },
+      {
+        "activity": "Member of Virginia Tech Computer Science Student Council",
+        "start_date": "Jan. 2024",
+        "end_date": "Present",
+        "duration": "Ongoing"
+      },
+      {
+        "activity": "Member of Taiwan Python Line Group Community Manager",
+        "start_date": "Oct. 2023",
+        "end_date": "Present",
+        "duration": "Ongoing"
+      },
+      {
+        "award": "Excellent Self-Regulated Learning Certification",
+        "date": "Dec. 2021",
+        "duration": "1 day"
+      },
+      {
+        "activity": "Volunteer at Disabled Camp",
+        "start_date": "Jul. 2021",
+        "end_date": "Aug. 2021",
+        "duration": "1 month"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Research Assistant",
+        "company": "Soochow University",
+        "location": "Taiwan",
+        "start_date": "Dec. 2022",
+        "end_date": "Jul. 2023",
+        "duration": "7 months",
+        "responsibilities": [
+          "Discussed research goals and broke down into stages.",
+          "Designed and created ontology database.",
+          "Accomplished traditional medicine feature engineering.",
+          "Set up Apache cloud server and pushed database to cloud."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "company": "Soochow University",
+        "location": "Taiwan",
+        "start_date": "Dec. 2022",
+        "end_date": "Jul. 2023",
+        "duration": "7 months",
+        "responsibilities": [
+          "Analyzed current famous cyber-attacks and trends.",
+          "Broke down cybersecurity into several areas.",
+          "Defined course objectives with professor.",
+          "Created teaching material for cybersecurity course."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Recipe Generator",
+        "technologies": ["Node.js", "MongoDB", "React", "Git", "Docker", "OpenAI", "Postman"],
+        "start_date": "Oct. 2023",
+        "end_date": "Dec. 2023",
+        "duration": "2 months",
+        "responsibilities": [
+          "Completed design document, user cases, and Jira schedule.",
+          "Designed and initialized the database with MongoDB on AWS.",
+          "Set up web application server with Node.js.",
+          "Created REST API.",
+          "Implemented user login and new user functions.",
+          "Implemented recipe generate function.",
+          "Tested the system with Postman."
+        ]
+      },
+      {
+        "title": "New AI Game Hack",
+        "technologies": ["Python", "Object Detection", "Computer Graphics", "Transfer Learning", "Object Localization"],
+        "start_date": "Mar. 2022",
+        "end_date": "Apr. 2022",
+        "duration": "1 month",
+        "responsibilities": [
+          "Used random real people images to train object detection model.",
+          "Used Transfer Learning technique to implement the model in the application.",
+          "Used Object Localization technique to get the location and adjusted the parameter of detection.",
+          "Calculated the distance based on the x, y, and virtual z-axis to get the relation between screen and mouse input.",
+          "Combined the steps above and kinesiology to avoid outlier detection from the game server."
+          ]
+          },
+          {
+          "title": "Sustainable Renting System",
+          "technologies": ["Java", "Android Studio", "Firebase", "Ethereum", "Cost-analysis chart"],
+          "start_date": "Oct. 2020",
+          "end_date": "May 2021",
+          "duration": "7 months",
+          "responsibilities": [
+          "Built a renting system that preserves the environment and people under COVID-19."
+          ]
+          },
+          {
+          "title": "Cyber Attack Predictive Model",
+          "technologies": ["Python", "Jupyter", "PySpark", "Linux"],
+          "start_date": "Feb. 2022",
+          "end_date": "Mar. 2022",
+          "duration": "1 month",
+          "responsibilities": [
+          "Built a predictive model capable of distinguishing between connections from attackers and normal users.",
+          "Analyzed and cleaned the original dataset.",
+          "Implemented different algorithms like SVM, decision tree, K-means clustering, etc.",
+          "Iterated the evaluation and optimizing model, achieving over 99% accuracy."
+          ]
+          },
+          {
+          "title": "Movie Recommendation System",
+          "technologies": ["Python", "Jupyter", "PySpark", "Linux"],
+          "start_date": "Mar. 2022",
+          "end_date": "Apr. 2022",
+          "duration": "1 month",
+          "responsibilities": [
+          "Built a movie recommendation system to recommend user based on their history record.",
+          "Built models based on different algorithms like model-based ALS Algorithm and content-based algorithm.",
+          "Iterated the evaluation and optimizing the model, ended up picking the ALS Algorithm based on the accuracy."
+          ]
+          },
+          {
+          "title": "Database Management System for United States Patent",
+          "technologies": ["Python", "Jupyter", "Flask", "TF-IDF", "Data Visualization"],
+          "start_date": "Oct. 2020",
+          "duration": "Ongoing",
+          "responsibilities": [
+          "Built a webpage using Python Web Flask.",
+          "Cleaned and analyzed the over 10-year accumulated data.",
+          "Enabled the webpage to select and filter from Database.",
+          "Analyzed the data with TF-IDF Algorithm then visualize.",
+          "Visualized the data queried by the user."
+          ]
+          },
+          {
+          "title": "Student Room Rent System Analyzation",
+          "technologies": ["Microsoft Access", "Fishbone diagram", "ER-diagram", "Data Flow Diagram", "Content Diagram"],
+          "start_date": "Unknown",
+          "duration": "Unknown",
+          "responsibilities": [
+          "Built a webpage using Python Web Flask.",
+          "Did the field research.",
+          "Created a Fishbone Diagram, Functional Decomposition Diagram, Context Diagram and decided to use top-down design.",
+          "Created the Data Flow Diagram and implemented to Microsoft Access.",
+          "Defined Database schema and published the system design."
+          ]
+          },
+          {
+          "title": "Cause of Death Analyzation",
+          "technologies": ["Python", "Jupyter", "Taipei Open Source Data"],
+          "start_date": "Oct. 2019",
+          "end_date": "Dec. 2019",
+          "duration": "2 months",
+          "responsibilities": [
+          "Obtained the open data from Taipei government open source.",
+          "Used python to clean and format the data.",
+          "Analyzed the data.",
+          "Visualized the outcome as Bar Graph, Pie Chart, Word Cloud."
+          ]
+          }
+          ],
+          "technical_skills": {
+          "languages": ["Java", "Python", "C/C++", "SQL (MS SQL, MySQL)", "NoSQL (MongoDB)", "JavaScript", "HTML", "Access"],
+          "frameworks": ["Node.js", "RestAPI"],
+          "developer_tools": ["Git", "Docker", "VS Code", "Visual Studio", "PyCharm", "Jupyter", "Eclipse", "Vim", "Jira"]
+          }
+          }
+  

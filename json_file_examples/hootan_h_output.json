@@ -1,0 +1,81 @@
+{
+    "candidate Profile Description": {
+      "summary": "Results-oriented and seasoned professional with over 5 years of experience in the technology and computer industry. Adept in all phases of the software development lifecycle, from requirement analysis and design to development and reviews. Possess a comprehensive background as a computer science graduate with over 8 years of programming expertise. Demonstrated proficiency in object-oriented programming, computer applications, and code testing. Proven team player with a collaborative nature, coupled with a strong willingness to learn and adapt to new technologies. Passionate about contributing to the entire organizational framework and driven to solve complex problems. Holds a profound understanding of algorithms, data structures, databases, network protocols, configurations, and security measures."
+    },
+    "personal_info": {
+      "name": "Hootan H.",
+      "contact": {
+        "address": "Los Angeles, CA 91604",
+        "phone": "(310) 600-8877",
+        "email": "hootanhosseinzade@gmail.com",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/hootan-hosseinzadegan",
+          "github": "https://github.com/hootanh"
+        }
+      }
+    },
+    "experience": [
+      {
+        "company": "TATA Consultancy Services",
+        "position": "Software Engineer",
+        "duration": "July 2021 - Feb 2024",
+        "responsibilities": [
+          "Spearheaded initiatives at TATA Consultancy Services, driving innovation and delivering impactful solutions.",
+          "Elevated the system's performance by enhancing both the frontend (JavaScript/React-HTML/CSS) and backend (Python/Django).",
+          "Functioned as a Lead Analyst, providing support and enhancement to hospital and healthcare systems at Kaiser Permanente."
+        ]
+      },
+      {
+        "company": "Startup 360",
+        "position": "Software Developer",
+        "duration": "Sep 2017 – Dec 2019",
+        "responsibilities": [
+          "Contributed to the dynamic environment of Startup 360, a leading IT media platform.",
+          "Optimized and enhanced the user experience of the system by improving algorithms and data structures in both the frontend and backend."
+        ]
+      }
+    ],
+    "professional_skills": [
+      "Proficient in Object-Oriented Programming.",
+      "Innovative and creative problem solver.",
+      "Exhibits exceptional teamwork and management skills within Agile environments."
+    ],
+    "technical_skills": {
+      "coding_languages_proficient": ["Python", "C++", "MySQL", "JavaScript", "HTML", "CSS", "Swift"],
+      "coding_languages_familiar": ["Java", "R", "Rust", "GO", "C", "Postgres", "Shell", "C#"],
+      "frameworks_software": ["AWS", "Angular", "React", "MySQL", "WordPress", "Django", "API", "Postman", "Jupyter Notebook", "Autopsy", "Splunk", "Nessus", "Kali Tools", "Wireshark", "ServiceNow", "Dynatrace", "Xcode", "Microsoft Office", "PyCharm", "Git", "PyTorch", "Cloud Computing", "JIRA", "ETL", "Tableau"],
+      "operating_systems": ["Windows", "Linux", "Mac", "Ubuntu", "Debian", "Kali Linux"]
+    },
+    "education": [
+      {
+        "institution": "University of San Diego",
+        "degree": "Master of Science in Cyber Security Engineering",
+        "gpa": "4.0 / 4.0",
+        "start_date": "June 2023",
+        "expected_graduation_date": "December 2024",
+        "location": "San Diego, CA"
+      },
+      {
+        "institution": "University of California, Irvine",
+        "degree": "Bachelor of Science in Computer Science",
+        "gpa": "3.6 / 4.0",
+        "start_date": "Sep 2018",
+        "graduation_date": "Mar 2021",
+        "location": "Irvine, CA",
+        "honors": "Dean's Honor List, Department GPA: 3.85 / 4.0"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Python",
+        "issued_date": "May 2021",
+        "credential_id": "3BCA379D76C1"
+      },
+      {
+        "title": "SQL",
+        "issued_date": "May 2021",
+        "credential_id": "4DC546EFD90D"
+      }
+    ]
+  }
+  

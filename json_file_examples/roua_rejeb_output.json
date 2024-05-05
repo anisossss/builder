@@ -1,0 +1,119 @@
+{
+    "candidate Profile Description": {
+      "summary": "Business Analytics student minoring in Marketing. Aspiring to work in a dynamic environment to optimize the company's performance utilizing my data analytics and machine learning skills. Extremely passionate about analytics and statistics, I am always striving to gain new knowledge in this field."
+    },
+    "personal_info": {
+      "name": "Roua Rejeb",
+      "contact": {
+        "phone": "+216 52 489 309",
+        "email": "rouarejeb.data@gmail.com",
+        "location": "Mourouj, Ben Arous"
+      },
+      "links": {
+        "LinkedIn": "https://www.linkedin.com/in/RouaRejeb"
+      }
+    },
+    "education": [
+      {
+        "institution": "Tunis Business School",
+        "degree": "Bachelor in Science of Business Administration",
+        "start_date": "Sep 2020",
+        "end_date": "Present",
+        "location": "Ben Arous, Tunisia",
+        "relevant_coursework": [
+          "Data Analytics",
+          "Data Mining",
+          "Time Series",
+          "Statistics",
+          "Python",
+          "Information System Analysis and Design",
+          "Digital Marketing",
+          "Service Marketing",
+          "Marketing Research"
+        ]
+      }
+    ],
+    "academic_project_experience": [
+      {
+        "name": "Customer Churn Prediction",
+        "duration": "Nov 2023",
+        "description": "Used data preprocessing techniques and implemented an Artificial Neural Network using TensorFlow to understand the reasons behind customer churn, achieving an accuracy of 77%."
+      },
+      {
+        "name": "Marketing Campaign Analysis",
+        "start_date": "Jul 2023",
+        "end_date": "Aug 2023",
+        "duration": "2 months",
+        "description": "Performed an in-depth analysis to assess campaign impact on different groups of customers using Python and Jupyter Notebook. Visualized the pivot tables and identified age groups most responsive to marketing campaigns."
+      },
+      {
+        "name": "AirBnB Data Visualization",
+        "date": "Jan 2023",
+        "description": "Created a Tableau dashboard using Seattle Airbnb data to answer investor questions about profitable zip codes, optimal rental periods, and the impact of bedroom count on rental prices."
+      },
+      {
+        "name": "Miel Boumiza International Marketing Strategy",
+        "start_date": "Sep 2022",
+        "end_date": "Jan 2023",
+        "duration": "5 months",
+        "description": "Developed an international marketing strategy for the Tunisian honey brand 'Miel Boumiza' targeting the French market. Conducted a macro and micro-environment analysis."
+      },
+      {
+        "name": "CarE Digital Marketing Strategy",
+        "start_date": "Mar 2023",
+        "end_date": "May 2023",
+        "duration": "3 months",
+        "description": "Built marketing and digital marketing strategies for the brand CarE, a Tunisian platform offering on-demand car and dry-cleaning services. Developed a digital marketing plan to boost brand awareness."
+      }
+    ],
+    "skills": {
+      "technical_skills": [
+        "Python",
+        "SQL",
+        "SPSS",
+        "Tableau Public",
+        "Machine Learning",
+        "Data Cleaning",
+        "Exploratory Data Analysis",
+        "Market Research",
+        "Deep Learning",
+        "PANDAS"
+      ],
+      "soft_skills": [
+        "Team Work"
+      ]
+    },
+    "certificates": [
+      {
+        "name": "Data Cleaning",
+        "issuer": "Kaggle"
+      },
+      {
+        "name": "Intro to Machine Learning",
+        "issuer": "Kaggle"
+      },
+      {
+        "name": "Data Visualization",
+        "issuer": "Kaggle"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Arabic",
+        "proficiency": "Native"
+      },
+      {
+        "language": "French",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Basic"
+      }
+    ]
+  }
+  

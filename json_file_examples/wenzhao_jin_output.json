@@ -1,0 +1,128 @@
+{
+    "candidate Profile Description": {
+      "summary": "Machine Learning Engineer / Deep Learning / Data Scientist. Data Alchemist and Python Maestro! Transforming raw data into strategic gold, I bring a trail of triumphs in Python development and cutting-edge data science. From crafting scalable AI models to mastering API wizardry, let's redefine your tech landscape together!"
+    },
+    "personal_info": {
+      "name": "Wenzhao Jin",
+      "contact": {
+        "address": "Muelhauserstr.10a, 81379, Munich, Germany",
+        "phone": "(+49) 176 4271 9279",
+        "email": "jwz.pkq@gmail.com"
+      },
+      "links": {
+        "LinkedIn": "https://www.linkedin.com/in/walidnk/",
+        "GitHub": "https://github.com/walidnk"
+      }
+    },
+    "education": [
+      {
+        "institution": "Technical University of Munich",
+        "degree": "Master of Technology in Electrical and Computer Engineering",
+        "start_date": "2019",
+        "end_date": "2023",
+        "gpa": "1.8/1.0",
+        "master_thesis_grade": "1.0"
+      },
+      {
+        "institution": "North China Electric Power University",
+        "degree": "Bachelor of Technology in Smart Grid Information Engineering",
+        "start_date": "2013",
+        "end_date": "2017",
+        "awards": [
+          "First Class Scholarship (2014, 2015)",
+          "Beijing Outstanding Graduates (Top 3%)"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Algorithm Research Intern",
+        "company": "Huawei",
+        "location": "United States [Remote]",
+        "start_date": "May 2022",
+        "end_date": "Jul 2023",
+        "duration": "1 year, 2 months",
+        "achievements": [
+          "Researched graph data privacy risks and developed a Privacy-Preserving graph generation model.",
+          "Analyzed diverse graph types (social media, communication, finance) for privacy vulnerabilities.",
+          "Implemented advanced graph generative techniques (autoencoders, low rank optimization, GNNs) and designed a novel method to apply differential privacy in the field of graph generation.",
+          "Executed the project using Python, TensorFlow, and PyTorch, and employed version control with Git and SSH for efficient collaboration."
+        ]
+      },
+      {
+        "title": "C++ Developer Intern",
+        "company": "Huawei",
+        "location": "Chile [Remote]",
+        "start_date": "Jul 2021",
+        "end_date": "Oct 2021",
+        "duration": "3 months",
+        "achievements": [
+          "Conducted research and implemented lighting and shadow rendering algorithms using C++/OpenGL for AR-HUD applications.",
+          "Elevated visual realism by incorporating Phong and PBR lighting models, with a focus on optimizing shadow mapping, shadow volume, and ray tracing techniques.",
+          "Implemented robust code encapsulation practices to seamlessly integrate with team APIs, ultimately enhancing software efficiency and maintainability."
+        ]
+      }
+    ],
+    "skills": {
+      "programming_languages": [
+        "Python (A)",
+        "C/C++ (B)",
+        "SQL (B)",
+        "OpenGL (B)"
+      ],
+      "frameworks": [
+        "Keras",
+        "PyTorch",
+        "TensorFlow",
+        "JAX"
+      ],
+      "utilities": [
+        "Anaconda",
+        "Git",
+        "Jupyter Notebook",
+        "Docker",
+        "SSH"
+      ]
+    },
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Full Professional Proficiency"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Native Proficiency"
+      },
+      {
+        "language": "Arabic",
+        "proficiency": "Elementary Proficiency"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Privacy Risk Analysis in Intelligent Navigation and Path Planning for Autonomous Driving",
+        "organization": "Trustworthy Technology and Engineering Laboratory, Huawei",
+        "start_date": "Dec 2022",
+        "end_date": "Mar 2023",
+        "duration": "3 months",
+        "description": "Collaboratively researched privacy measures among car manufacturers to safeguard user data. Analyzed data requirements for intelligent path planning algorithms as part of a team effort. Designed privacy protection strategies in conjunction with colleagues to ensure both model accuracy and compliance."
+      },
+      {
+        "name": "Transformer on GAN-based image generation model",
+        "organization": "Institute of Signal Processing, Technical University of Munich",
+        "start_date": "Dec 2020",
+        "end_date": "Jun 2021",
+        "duration": "6 months",
+        "description": "Responsible for researching the effects of various Transformers, including the SAGAN model, Sparse Transformer, Axial Transformer, and Vision Transformer, on GAN-based image generation models. In-depth analysis of diverse Transformer architectures and their impact on image processing within the Python and TensorFlow environments. Managed data, updated reports, and maintained documentation."
+      },
+      {
+        "name": "Forecast of the impact of the new crown outbreak on CO2 emissions",
+        "organization": "Seminar",
+        "start_date": "Mar 2020",
+        "end_date": "Aug 2020",
+        "duration": "5 months",
+        "description": "Managed end-to-end carbon emission prediction project: collected, pre-processed data, devised models (LSTM, MLP, SVM), and visualized results. Identified optimal model through comparisons. Utilized Streamlit to create web page predicting carbon emission trends for China, United States, Germany, and Russia."
+      }
+    ]
+  }
+  

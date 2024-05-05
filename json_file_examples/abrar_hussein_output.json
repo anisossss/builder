@@ -1,0 +1,139 @@
+{
+    "candidate Profile Description": {
+      "summary": "Software Engineer with a strong background in machine learning, software development, and digital marketing. Skilled in a variety of programming languages, tools, and technologies, including Python, TensorFlow, Keras, OpenCV, Android SDK, SQL Server, HTML, CSS, JavaScript, C++, C#, and AWS. Experienced in developing and managing software applications and handling technical operations. Fluent in English, Urdu, Punjabi, and Arabic."
+    },
+    "personal_info": {
+      "name": "Abrar Hussain",
+      "contact": {
+        "phone": "773-681-4770",
+        "email": "ahussain18@hawk.iit.edu",
+        "location": "Chicago, IL, USA"
+      },
+      "links": {
+        "LinkedIn": "https://linkedin.com/in/abrar-hussain",
+        "GitHub": "http://github.com/Abrar-Hussain0"
+      }
+    },
+    "education": [
+      {
+        "institution": "Illinois Institute of Technology",
+        "degree": "Master of Science in Artificial Intelligence",
+        "start_date": "05/2025",
+        "location": "Chicago, IL, USA"
+      },
+      {
+        "institution": "University of Gujrat",
+        "degree": "Bachelor of Science in Software Engineering",
+        "start_date": "10/2020",
+        "gpa": "3.52",
+        "location": "Sialkot, Pakistan"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "Bader Metab Sahlooli General Contracting Est.",
+        "location": "Jeddah, KSA",
+        "start_date": "10/2022",
+        "end_date": "08/2023",
+        "duration": "10 months",
+        "achievements": [
+          "Collaborated with team members on Android applications and managed customer relationship software.",
+          "Handled software-related technical operations."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Alpha Bytes Software House",
+        "location": "Sialkot, Pakistan",
+        "start_date": "12/2019",
+        "end_date": "01/2022",
+        "duration": "2 years, 1 month",
+        "achievements": [
+          "Coded software changes based on specific functionalities and specifications.",
+          "Implemented and updated application modules, gaining familiarity with project management software and tools."
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "company": "University of Gujrat",
+        "location": "Sialkot, Pakistan",
+        "start_date": "03/2019",
+        "end_date": "09/2019",
+        "duration": "6 months",
+        "achievements": [
+          "Wrote a review paper on \"Software Quality Assurance in Mobile Applications\" accepted in ICCSSA 2020: International Conference on Computer Sciences, Softwares and Applications."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Emotion Detection Using Convolutional Neural Networks",
+        "date": "12/2023",
+        "description": "Implemented real-time emotion detection using OpenCV, integrating CNNs with real-time processing for human emotion detection.",
+        "github_link": "https://github.com/Abrar-Hussain0/CS584-Final-Project"
+      },
+      {
+        "title": "QuickMart – A Hybrid Multi-Vendor Application",
+        "date": "01/2021",
+        "description": "Developed an online shopping application allowing users to buy products from registered stores. Features include multi-lingual interface and AI algorithm for product recommendations.",
+        "github_link": "https://github.com/Abrar-Hussain0/QuickMart_final"
+      }
+    ],
+    "skills": {
+      "machine_learning": [
+        "Tensorflow",
+        "Keras",
+        "Matplotlib",
+        "OpenCV",
+        "Python",
+        "Scikit-learn"
+      ],
+      "tools_technologies": [
+        "Android SDK",
+        "SQL Server",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C++",
+        "C#",
+        "Social Media Management",
+        "Digital Marketing"
+      ],
+      "cloud_big_data": [
+        "Amazon Web Services (AWS) – S3, EC2, EMR",
+        "Hadoop"
+      ],
+      "languages": [
+        "English (CEFR Level – C2)",
+        "Urdu",
+        "Punjabi",
+        "Arabic"
+      ]
+    },
+    "volunteer_experience": {
+      "title": "Research Assistant",
+      "institution": "University of Gujrat",
+      "location": "Sialkot, Pakistan",
+      "start_date": "MAR 2019",
+      "end_date": "SEP 2019",
+      "achievements": [
+        "Wrote a review paper on \"Software Quality Assurance in Mobile Applications\" which was accepted in ICCSSA 2020: International Conference on Computer Sciences, Softwares and Applications."
+      ]
+    },
+    "honors_and_achievements": {
+      "award": "Graduate Pathway Scholarship at Illinois Tech",
+      "institution": "Illinois Institute of Technology",
+      "date": "AUG 2023"
+    },
+    "additional_experience": {
+      "title": "Software Engineer",
+      "company": "Endeavor Outfit",
+      "location": "Remote",
+      "start_date": "MAY 2021",
+      "achievements": [
+        "Developed a Shopify store from scratch by changing and improving its interface, functionalities, and design.",
+        "Performed some SEO and also integrated with Google Analytics for a better overview of user traffic."
+      ]
+    }
+  }

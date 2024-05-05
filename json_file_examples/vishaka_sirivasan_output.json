@@ -1,0 +1,173 @@
+{
+    "candidate Profile Description": {
+      "summary": "Skillfully crafting solutions for intricate puzzles while keeping the tech vibes lively and engaging."
+    },
+    "personal_info": {
+      "name": "Vishaka Srinivasan",
+      "dateOfBirth": "21/09/1999",
+      "nationality": "Indian",
+      "contact": {
+        "phone": "(+49) 015758212876 (Mobile)",
+        "email": "vishakaasrini@gmail.com"
+      },
+      "links": {
+        "Website": "https://github.com/vishakaasrini"
+      },
+      "address": "Germany (Home)"
+    },
+    "languages": [
+      {
+        "language": "English",
+        "level": "C1"
+      },
+      {
+        "language": "German",
+        "level": "A2"
+      },
+      {
+        "language": "Hindi",
+        "level": "C1"
+      },
+      {
+        "language": "Tamil",
+        "level": "Mother tongue"
+      }
+    ],
+    "skills": {
+      "programmingLanguagesAndTools": [
+        "Embedded Software",
+        "Python",
+        "C",
+        "C++",
+        "Deep Learning",
+        "MATLAB",
+        "Unity3D",
+        "Git (Github / Gitlab)",
+        "Azure Git",
+        "Anaconda",
+        "CUDA (GPU)",
+        "SQL(basic)",
+        "MongoDB (basic)",
+        "Data Science (Basic)",
+        "Power BI"
+      ],
+      "aiAndMachineLearning": [
+        "Pandas",
+        "Keras",
+        "PyTorch",
+        "Numpy",
+        "Matplotlib",
+        "OpenCV",
+        "TensorFlow",
+        "Scikit-learn"
+      ],
+      "other": [
+        "JSON",
+        "Linux",
+        "LaTeX",
+        "Microcontroller programming such as Arduino ESP8266 & ESP32",
+        "Software Development and Software Engineering",
+        "Image Processing",
+        "Unit Testing (Basic)",
+        "NVIDIA Jetson"
+      ]
+    },
+    "work_experience": [
+      {
+        "company": "CARL ZEISS AG",
+        "title": "MASTER THESIS",
+        "start_date": "15/05/2023",
+        "end_date": "30/11/2023",
+        "location": "Jena, Germany",
+        "description": "The thesis is on the topic: \"Differentiable Monte-Carlo simulator for scanning electron microscope images\". The thesis aims to adopt a segmented or divided approach for inverse rendering, employing a partitioned forward and backward call to get the baseline topology/geometry of the substrate."
+      },
+      {
+        "company": "UNIVERSITÄT SIEGEN",
+        "title": "UNIVERSITY RESEARCH ASSISTANT",
+        "start_date": "31/03/2022",
+        "end_date": "30/04/2023",
+        "location": "Siegen, Germany",
+        "description": "The work is mainly in the field of non-linear convex optimization. 1. Main tasks include increasing the efficiency of the code and enabling GPU-acceleration 2. Developing Python code for pseudocode and logic 3. Creating unit tests for various functions"
+      },
+      {
+        "company": "UNIVERSITÄT SIEGEN, INTERNATIONAL PRODCUTION AND MANAGEMENT (IPEM) DEPARTMENT",
+        "title": "UNIVERSITY RESEARCH ASSISTANT",
+        "start_date": "15/11/2022",
+        "end_date": "31/07/2023", 
+        "location": "Siegen, Germany",
+        "description": "The project involves implementing reinforcement learning for assembly line automation. My responsibilities include: 1. Interfacing PLC with the database and the MQTT server 2. Working on the Gym environment"
+      },
+      {
+        "company": "ACCELO PVT LTD",
+        "title": "SOFTWARE DEVELOPER INTERN",
+        "start_date": "15/12/2020",
+        "end_date": "15/06/2021",
+        "location": "Mumbai, India",
+        "description": [
+          "Building and maintaining dashboards, reports, and visualization tools",
+          "Designing and developing a software stack for Accelo's real-time fleet data services",
+          "Testing and validation programs to ensure the robustness of system architecture and data flow",
+          "Identifying and Integrating real-time sensor data with the system in Python",
+          "Utilizing Matlab to plot and analyse the sensor and camera data"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Universität Siegen",
+        "degree": "MASTERS IN COMPUTER SCIENCE",
+        "start_date": "05/10/2021",
+        "end_date": "CURRENT",
+        "location": "Germany"
+      },
+      {
+        "institution": "K.J Somaiya of Institute of Engineering and Information Technology",
+        "degree": "BACHELORS IN ELECTRONICS ENGINEERING",
+        "start_date": "31/07/2017",
+        "end_date": "31/05/2021",
+        "location": "India"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Reinforcement learning for a simple jump and run game",
+        "description": "This project is developed using Unity Framework implementing the Reinforcement Learning algorithm PPO to train the ML-Agent to Jump and run and earn Reward points by jumping over obstacles and collecting coins. Each level has increasing difficulties and important choices for the Agent to make.",
+        "source": "https://github.com/vishakaasrini/Unity_Jump_and_Run"
+      },
+      {
+        "name": "Human Activity Recognition (HAR) using Deep Learning",
+        "description": "The aim of the project is to classify Human Activity during a basketball using accelerometer sensor data with the help of Deep Neural Networks. The Task included analysis of the data using Power BI and identifying potential imbalances in the dataset followed by finding solutions to increase accuracy based on these pitfalls found. Three Models, Single LSTM, double stacked LSTM, and Transfer learning using ResNet were implemented. Different approaches such as K-Fold and LOSO were also experimented on. Our implementation has outperformed the benchmark algorithm. For example, For the drill: the expected results (F1 Score) for some labels were just 5-15% whereas our model gave 21% and above.",
+        "source": "https://github.com/vishakaasrini/Human_Activity_Recognition"
+      },
+      {
+        "name": "Image Classification Challenge",
+        "description": [
+          "The aim of the project was to work on a dataset from Kaggle and to classify the corresponding images accurately.",
+          "The classification challenge was a part of the Deep Learning competition held at my university. Various Neural networks such as Resnet, Alexnet, and Imagenet were compared for Image classification.",
+          "The project was completed with 95% accuracy and secured 2nd Position in the challenge. The entire project was coded in PyTorch."
+        ],
+        "source": "https://github.com/vishakaasrini/Image-Classification"
+      },
+      {
+        "name": "Handling Ambiguous Data in Object Detection",
+        "description": "The Project proposes a way to handle ambiguous data in the MOT dataset and presents a possible solution for reducing false positives in the output by IoU weighting."
+      },
+      {
+        "name": "Robotics Project",
+        "description": [
+          "I have actively participated in a range of robotics undertakings, encompassing the development of a step-climbing robot, a quadrupedal robot, and several other pioneering projects.",
+          "I also was part of a team participating in ABU Robocon and ranked 3rd in India in the year 2018."
+        ],
+        "videoLinks": [
+          "https://youtu.be/phQTsFxO4Q8",
+          "https://youtu.be/Onfw66e-W_M"
+        ]
+      },
+      {
+        "name": "Bachelor Thesis",
+        "title": "Voiceless Speech recognition",
+        "description": "The system aims to allow the users to converse silently with a computing device. It thus enables the user to communicate with devices and AI assistants in a voiceless and discrete manner. The user's intention to speak and internal speech is characterized by neuromuscular signals by the speech articulating muscles captured by this system to reconstruct this speech.",
+        "paperLink": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866440"
+      }
+    ]
+  }

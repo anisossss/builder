@@ -1,0 +1,114 @@
+{
+    "candidate Profile Description": {
+      "summary": "I am a recent graduate with a Master's degree in Artificial Intelligence passionate about programming, mathematics, and deep learning."
+    },
+    "personal_info": {
+      "name": "Andrei Vasile Udriste",
+      "contact": {
+        "email": "udriste.andrei.98@gmail.com",
+        "phone": "+31-644077573"
+      },
+      "links": {
+        "LinkedIn": "LinkedIn",
+        "GitHub": "GitHub"
+      }
+    },
+    "work_experience": [
+      {
+        "company": "Applied Quantum Algorithms (aQa)",
+        "title": "Research Associate",
+        "start_date": "April 2023",
+        "end_date": "Present",
+        "location": "Leiden, Netherlands",
+        "responsibilities": [
+          "Utilized various techniques from the domain of Topological Data Analysis and Data Mining to extract valuable insights into complex datasets.",
+          "Developed a robust mathematical model predicting the behavior of Variational Quantum Algorithms, incorporating key assumptions to ensure accurate and reliable results."
+        ]
+      },
+      {
+        "company": "AutoFill Technologies B.V.",
+        "title": "AI Support",
+        "start_date": "September 2021", 
+        "end_date": "August 2023",
+        "location": "Wassenaar, Netherlands",
+        "responsibilities": [
+          "Successfully implemented an object tracking model for car detection using OpenCV.",
+          "Developed an image selection model using active learning techniques, streamlining the data annotation process, resulting in improved annotation efficiency and data quality.",
+          "Performed data annotations, to enhance the accuracy and robustness of machine learning models, using CVAT and DarwinV7."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Vrije Universiteit Amsterdam",
+        "degree": "MSc Artificial Intelligence",
+        "start_date": "September 2020",
+        "end_date": "August 2023",
+        "location": "Amsterdam, Netherlands",
+        "achievements": [
+          "My Master's Thesis was realized in collaboration with Leiden University: \"Relation between energy landscape and observable spectrum in Variational Quantum Algorithms\". The final thesis grade was 9/10.",
+          "Teaching Assistant for Networks and Graphs, Multi-Agent Systems, and Human-Computer Interaction.",
+          "Relevant courses: Deep Learning, Advanced Machine Learning, Data Mining Techniques."
+        ]
+      },
+      {
+        "institution": "University POLITEHNICA of Bucharest",
+        "degree": "BSc Mechatronics Engineering", 
+        "start_date": "September 2016",
+        "end_date": "June 2020",
+        "location": "Bucharest, Romania",
+        "achievements": [
+          "Obtained a final grade of 10/10 for the Thesis and 9/10 for the Bachelor."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Object-detection projects",
+        "source": "GitHub",
+        "description": [
+          "Employed Ultralytics and OpenCV to train a YOLOv8-based object-detection model specialized in car damage detection.",
+          "Applied a pre-trained YOLOv8 model for inference on a subset of the COCO dataset."
+        ]
+      },
+      {
+        "name": "AI Games",
+        "source": "GitHub", 
+        "description": [
+          "Showcased programming versatility by creating interactive games from scratch using Python and the Pygame library, such as Snake and Space Shooters.",
+          "Implemented an artificial intelligence-driven player functionality for both games using the NEAT library."
+        ]
+      }
+    ],
+    "interests": "In my personal time, you'll often find me in the kitchen, transforming different ingredients into delicious meals. I also have a strong passion for running, helping me maintain an active and balanced lifestyle.",
+    "skills": {
+      "programmingLanguages": [
+        "Python",
+        "JavaScript",
+        "MATLAB",
+        "C++"
+      ],
+      "frameworks": [
+        "PyTorch",
+        "NEAT",
+        "Matplotlib",
+        "NumPy",
+        "Scipy",
+        "Pandas",
+        "scikit-learn", 
+        "TensorBoard"
+      ],
+      "areasOfExpertise": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Visualization",
+        "Data Science",
+        "Evolutionary Algorithms",
+        "Feature Engineering",
+        "Information Theory",
+        "Quantum Computing",
+        "Mechatronics",
+        "Robotics"
+      ]
+    }
+  }

@@ -1,0 +1,85 @@
+{
+    "candidate Profile Description": {
+      "summary": "Amr Alazali, a Machine Learning Research Assistant at UC Berkeley College of Chemistry, is skilled in PyTorch, TensorFlow, and data pipeline development for mass spectrometry data analysis. With experience in computational genomics and neuroscience, Amr has contributed to research in gene function and Alzheimer's gene therapies. Amr is also involved in projects such as developing a Version Control System, fine-tuning politically biased LLMs, and applying deep reinforcement learning in quantitative trading."
+    },
+    "personal_info": {
+      "name": "Amr Alazali",
+      "contact": {
+        "phone": "818-660-8103",
+        "email": "amralazali@berkeley.edu",
+        "linkedin": "https://www.linkedin.com/in/amr-alazali-a799611b8/"
+      }
+    },
+    "education": [
+      {
+        "institution": "University of Wisconsin-Madison",
+        "location": "Madison, WI",
+        "degree": "PhD in Computer Science",
+        "start_date": "August 2024"
+      },
+      {
+        "institution": "University of California, Berkeley",
+        "location": "Berkeley, CA",
+        "degree": "Bachelors in Computer Science; Bachelors in Molecular and Cellular Biology",
+        "start_date": "August 2020",
+        "end_date": "May 2024",
+        "minor": "Electrical Engineering"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Machine Learning Research Assistant",
+        "company": "UC Berkeley College of Chemistry",
+        "location": "Berkeley, CA",
+        "start_date": "January 2024",
+        "end_date": "Present",
+        "responsibilities": [
+          "Training deep learning models using PyTorch and TensorFlow for predicting protein reactivity.",
+          "Developing data pipelines for mass spectrometry data processing and cleaning.",
+          "Performing chemoproteomic and motif analysis on proteins."
+        ]
+      },
+      {
+        "title": "Computational Genomics Research Assistant",
+        "company": "UC Berkeley Computational Genomics Group",
+        "location": "Berkeley, CA",
+        "start_date": "January 2023",
+        "end_date": "Present",
+        "responsibilities": [
+          "Identifying significant variants in genomes and their impact on gene function.",
+          "Engineering data pipelines for processing large genomic datasets.",
+          "Creating interactive visualizations of genomic data using R-Shiny."
+        ]
+      },
+      {
+        "title": "Computational Neuroscience Research Assistant",
+        "company": "UCSF Weill Institute for Neurosciences",
+        "location": "San Francisco, CA",
+        "start_date": "June 2022",
+        "end_date": "December 2022",
+        "responsibilities": [
+          "Developing a Python tool for Alzheimer's gene therapy research.",
+          "Analyzing genomic datasets to identify common mutations in the population.",
+          "Designing algorithms for searching genomes for drug target sites.",
+          "Integrating project codebase with algorithms and presenting research findings."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Version Control System",
+        "technologies": ["Python", "Java"],
+        "description": "Developed a Java-based Version Control System with features like branching, merging, commits, and checkout. Utilized graph theory for efficient algorithms and conducted extensive testing."
+      },
+      {
+        "title": "Finetuning a Politically Biased LLM",
+        "technologies": ["Python", "PyTorch", "TensorFlow"],
+        "description": "Finetuned GPT2 on politically biased articles using LoRA model. Evaluated bias using sentiment analysis and BERTScore."
+      },
+      {
+        "title": "Deep Reinforcement Learning for Quantitative Trading",
+        "technologies": ["Python", "PyTorch", "TensorFlow"],
+        "description": "Implemented five reinforcement learning algorithms for stock trading on DOW 30 tickers. Proposed a novel algorithm with an adversarial agent."
+      }
+    ]
+  }

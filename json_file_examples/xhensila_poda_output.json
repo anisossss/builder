@@ -1,0 +1,130 @@
+{
+    "candidate Profile Description": {
+      "summary": "Machine Learning Engineer with expertise in Natural Language Processing (NLP). Skilled in software development, deployment, and operations, with proficiency in various tools and libraries including Hugging Face, SpaCy, DeepPavlov, RASA, NLTK, Docker, Kubernetes, Git Actions, AWS, PyTorch, and more. Experienced in developing and deploying conversational AI agents and implementing advanced NLP techniques."
+    },
+    "personal_info": {
+      "name": "Xhensila Poda",
+      "contact": {
+        "phone": "+355 67 532 6287",
+        "email": "xpoda.info@gmail.com",
+        "location": "Tirana, Albania"
+      },
+      "links": {
+        "LinkedIn": "https://linkedin.com/in/xhensilapoda/",
+        "GitHub": "https://github.com/xhensilapoda"
+      }
+    },
+    "education": [
+      {
+        "institution": "University of Tirana",
+        "degree": "Master of Science in Computer Science",
+        "start_date": "2016",
+        "end_date": "2018"
+      },
+      {
+        "institution": "University of Tirana",
+        "degree": "Bachelor of Computer Science",
+        "start_date": "2013",
+        "end_date": "2016"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Trainer (Machine Learning | NLP)",
+        "company": "SDA",
+        "location": "Tirana, Albania",
+        "start_date": "April 2022",
+        "end_date": "Present",
+        "duration": "Ongoing",
+        "responsibilities": [
+          "Developing teaching materials focused on Sequence Models, including RNNs, LSTMs, GRUs, and Transformers.",
+          "Ensuring that the learning materials are accessible and easily understandable to students with varying levels of familiarity with the subject matter.",
+          "Providing hands-on examples using Python, Scikit-learn, PyTorch, Matplotlib, Seaborn, Pandas, Numpy, and NLTK for a practical understanding of real-world applications.",
+          "Creating an inclusive and supportive learning environment."
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer | NLP",
+        "company": "CARDO AI",
+        "location": "Tirana, Albania",
+        "start_date": "January 2022",
+        "end_date": "May 2023",
+        "duration": "1 year, 4 months",
+        "responsibilities": [
+          "Led the development of a conversational AI agent, a critical component of the company's main product.",
+          "Collaborated closely with the business team to gather requirements, ensuring alignment with business objectives and user needs.",
+          "Utilized Rasa conversational AI Framework and demonstrated a deep understanding of Rasa modules like Rasa Core and Rasa NLU, as well as Rasa pre-trained models including DIET (Dual Intent Entity Transformer).",
+          "Applied advanced NLP techniques, particularly focusing on entity extraction and text classification.",
+          "Implemented two interaction modes for the chatbot, allowing conventional ask-and-answer interactions and an interactive mode where users could correct intent classifications and entity recognitions.",
+          "Utilized Elasticsearch to store data generated from interactive sessions, enabling weekly retraining of the model for continuous improvement.",
+          "Demonstrated a commitment to ongoing improvement in the chatbot's quality through research, with a key emphasis on using Knowledge Graphs to enrich the user experience and data retrieval capabilities.",
+          "Showcased expertise in developing Restful APIs using FastAPI, Kserve, and Pydantic for comprehensive data validation.",
+          "Deployed the chatbot as a Slack Application using Docker and Kubernetes.",
+          "Developed and implemented an evaluation framework for zero-shot evaluation of Sentence Transformer models, utilizing metrics like MRR(Mean Reciprocal Rank), Recall, and Precision. The implementation involved leveraging frameworks such as Mlflow and Optuna."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Sciant",
+        "location": "Tirana, Albania [Remote]",
+        "start_date": "July 2021",
+        "end_date": "December 2021",
+        "duration": "6 months",
+        "responsibilities": [
+          "Worked as a Software and ML Engineer on an AI assistant for the hospitality industry.",
+          "Contributed to developing the Entity Extraction pipeline, enabling the extraction of crucial information from reservation emails, thereby enhancing the assistant's ability to understand and respond effectively.",
+          "Developed a training pipeline for the deployed model to retrain the model with new data generated from live user interactions.",
+          "Enhanced the user interface and overall experience of the AI assistant on the front end."
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "company": "Kreatx",
+        "location": "Tirana, Albania",
+        "start_date": "July 2018",
+        "end_date": "June 2021",
+        "duration": "3 years",
+        "responsibilities": [
+          "Responsible for the development of a user-friendly, low-code report designer tool. Built entirely in Javascript, this application empowered users to effortlessly create polished reports and data visualizations through a simple drag-and-drop interface.",
+          "Developed a web-based annotation tool using JavaScript and PHP for creating labeled data in support of Named Entity Recognition tasks.",
+          "Responsible for designing, developing, and maintaining numerous API endpoints using OpenAPI standards and Swagger for comprehensive API documentation.",
+          "Implemented Named Entity Recognition for the Albanian language by training a model with LSTM architecture and leveraging FastText pre-trained word embeddings."
+        ]
+      },
+      {
+        "title": "Machine Learning Engineer | Internship",
+        "company": "Konfuzio",
+        "location": "Tirana, Albania [Remote]",
+        "start_date": "February 2021",
+        "end_date": "May 2021",
+        "duration": "3 months",
+        "responsibilities": [
+          "Worked under the supervision of the Head of AI to gain an understanding of their Information Extraction pipeline.",
+          "Developed and deployed a Python package on PyPI, making the core functionalities of the Information Extraction pipeline accessible to the public.",
+          "Created documentation outlining the OCR process and OCR engines employed in Konfuzio's Information Extraction pipeline."
+        ]
+      },
+      {
+        "title": "AI Intern",
+        "company": "TechQuartier's AiTalents",
+        "location": "Tirana, Albania [Remote]",
+        "start_date": "November 2020",
+        "end_date": "January 2021",
+        "duration": "2 months",
+        "responsibilities": [
+          "Collaborated with a four-member team and a German startup to develop an AI-powered solution for extracting pertinent information from annual reports."
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Albanian",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Professional"
+      }
+    ]
+  }
+  

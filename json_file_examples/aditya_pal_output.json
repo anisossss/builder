@@ -1,0 +1,154 @@
+{
+    "candidate Profile Description": {
+      "summary": "Graduate Student Researcher in Machine Learning at Georgia Institute of Technology with experience as a Senior Software Engineer at Goldman Sachs. Specialized in Large Language Models (LLMs) for Smart Contract Vulnerability Detection, cloud platform initiatives, and machine learning models for anomaly detection in API requests. Skilled in Java, Python, Bash, Terraform, AWS, Hadoop, Spark, Kafka, Sagemaker, Jmeter, RDBMS, NoSQL, SDLC, Gitlab CI/CD, and Docker."
+    },
+    "personal_info": {
+      "name": "Aditya Pal",
+      "contact": {
+        "phone": "+1 440 452 0794",
+        "whatsapp": "+91 8986820404",
+        "email": "aditya.pal.science@gmail.com"
+      },
+      "links": {
+        "GitHub": "http://github.com/sciencepal",
+        "LinkedIn": "http://in.linkedin.com/in/adityapal1"
+      }
+    },
+    "experience": [
+      {
+        "title": "Graduate Student Researcher in Machine Learning",
+        "company": "Georgia Institute of Technology",
+        "location": "",
+        "start_date": "Jan 2024",
+        "end_date": "Present",
+        "duration": "",
+        "description": "Working on LLMs for Smart Contract Vulnerability Detection as part of Data Systems Research Group advised by Ling Liu."
+      },
+      {
+        "title": "Senior Software Engineer (Associate) | Transaction Banking (TxB) Platform Team | Platform Solutions",
+        "company": "Goldman Sachs",
+        "location": "Bengaluru",
+        "start_date": "Apr 2021",
+        "end_date": "Aug 2023",
+        "duration": "2 years, 4 months",
+        "description": "Tech Lead driving TxB Cloud Platform initiatives; Global owner of BU's Kafka / Schema Registry & Email infra; Team ML lead. Developed a Retrieval Augmented Generation (RAG) chatbot using Langchain, VectorDB (faiss), Streamlit, LLMs on TxB Confluence doc pages on Sagemaker; implemented RLHF. Built an XGBoost ML model to detect anomalies in API requests using certificate name & IP Addresses from Kong API Gateway. Helped set up TxB's training & inference infrastructure (CI/CD, MLOps on Sagemaker) following firm-wide DSML standards. Designed Kafka Cross Region Replication for controlled failover of MSK Cluster to secondary region using VPC Peering & MirrorMaker2 with minimal downtime / message loss. Beta tested AWS MSK team's new replication offering in Q3 2023. TxB's primary Kafka SME responsible for cluster upgrades & resiliency testing. Designed and built a Spring Email Service app using AWS SES with bounce-back / opens / clickstream notifications handling - delivers 500+ emails per day to US & UK clients. Implemented SES Cross domain support saving infra costs & operational risk. Set up blue/green on Web Gateway: added path & host-based ALBs to B/G target routing - achieved Zero Downtime deployments. Implemented Step AutoScaling of Kong API GW based on average requests; Held discussions with AWS for Network Firewall features."
+      },
+      {
+        "title": "Software Engineer (Analyst) | Middleware Engineering Platform Team | Engineering Division",
+        "company": "Goldman Sachs",
+        "location": "Bengaluru",
+        "start_date": "Jun 2019",
+        "end_date": "Mar 2021",
+        "duration": "1 year, 9 months",
+        "description": "Built inventory management portal for MemSQL cluster, DB, login, host/node management: used by firm users to manage DB resources. DB Access Control Workflow for SQL Server allowing users to promote & execute role-based queries on DBs with Audit reporting. Built Grafana Monitoring & Reporting Dashboard with Prometheus for SRE & Jaegar for tracing: reduced Prod Host Access by 30%."
+      },
+      {
+        "title": "Intern",
+        "company": "Goldman Sachs",
+        "location": "Bengaluru, India",
+        "start_date": "Jan 2019",
+        "end_date": "May 2019",
+        "duration": "4 months",
+        "description": "Optimized latency of distributed SQL collection workflow from 24 hours to 20 minutes - added concurrency & compression in Hive. Multithreaded application using Kafka & Spark streaming to aggregate real-time input SQL - handles few terabytes of data per month."
+      },
+      {
+        "title": "Summer Intern",
+        "company": "Tata Technologies Ltd.",
+        "location": "Jamshedpur",
+        "start_date": "May   2017",
+        "end_date": "July 2017",
+        "duration": "2 months",
+        "description": "Trained a Neural Net for classification of failures in servers; achieved 81% accuracy on the model created using Tensorflow. Built Android app to automate vehicle test data entry to online inventory; reduced 1000+ yearly man-hours of manual data entry."
+      }
+    ],
+    "education": [
+      {
+        "title": "Georgia Institute Of Technology",
+        "degree": "MS Computer Science | Dual Specialization: Machine Learning, Computer Perception/Robotics",
+        "location": "",
+        "start_date": "2022",
+        "end_date": "Present",
+        "gpa": "3.87",
+        "courses": [
+          "AI",
+          "ML",
+          "Reinforcement Learning",
+          "Cloud Computing",
+          "LLMs",
+          "Systems for AI: LLMs"
+        ]
+      },
+      {
+        "title": "Birla Institute of Technology, Mesra",
+        "degree": "Bachelor of Engineering | Computer Science & Engineering",
+        "location": "",
+        "start_date": "2015",
+        "end_date": "2019",
+        "gpa": "8.36 / 10"
+      }
+    ],
+    "research_projects": [
+      {
+        "title": "GenRec – Novel Recommender System using audience perceived genre compositions of movies / TV Series",
+        "citations": "9",
+        "link": "https://doi.org/10.1109/ICCCS49678.2020.9276893"
+      },
+      {
+        "title": "Vartani Spellcheck – Context-Sensitive Correction of OCR-generated Hindi Text Using BERT & Levenshtein Distance",
+        "citations": "6",
+        "link": "https://dx.doi.org/10.21227/zm1y-b270"
+      },
+      {
+        "title": "Deployed Big Data services – Hadoop ecosystem, Spark, Kafka on an 8 node cluster using docker containers",
+        "link": "https://github.com/sciencepal/dockers/tree/master/hadoop_hive_spark_docker"
+      }
+    ],
+    "leadership_extra_curriculars": [
+      {
+        "title": "CS7641 ML TA at GaTech",
+        "link": "https://hub.docker.com/r/sciencepal/coursera_postgres_py2"
+      },
+      {
+        "title": "Beta Tester, Coursera"
+      },
+      {
+        "title": "Alpha Tester, deeplearning.ai"
+      },
+      {
+        "title": "Problem Setter, HackerEarth"
+      },
+      {
+        "title": "DSML Writer, InterviewBit"
+      },
+      {
+        "title": "Coordinator, ACM BIT Mesra"
+      },
+      {
+        "title": "Mentored 5+ interns at GS"
+      },
+      {
+        "title": "IEEE Paper Reviewer"
+      }
+    ],
+    "awards_achievements": [
+      {
+        "title": "NTSE scholar 2011, Govt. of India"
+      },
+      {
+        "title": "KVPY fellow, Govt. of India, IISc Blr"
+      },
+      {
+        "title": "ACM ICPC Asia Regionalist 2018"
+      },
+      {
+        "title": "50+ CS / ML MOOCs, certifications"
+      },
+      {
+        "title": "Top ML Voice on Linkedin (top 2%)"
+      },
+      {
+        "title": "Top 10 in GS Global NLP Hackathon"
+      }
+    ]
+  }
+  

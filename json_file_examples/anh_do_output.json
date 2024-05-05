@@ -1,0 +1,160 @@
+{
+    "candidate Profile Description": {
+      "summary": "Anh Do, a PhD student in Computer Science at Johns Hopkins University, specializes in multi-armed bandits and reinforcement learning, focusing on algorithm design for multi-agent learning with theoretical guarantees. He has research experience at VinAI Research and Hiip Asia, Inc, contributing to projects on regret bounds in episodic MDPs and sentiment analysis for recommendation systems."
+    },
+    "personal_info": {
+      "name": "Anh Do",
+      "contact": {
+        "email": "ado8@jhu.edu",
+        "website": "https://anhddo.github.io",
+        "github": "https://github.com/anhddo",
+        "location": "340 Malone Hall, 3400 N Charles St, Baltimore, MD 21218"
+      }
+    },
+    "education": [
+      {
+        "institution": "Johns Hopkins University",
+        "degree": "PhD in Computer Science",
+        "advisor": "Raman Arora",
+        "start_date": "2021",
+        "end_date": "Present",
+        "location": "Baltimore, MD"
+      },
+      {
+        "institution": "John von Neumann Institute - Vietnam National University",
+        "degree": "M.Sc in Computer Science",
+        "advisor": "Yasin Abbasi-Yadkori",
+        "thesis": "Regret Bounds for Optimistic Value Iteration",
+        "start_date": "2018",
+        "end_date": "2021",
+        "location": "Vietnam"
+      },
+      {
+        "institution": "HCM University of Technology - Vietnam National University",
+        "degree": "B.Eng (Honors) in Computer Science",
+        "start_date": "2011",
+        "end_date": "2016",
+        "location": "Vietnam"
+      }
+    ],
+    "research_experience": [
+      {
+        "position": "Research Resident",
+        "institution": "VinAI Research",
+        "advisor": "Yasin Abbasi-Yadkori",
+        "project": "Regret Bound for Optimistic Policy Iteration in Episodic MDPs",
+        "start_date": "Sep 2019",
+        "end_date": "Aug 2021",
+        "location": "Hanoi, Vietnam"
+      },
+      {
+        "position": "Research Engineer",
+        "institution": "Hiip Asia, Inc",
+        "supervisor": "Elon Nguyen",
+        "project": "Built a sentiment analysis of a recommendation system for a platform of 10,000 influencers and 2,000,000 followers.",
+        "start_date": "May 2018",
+        "end_date": "Sep 2018",
+        "location": "Ho Chi Minh, Vietnam"
+      }
+    ],
+    "research_projects": [
+      {
+        "title": "Adaptive Multi-agent learning with Heterogeneous Multi-Armed Bandit Environment",
+        "description": "Designing an algorithm that is agnostic to the heterogeneity of the bandit environment, addressing challenges in the heterogeneous bandit environments."
+      },
+      {
+        "title": "Cooperative Multi-agent Reinforcement Learning",
+        "description": "Building TanksWorld, a novel testbed for team versus team tank combat, to create a dynamic MARL environment with an explicit tradeoff between performance and safety. Experienced with training deep MARL using MA-PPO on OpenAI Gym Interface."
+      }
+    ],
+    "teaching_experience": [
+      {
+        "position": "Teaching Assistant",
+        "course": "Machine Learning (CS 475/675)",
+        "institution": "Johns Hopkins University",
+        "start_date": "Fall 2023"
+      },
+      {
+        "position": "Course Assistant",
+        "course": "Machine Learning (CS 475/675)",
+        "institution": "Johns Hopkins University",
+        "start_date": "Spring 2023"
+      },
+      {
+        "position": "Teaching Assistant",
+        "course": "Introduction to Programming (CS501127)",
+        "institution": "HCM University of Technology - Vietnam National University",
+        "start_date": "Spring 2016",
+        "end_date": "Spring 2019"
+      },
+      {
+        "position": "Teaching Assistant",
+        "course": "Computer Graphics (CS505005)",
+        "institution": "HCM University of Technology - Vietnam National University",
+        "start_date": "Fall 2017"
+      }
+    ],
+    "software_projects": [
+      {
+        "title": "Interactive wine-quality visualization",
+        "tools": ["Python", "Flask", "Dash", "Boostrap", "numpy", "pandas"],
+        "links": ["https://github.com/anhddo/wine-quality-visualization",  "http://wine-quality-anhddo.herokuapp.com"]
+    },
+    {
+      "title": "Tetris Games",
+      "tools": ["C#", "Unity3D engine"],
+      "links": ["https://github.com/anhddo/tetris", "https://www.youtube.com/watch?v=QcL5f8BcxZI"]
+    },
+    {
+      "title": "Bloxorz Game",
+      "tools": ["Java", "LibGDX"],
+      "links": ["https://github.com/anhddo/bloxorz", "https://www.youtube.com/watch?v=mPiqcsG0Ll8"]
+    },
+    {
+      "title": "Pedestrian detection tools",
+      "tools": ["Matlab"],
+      "links": ["https://github.com/anhddo/DensityBasedDetection", "https://www.youtube.com/watch?v=99etHIX_TXs&feature=youtu.be"]
+    }
+  ],
+  "open_source_contribution": [
+    {
+      "project": "chocolatey-packages",
+      "link": "https://github.com/chocolatey-community/chocolatey-packages/commit/892340cbf1c40ab41181436592f45190cb799648"
+    }
+  ],
+  "skills": {
+    "programming_languages": ["Python", "C/C++", "C#", "Java", "Javascript"],
+    "frameworks": ["Pytorch", "Numpy", "Scikit-learn", "Matplotlib", "Unity 3D Machine Learning Agents framework"]
+  },
+  "honors_awards": [
+    {
+      "award": "NeurIPS Scholar & Travel Award",
+      "year": "2023"
+    },
+    {
+      "award": "3rd runner up, Hackathon Vietnam AI Grand Challenge - Southern Region",
+      "year": "2019"
+    },
+    {
+      "award": "First prize, John von Neumann Institute Hackathon",
+      "year": "2019"
+    },
+    {
+      "award": "First prize, Entropy - Data Analytics Competition",
+      "year": "2018"
+    },
+    {
+      "award": "SAI Digital scholarship, In recognition of outstanding academic achievement",
+      "year": "2015"
+    },
+    {
+      "award": "VNG scholarship, In recognition of outstanding academic performance",
+      "year": "2014"
+    },
+    {
+      "award": "Gameloft scholarship, In honor of an excellent academic performance at Ho Chi Minh University of Technology",
+      "year": "2013"
+    }
+  ]
+}
+  

@@ -1,0 +1,87 @@
+{
+    "candidate Profile Description": {
+      "summary": "An experienced Machine Learning engineer with a master's degree in robotics & AI. Skilled with both traditional and deep Machine Learning and Computer Vision algorithms. Primarily focused on Python, PyTorch, and Linux. Learning MLOps."
+    },
+    "personal_info": {
+      "name": "Tomislav Rekic",
+      "contact": {
+        "email": "tomislavrekic@gmail.com"
+      },
+      "links": {
+        "Website": "https://tomislavrekic.github.io/",
+        "GitHub": "https://github.com/tomislavrekic",
+        "LinkedIn": "https://www.linkedin.com/in/tomislav-rekic/"
+      }
+    },
+    "education": [
+      {
+        "institution": "Faculty of Electrical Engineering, Computer Science and Information Technology Osijek",
+        "degree": "Master's degree in Robotics and Artificial Intelligence",
+        "start_date": "Oct 2019",
+        "end_date": "Sep 2022",
+        "location": "Osijek, Croatia"
+      },
+      {
+        "institution": "Faculty of Electrical Engineering, Computer Science and Information Technology Osijek",
+        "degree": "Bachelor's degree in Computer Science",
+        "start_date": "Jul 2016",
+        "end_date": "Sep 2019",
+        "location": "Osijek, Croatia"
+      }
+    ],
+    "work_experience": [
+      {
+        "company": "Protostar Labs",
+        "title": "Machine Learning Engineer",
+        "start_date": "Aug 2021",
+        "end_date": "Jun 2023",
+        "location": "Osijek, Croatia",
+        "description": "Developed automated visual quality inspection systems using various Machine Learning and Computer Vision algorithms. Worked on drone vision systems running on ROS and created an API for GPS devices using Flask."
+      },
+      {
+        "company": "Protostar Labs",
+        "title": "Machine Learning Engineer Intern",
+        "start_date": "Sep 2020",
+        "end_date": "Nov 2020",
+        "location": "Osijek, Croatia",
+        "description": "Developed multiple computer vision algorithms using OpenCV and PyTorch for detecting faults on MDF boards and trained a YOLOv5 network to detect products with missing top covers."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Predicting fates of passengers aboard the Titanic",
+        "start_date": "Jul 2023",
+        "end_date": "Sep 2023",
+        "description": "Used Pandas for data exploration and preprocessing. Utilized MLFlow for experiment tracking and Random Forest model for prediction. Deployed the model as a Docker container."
+      },
+      {
+        "name": "Robotic Palletization using Computer Vision",
+        "start_date": "Feb 2022",
+        "end_date": "Sep 2022",
+        "description": "Master's thesis project. Developed a robotic system that detected objects, grabbed them, and placed them on ArUco markers using a UR5 robot arm, Robotiq 3-Finger gripper, and Intel RealSense LIDAR camera."
+      },
+      {
+        "name": "AI Agent for Pong",
+        "start_date": "Jun 2020",
+        "end_date": "Jul 2020",
+        "description": "Trained an AI agent to play a game of Pong inside the OpenAI Gym using PyTorch."
+      },
+      {
+        "name": "Android app for animal classification",
+        "start_date": "Feb 2019",
+        "end_date": "Sep 2019",
+        "description": "Bachelor's thesis project. Developed an app that uses the MobileNetV2 CNN to classify pictures of animals, trained in TensorFlow using Transfer Learning."
+      }
+    ],
+    "publications": [
+      {
+        "title": "Visual Quality Inspection of Rotors and Stators",
+        "authors": "T. Rekic, I. Beissmann, A. Cebo, and F. Novoselnik",
+        "year": "2022",
+        "conference": "2022 International Conference on Smart Systems and Technologies (SST)",
+        "pages": "319-324",
+        "doi": "10.1109/SST55530.2022.9954883"
+      }
+    ]
+  }
+  

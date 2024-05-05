@@ -1,0 +1,159 @@
+{
+    "candidate Profile Description": {
+      "name": "Fayaz Moqueem Mohammed",
+      "contact": {
+        "phone": "+1 (857) 832-0756",
+        "email": "fayaz@bu.edu",
+        "location": "Boston, MA",
+        "linkedin": "https://www.linkedin.com/in/mohammed-fayaz-moqueem-866308227/",
+        "github": "https://github.com/fayazm21"
+      },
+      "summary": "A dedicated and innovative AI enthusiast with a passion for harnessing the power of technology to solve real-world problems."
+    },
+    "education": [
+      {
+        "institution": "Massachusetts Institute of Technology",
+        "location": "Cambridge, MA",
+        "degree": "MAS.664 AI for Impact: Venture Studio",
+        "start_date": "February 2024",
+        "end_date": "Present",
+        "duration": "Ongoing"
+      },
+      {
+        "institution": "Boston University",
+        "location": "Boston, MA",
+        "degree": "M.S. in Artificial Intelligence",
+        "start_date": "September 2022",
+        "end_date": "January 2024",
+        "duration": "1 year 4 months"
+      },
+      {
+        "institution": "Osmania University",
+        "location": "Hyderabad, India",
+        "degree": "B.E. in Computer Science",
+        "start_date": "August 2018",
+        "end_date": "June 2022",
+        "duration": "3 years 10 months"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Teaching Assistant",
+        "company": "Boston University",
+        "location": "Boston, MA",
+        "start_date": "September 2023",
+        "end_date": "January 2024",
+        "duration": "4 months",
+        "responsibilities": [
+          "Guided students through Python-based ML model training.",
+          "Assisted in project development and delivered engaging lab lectures."
+        ]
+      },
+      {
+        "title": "Research Assistant",
+        "company": "Boston University",
+        "location": "Boston, MA",
+        "start_date": "January 2023",
+        "end_date": "August 2023",
+        "duration": "7 months",
+        "responsibilities": [
+          "Led the training of GPT-3, BERT, and DALL-E models for ethical AI content creation.",
+          "Managed comprehensive datasets and contributed to the creation of a novel framework."
+        ]
+      },
+      {
+        "title": "Data Analyst",
+        "company": "SID Global Solutions",
+        "location": "Hyderabad, India",
+        "start_date": "September 2021",
+        "end_date": "June 2022",
+        "duration": "9 months",
+        "responsibilities": [
+          "Designed and deployed a Power BI sales analytics dashboard."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Fusion of Tech and Finance: Crypto Forecaster",
+        "start_date": "January 2023",
+        "end_date": "Present",
+        "duration": "Ongoing",
+        "description": "Developed a BERT-based trading signal system for dynamic market predictions."
+      },
+      {
+        "title": "CineSentient: Movie Recommendation System",
+        "start_date": "September 2023",
+        "end_date": "December 2023",
+        "duration": "3 months",
+        "description": "Engineered a concise NLP-based movie recommendation engine using BERT, GPT-2, and RoBERTa."
+      },
+      {
+        "title": "Image-to-Image Translation with GANs",
+        "start_date": "January 2023",
+        "end_date": "May 2023",
+        "duration": "4 months",
+        "description": "Led research on advanced GAN architectures for efficient real-time image-to-image translation."
+      },
+      {
+        "title": "Deepfake Detection Using Capsule Networks",
+        "start_date": "September 2022",
+        "end_date": "December 2022",
+        "duration": "3 months",
+        "description": "Developed a Capsule Network and ResNet-based detection system."
+      },
+      {
+        "title": "WELFAKE Fake News Detection",
+        "start_date": "April 2021",
+        "end_date": "April 2022",
+        "duration": "1 year",
+        "description": "Developed a fake news detection system using BERT and LFS for NLP-based feature extraction."
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Meta AI Video Similarity Challenge 2023",
+        "description": "Ranked 5th in identifying video similarities by fine-tuning the DINO model.",
+        "date": "2023"
+      },
+      {
+        "title": "Small-Object Detection Challenge for Spotting Birds",
+        "description": "Achieved Top 2% at MVA2023 by developing and optimizing RetinaNet and Cascade R-CNN models.",
+        "date": "2023"
+      }
+    ],
+    "publications": [
+      {
+        "title": "Online Shopping Fake Reviews Detection Using Machine Learning",
+        "authors": "Afraz Mohammed, Fayaz Moqueem, Chandra Vamshi Reddy, Dannana Jayanth & Brinta Brahma",
+        "conference": "Springer International Conference of Cognition and Recognition 2021 (ICCR-21)",
+        "pages": "305-318"
+      },
+      {
+        "title": "Multi-Class Safety Helmet Detection using Faster - RCNN and Single Shot Detector Algorithms",
+        "authors": "Afraz Mohammed, Fayaz Moqueem, & Vishnu Vardhan",
+        "conference": "Proceedings of International Conference on Emerging Trends in Digital Technologies (ICETDT 2022)",
+        "id": "16"
+      }
+    ],
+    "additional_experience": [
+      {
+        "position": "Research Associate",
+        "institution": "Osmania University",
+        "location": "Hyderabad, India",
+        "start_date": "September 2020",
+        "end_date": "December 2021",
+        "duration": "1 year 3 months",
+        "responsibilities": [
+          "Developed object detection models (Faster R-CNN, SSD) achieving 94.32% accuracy in industrial safety helmet detection.",
+          "Applied NLP for fake review detection on digital platforms, enhancing e-commerce credibility."
+        ]
+      }
+    ],
+    "skills": {
+      "programming_languages": ["Python", "JavaScript", "MySQL", "R", "C++", "Java", "HTML", "CSS", "Scala", "MATLAB"],
+      "technologies_frameworks": ["PyTorch", "TensorFlow", "Keras", "React", "Angular", "Numpy", "OpenCV", "Megatron", "DeepSpeed", "AWS", "SQL", "Power BI", "Tableau", "Apache Spark", ".NET", "Django", "Flask", "MongoDB", "NLTK"],
+      "developer_tools": ["LINX", "AZURE", "AWS- S3", "Sagemaker", "Git", "REACT"]
+    }
+  }
+  

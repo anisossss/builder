@@ -1,0 +1,133 @@
+{
+    "candidate Profile Description": {
+      "summary": "Graduate Student at ETAD Lab, Donald Bren School of Information and Computer Science, UCI. Seeking an Internship/Co-op position for Summer 2024/Fall 2023. Interested in Deep Learning, Machine Learning in Education, Statistics, and Computational Geometry."
+    },
+    "personal_info": {
+      "name": "Amisha Priyadarshini",
+      "contact": {
+        "email": "apriyad1@uci.edu",
+        "phone": "+1 949-516-8331",
+        "location": "ETAD Lab, CAL-(IT) 4100 Peltason Dr, CA 92617"
+      }
+    },
+    "education": [
+      {
+        "institution": "University of California, Irvine",
+        "degree": "PhD Doctoral Candidate, Computer Science",
+        "gpa": "3.65/4.00",
+        "start_date": "2019",
+        "end_date": "Continuing"
+      },
+      {
+        "institution": "University of California, Irvine",
+        "degree": "Masters in Computer Science",
+        "gpa": "3.65/4.00",
+        "start_date": "2019",
+        "end_date": "2021"
+      },
+      {
+        "institution": "National Institute of Technology (NIT), Rourkela",
+        "degree": "Integrated Bachelors and Masters in Science, Mathematics",
+        "gpa": "8.24/10",
+        "start_date": "2011",
+        "end_date": "2016"
+      }
+    ],
+    "research_experience": [
+      {
+        "title": "Research Assistant",
+        "institution": "ETAD Lab, Department of Computer Science, UCI",
+        "advisor": "Dr. Sergio Gago-Masague",
+        "start_date": "2022",
+        "end_date": "current",
+        "description": "Working on novel machine learning and deep learning applications in the field of Education. Focusing on analyzing education datasets for the holistic admission process with proper machine learning model interpretability. Current research focuses on fairness in machine learning using adversarial learning to tackle algorithmic biasness. Involved in a project, MAESTRO, which is an educational tool for simulating adversarial machine learning tasks and build course materials with active learning and gamification strategies."
+      },
+      {
+        "title": "Research Assistant",
+        "institution": "Department of Computer Science, UCI",
+        "advisor": "Dr. Eric Mjolness",
+        "start_date": "Summer 2021",
+        "end_date": "Winter 2022",
+        "description": "Worked on deep symbolic regression techniques using reinforcement learning algorithm which uses the policy gradient concept to produce mathematical expression(s) in the form of a syntax tree which is generated stochastically. The work focuses on improving the reward function through optimization technique by simultaneously improving the learning algorithm through noisy data inputs."
+      },
+      {
+        "title": "Undergraduate Researcher",
+        "institution": "Department of Mathematics, NIT Rourkela",
+        "advisor": "Dr. S. Chakraverty",
+        "start_date": "2015",
+        "end_date": "2016",
+        "description": "Voronoi diagram implementation in designing Neural network: The artificial neural network models, which are currently encountered to have the capacity to allow the interconnection weights associated with the neuron to change, are employed to find the class to which the query point belongs. An algorithm is followed to obtain the Voronoi diagram and the Voronoi vertices. Later, it is used to compute the number of neurons and the topological setup, from the already classified data and it follows a setup of five clock steps."
+      }
+    ],
+    "graduate_course_projects": [
+      {
+        "title": "Sentiment Analysis of IMDB Reviews",
+        "course": "COMPSCI 273A",
+        "instructor": "Dr. Stephen Mandt",
+        "semester": "Fall 2019",
+        "description": "Designed a model to determine the nature of the ratings provided using supervised machine learning techniques like Support Vector Machines and Logistic Regression. An open-source NLP tool by Google namely BERT (Bidirectional Encoder Representations) was used to analyze and provide a comparison study on the performance of the processes mentioned above."
+      },
+      {
+        "title": "Optimizing for Deep CNN",
+        "course": "COMPSCI 243",
+        "instructor": "Dr. Alexandru Nicolau",
+        "semester": "Fall 2019",
+        "description": "A paper survey is conducted on the state-of-the-art deep CNN accelerator design and analyzing the FPGA performance in contrast to state-of-the-art       GPU. A roofline model has been discussed which has the ability of data re-use on chip buffers which in turn helps in optimizing hardware resource utilization. Futuristic recommendation on FPGA performance improvement has been proposed based on resource utilization and improving compute engine performance."
+    },
+    {
+      "title": "ZotChat, Online Distributed Chat Server",
+      "course": "COMPSCI 230",
+      "instructor": "Dr. Nalini Venkatasubramanian",
+      "semester": "Winter 2021",
+      "description": "Designed an online real-time, reliable and distributed web-based chat server by employing Hadoop Distributed File System along with RabbitMQ which acts as a Message-oriented middleware. The server enables unicast, multicast and broadcast message communication between registered users using AWS cloud console."
+    },
+    {
+      "title": "Report on Stochastic and Bayesian Bandits problem",
+      "course": "COMPSCI 295",
+      "instructor": "Dr. Ioannis Panageas",
+      "semester": "Spring 2021",
+      "description": "Provided insights into the Stochastic bandit problem that generates a random reward from a probability distribution with the goal to maximize the rewards, simultaneously trying to draw a comparison with Bayesian bandits. Looked at the Multi-armed bandit problem from the perspective of online learning."
+    },
+    {
+      "title": "Wireless Aerial Networks",
+      "course": "COMPSCI 236",
+      "instructor": "Dr. Marco Levorato",
+      "semester": "Spring 2021",
+      "description": "Conducted an extensive study on the networking aspects and architectures of Unmanned aerial vehicles and their application in the marine ecosystem, post-disaster scenarios and cellular network coverage. Suggested optimization and mesh-networking techniques to improve their performance."
+    }
+  ],
+  "research_internships": [
+    {
+      "title": "Relationship between Voronoi and Power diagrams in a molecule",
+      "institution": "Department of Computer Science and Automation, IISc Bangalore, India",
+      "advisor": "Dr. Vijay Natarajan",
+      "period": "Summer 2015",
+      "description": "Analyzed the extent of deviation of an exact Voronoi from the power line in two-dimensional Euclidean plane for disks in two and three dimensions. Designed an algorithm for efficient computation of the deviation of the exact Voronoi from the power line."
+    },
+    {
+      "title": "Complete configuration of website security using Network Management",
+      "institution": "VGSOM, IIT Kharagpur, India",
+      "advisor": "Dr. Swapan Purkait",
+      "period": "Summer 2014",
+      "description": "Focused on network management for website security."
+    }
+  ],
+  "publications": [
+    {
+      "title": "Admission Prediction in Undergraduate Applications: an Interpretable Deep-Learning Approach",
+      "authors": "A. Priyadarshini, BM. Neda, SG. Masague",
+      "year": "2023",
+      "journal": "Transdisciplinary AI",
+      "doi": "IEEE Explore Sponsored"
+    }
+  ],
+  "honors_and_recognitions": [
+    {
+      "title": "Certificate of Excellence for holding 1st position in Integrated MSc. in Mathematics and Institute medal for branch topper for academic year 2011-16"
+    },
+    {
+      "title": "Recipient of Division of Teaching Excellence and Innovation Scholarship for two consecutive summers of 2020 and 2021 (Awarded annually to nominated graduate students at UCI based on academic proficiency to assist in Departmental Under-graduate/Graduate course creation)"
+    }
+  ]
+}
+  

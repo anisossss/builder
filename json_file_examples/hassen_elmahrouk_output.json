@@ -1,0 +1,200 @@
+{
+    "name": "Elmahrouk Hassen",
+    "contact": {
+      "phone": "+216 25979387",
+      "email": "hassen.elmahrouk@supcom.tn",
+      "linkedin": "https://www.linkedin.com/in/hassen-elmahrouk",
+      "github": "https://github.com/Hassen-Elmahrouk"
+    },
+    "education": [
+      {
+        "institution": "Higher School of Communication of Tunis-Sup'com",
+        "location": "Ariana, Tunisia",
+        "degree": "National Diploma in Telecommunications Engineering",
+        "startDate": "Sep. 2021",
+        "endDate": "Current"
+      },
+      {
+        "institution": "Sfax Preparatory Engineering Institute-IPEIS",
+        "location": "Sfax ,Tunisia",
+        "degree": "Preparatory Cycles to Engineering Studies Degree",
+        "startDate": "Sep. 2019",
+        "endDate": "Jun. 2021", 
+        "duration:": "10 months"
+      }
+    ],
+    "relevantCoursework": [
+      "Linear Algebra",
+      "probability and statistics",
+      "Signals transmission and processing and security",
+      "Calculus",
+      "OOP concept",
+      "Programming ,Data structures and algorithms",
+      "Web development",
+      "Networking architectures",
+      "SQL and Data-Bases architectures",
+      "IOT and cloud computing"
+    ],
+    "internships": [
+      {
+        "company": "OneTech BS",
+        "location": "Ariana, Tunisia",
+        "title": "Information Technology Intern",
+        "startDate": "Jun 2022",
+        "endDate": "August 2022",
+        "description": [
+          "Collaborated with the IT team to design and implement a robust network architecture within the EVE-NG platform.",
+          "Configured and maintained various network devices, including switches, routers, firewalls, and servers, to support the implementation project.",
+          "configured the CISCO Identity Services Engine (ISE) to enhance network security and identity management.",
+          "Assisted in the development of network policies and access control rules within the CISCO ISE to ensure compliance with security standards.",
+          "Worked closely with team members to troubleshoot and resolve network and security-related issues."
+        ]
+      },
+      {
+        "company": "SFM Technologies",
+        "location": "Tunis, Tunisia",
+        "title": "Development of an AI-based customer assistant chatbot",
+        "startDate": "Jun 2022",
+        "endDate": "Aug 2022",
+        "duration": "3 months", 
+        "description": [
+          "Created a specialized dataset in French by extracting product descriptions from the company's portfolio, providing valuable linguistic resources for the project.",
+          "Conducted comprehensive documentation on various Natural Language Processing (NLP) techniques, with a focus on Transformer-based models.",
+          "Leveraged programming skills in Python and utilized popular libraries such as Hugging Face for NLP model development.",
+          "Employed two distinct approaches for chatbot development: intent classification and generative models .",
+          "For intent classification, meticulously preprocessed and prepared the French dataset, incorporating techniques such as lemmatization. Subsequently, trained a French version of the BERT model, named Flaubert, to enhance model accuracy in a non-English language context.",
+          "Evaluated and fine-tuned generative models, including Vicuna, Ilma, and Falcon, using the QLoRA method to enhance their performance, and selected the most suitable model based on benchmarking results.",
+          "Conducted a comparative analysis of the two approaches, ultimately opting for the generative model approach due to its superior adaptability to diverse user queries and requirements.",
+          "Implemented the chosen generative model as an API using the FastAPI framework, making the chatbot accessible for real-time interactions and integration with the company's systems."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Electricity price forecasting",
+        "date": "Sep 2023",
+        "technologies": [
+          "Python",
+          "matplotlib",
+          "numpy",
+          "Pandas",
+          "Scikit-learn"
+        ],
+        "description": [
+          "data preparation, cleaning, and visualization for Electricity Price Forecasting.",
+          "Engineered features and selected models, enhancing forecast accuracy.",
+          "Visualized data to uncover trends and patterns.",
+          "Interpreted and communicated results effectively."
+        ]
+      },
+      {
+        "name": "Smart Glasses for Visual Impaired",
+        "startDate": "Jan 2023",
+        "endDate": "May 2023",
+        "technologies": [
+          "Python",
+          "Tensorflow",
+          "Raseberry Pi",
+          "OpenCV"
+        ],
+        "description": [
+          "Integrated the YOLO (You Only Look Once) algorithm into the system to enable real-time object detection, providing users with valuable information about their surroundings.",
+          "Led a comprehensive evaluation of depth estimation techniques, comparing stereo vision and deep learning approaches ensuring the selection of the most effective and accurate method.",
+          "Implemented the solution on a Raspberry Pi, optimizing it for portability and ease of use, ultimately enabling blind users to receive timely warnings and navigate their environment more confidently."
+        ]
+      },
+      {
+        "name": "Customer Churn Analysis using PySpark",
+        "date": "Sep 2023",
+        "technologies": [
+          "Python",
+          "PySpark"
+        ],
+        "description": [
+          "Completed a data analysis project using the IBM Telco customer churn dataset.",
+          "Utilized PySpark to perform data transformation, cleaning, and feature engineering.",
+          "Developed and implemented machine learning models for predicting customer churn using PySpark MLlib."
+        ]
+      },
+      {
+        "name": "Image Search Engine Development",
+        "date": "OCT 202",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Flask",
+          "Elasticsearch",
+          "Kibana",
+          "Logstash",
+          "Postman"
+        ],
+        "description": [
+          "Successfully designed and developed a comprehensive image search engine supporting two primary search features:",
+          "Text-Based Search: Implemented a robust text search feature, enabling users to search for images by entering descriptive text. Integrated Elasticsearch for efficient text-based image retrieval.",
+          "Image-Based Search: Designed an intuitive image-based search feature, allowing users to upload an image, and the system returns similar images using advanced image similarity algorithms.",
+          "Utilized HTML, CSS, and JavaScript to create a user-friendly frontend interface, providing an exceptional user experience.",
+          "Employed Flask as the web framework and the ELK stack (Elasticsearch, Kibana, Logstash) for the backend to handle data storage, indexing, and retrieval, ensuring rapid and accurate search results."
+        ]
+      }
+    ],
+    "skills": {
+      "programmingLanguages": [
+        "Python",
+        "C",
+        "C++",
+        "HTML/CSS",
+        "JavaScript",
+        "SQL",
+        "Matlab"
+      ],
+      "tools": [
+        "VS Code",
+        "Pycharm",
+        "Google Colab",
+        "Android Studio",
+        "Docker",
+        "Git",
+        "GitHub"
+      ],
+      "dataScience": [
+        "OpenCV",
+        "Hugging Face",
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "PySpark"
+      ],
+      "webAndMobile": [
+        "Node.js",
+        "MQTT",
+        "Flutter",
+        "FastAPI"
+      ],
+      "databases": [
+        "SQL (MySQL)",
+        "NoSQL (MongoDB, ELK stack)"
+      ],
+      "operatingSystems": [
+        "Linux",
+        "Windows"
+      ],
+      "softSkills": [
+        "Adaptability and quick learning"
+      ],
+      "languages": [
+        "English",
+        "French",
+        "Arabic"
+      ]
+    },
+    "certifications": [
+        "Scientific Computing with Python by Free Code Camp.",
+        "machine learning specialization by Coursera.",
+        "Deep Learning for Natural Language Processing course certificate by Udemy.",
+        "Test of English for International Communication (TOEIC) certificate: 960/990."
+      ]
+}

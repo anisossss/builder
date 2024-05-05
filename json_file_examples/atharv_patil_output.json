@@ -1,0 +1,102 @@
+{
+    "candidate Profile Description": {
+      "summary": "Atharv Patil is a student seeking a full-time position in AI/ML/Computer Vision from May 2024, leveraging problem-solving skills, interpersonal skills, and excellent time management. Atharv aims to utilize his expertise in Python programming, PyTorch, NumPy, and Jupyter Notebook in a challenging professional environment."
+    },
+    "personal_info": {
+      "name": "Atharv Patil",
+      "contact": {
+        "address": "Cincinnati, Ohio, United States 45219",
+        "phone": "15133073173",
+        "email": "atharv.cty@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/atharvkiranpatil/"
+      },
+      "details": {
+        "date_of_birth": "25/12/2001",
+        "nationality": "India",
+        "visa_status": "F1",
+        "gender": "Male"
+      }
+    },
+    "education": [
+      {
+        "institution": "Great Learning in Association with UT Austin",
+        "degree": "PGP in AI & ML: Artificial Intelligence and Machine Learning",
+        "start_date": "2023-06",
+        "end_date": "2024-12",
+        "duration": "1 year 6 months"
+      },
+      {
+        "institution": "University of Cincinnati",
+        "degree": "Master of Engineering: Artificial Intelligence",
+        "location": "Cincinnati (OH)",
+        "start_date": "2023-08",
+        "end_date": "2024-12",
+        "duration": "1 year 4 months",
+        "subjects": ["Artificial Intelligence", "Machine Learning", "Natural Language Processing", "Deep Learning", "Cloud Computing", "Intelligent Systems", "Industrial Big Data & AI", "Project Management", "Innovation & Design Thinking"]
+      },
+      {
+        "institution": "Manipal University Jaipur",
+        "degree": "Bachelor of Technology: Computer and Communication Engineering",
+        "location": "Jaipur (India)",
+        "start_date": "2019-06",
+        "end_date": "2023-06",
+        "duration": "4 years"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Machine Learning Intern",
+        "company": "AI Edge Technologies Ltd",
+        "location": "Hyderabad",
+        "start_date": "2023-01",
+        "end_date": "2023-05",
+        "duration": "4 months",
+        "description": "Applied several deep learning models to accomplish text and speech sentiment analysis. Carried out a comparative study of diverse performing techniques to find the best technique. Defended thesis for the 8th semester with the highest grade."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Developed crowd count model for congested spaces using deep learning",
+        "date": "Jan. '22 - April '22",
+        "duration": "3 months",
+        "description": "Implemented a model to count the number of people in still congested scenes in the ShanghaiTech dataset."
+      },
+      {
+        "title": "Using Artificial Intelligence to Determine the Carbon Sequestration in Trees",
+        "date": "Sep. '22 - Present",
+        "duration": "Ongoing",
+        "description": "Utilizing computer vision to measure carbon sequestration in trees cost-effectively. Creating a model to define parameters for measuring tree dimensions through top view and side view."
+      }
+    ],
+    "research": [
+      {
+        "event": "International Graduate Research Symposium",
+        "location": "University of Cincinnati",
+        "date": "3 Nov. '23",
+        "duration": "1 day",
+        "description": "Attended a 1-day symposium to meet and network with experienced entrepreneurs and like-minded STEM graduates."
+      },
+      {
+        "event": "Lab2Market Phase I & II",
+        "location": "University of Cincinnati",
+        "dates": {
+          "phase_I": "29 Sep. '23",
+          "phase_II": "Oct. '23 - Feb. '24"
+        },
+        "duration": {
+          "phase_I": "1 day",
+          "phase_II": "4 months"
+        },
+        "description": "Selected as one of the 10 fellows for Fall 2023 Lab2Market Cohort, a 12-week program with an award of USD 5000. Researched 25 companies/carbon funds and engaged in discussions to create business opportunities. Identified promising AI companies in the USA and created a database."
+      }
+    ],
+    "languages": ["English", "Hindi", "Marathi"],
+    "skills": [
+      "Python Programming",
+      "PyTorch Framework",
+      "NumPy",
+      "Problem-Solving",
+      "Jupyter Notebook"
+    ]
+  }
+  

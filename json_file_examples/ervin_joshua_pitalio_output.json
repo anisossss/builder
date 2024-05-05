@@ -1,0 +1,112 @@
+{
+    "candidate Profile Description": {
+      "summary": "Driven Data Science graduate with a 4.0 GPA from the University of North Texas, equipped with a proven foundation in data modeling, machine learning, and data analytics. Demonstrated proficiency in programming languages like C++, R, SQL Server, Python, and Java."
+    },
+    "personal_info": {
+      "name": "Ervin Joshua L. Pitalio",
+      "contact": {
+        "phone": "201.723.8800",
+        "email": "pitalioej.data@gmail.com",
+        "location": "1925 Steppe Trail Dr. Aubrey, TX 76227",
+        "linkedin": "https://linkedin.com/in/ervin-joshua-l-pitalio"
+      }
+    },
+    "education": [
+      {
+        "institution": "University of North Texas",
+        "location": "Denton, TX",
+        "degree": "Bachelor of Science in Data Science",
+        "gpa": "4.0",
+        "completion_date": "December 2023",
+        "duration": "Ongoing",
+        "relevant_coursework": [
+          "Data Visualization",
+          "Data Analytics",
+          "Data Mining",
+          "Machine Learning",
+          "Statistics for Data Science"
+        ],
+        "award_recognition": "Magna Cum Laude"
+      },
+      {
+        "institution": "Collin College",
+        "location": "McKinney, TX",
+        "degree": "Associate of Science",
+        "gpa": "3.87",
+        "completion_date": "May 2022",
+        "duration": "2 years",
+        "award_recognition": "Magna Cum Laude"
+      }
+    ],
+    "technical_skills": {
+      "programming_languages": ["C++", "Python", "R", "SQL", "Java"],
+      "software_tools": ["Visual Studio", "Apache NetBeans", "Tableau", "PyCharm", "MySQL", "R Studio", "Google Colab", "Anaconda", "Jupyter Notebook", "RapidMiner", "Archivematica", "Slack", "Microsoft Office Suite"],
+      "data_analytics_algorithms": ["Linear Regression", "Logistic Regression", "K-Mean", "Decision Trees", "Random Forests"],
+      "version_control": ["Git", "GitHub"],
+      "data_preprocessing_and_wrangling": ["Data transformation", "Normalization", "Cleaning", "Missing data imputation", "Outlier detection"],
+      "digital_curation": ["Data archiving", "Selection", "Preservation", "Access & retrieval", "Metadata management"]
+    },
+    "employment_experience": [
+      {
+        "title": "Paid Contract Entry Level Data Scientist",
+        "company": "UNT 2023 Fall REU/HSI project internship",
+        "location": "Denton, TX",
+        "start_date": "August 2023",
+        "end_date": "December 2023",
+        "duration": "4 months",
+        "responsibilities": [
+          "Collaboratively formulated comprehensive research papers.",
+          "Designed and implemented predictive machine learning models.",
+          "Utilized web scraping tools and techniques to extract relevant data online."
+        ],
+        "technical_skills": ["SQL Server", "R (ggplot2, dplyr, tidyr)", "Python (Pandas, NumPy, Scikit-Learn, TensorFlow)", "Data Analysis & Visualization (Matplotlib, Seaborn, Shiny)", "Machine Learning & Predictive Modeling (Supervised/Unsupervised Learning, Neural Networks)"]
+      }
+    ],
+    "projects_summary": [
+      {
+        "title": "COVID-19 Data Visualization with Tableau",
+        "date": "June 2023 – July 2023",
+        "duration": "1 month",
+        "description": "Created dashboards analyzing the global and national impacts of COVID-19, utilizing Tableau for data visualization."
+      },
+      {
+        "title": "SQL Online Bookstore Database",
+        "date": "January 2023 – May 2023",
+        "duration": "4 months",
+        "description": "Designed and implemented an online bookstore database, applying SQL fundamentals to create a scalable and robust database structure."
+      },
+      {
+        "title": "YouTube Statistics Analysis with RapidMiner & Excel",
+        "date": "January 2023 – May 2023",
+        "duration": "4 months",
+        "description": "Analyzed YouTube engagement trends for a Data Analysis course, using Excel and RapidMiner for k-means cluster analysis."
+      }
+    ],
+    "leadership_and_student_organization": {
+      "organization": "Phi Theta Kappa (PTK)",
+      "start_date": "November 2020",
+      "end_date": "Present",
+      "duration": "Ongoing"
+    },
+    "work_authorization": "US Citizen",
+    "awards_and_scholarships": [
+      {
+        "award": "Phi Theta Kappa – Alpha Mu Tau Induction at Collin College",
+        "date": "November 2021"
+      },
+      {
+        "award": "Magna Cum Laude – Collin College",
+        "date": "May 2022"
+      },
+      {
+        "award": "UNT President's List",
+        "dates": ["Fall 2022", "Spring 2023", "Fall 2023"]
+      },
+      {
+        "award": "Magna Cum Laude – University of North Texas",
+        "date": "December 2023"
+      }
+    ]
+  }
+  
+  

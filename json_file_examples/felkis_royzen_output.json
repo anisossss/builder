@@ -1,0 +1,115 @@
+{
+    "candidate Profile Description": {
+      "summary": "Feliks Royzen is a dedicated researcher with expertise in neuroscience and data analysis. He has a proven track record in neural decoding, statistical analysis, and the development of visualization tools. With a strong background in Python, MATLAB, and AWS, he is committed to advancing the field of neuroscience through innovative research and technology."
+    },
+    "personal_info": {
+      "name": "Feliks Royzen",
+      "contact": {
+        "phone": "+1 801-635-6439",
+        "email": "royzenfeliks@gmail.com",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/feliksroyzen",
+          "website": "https://neuroviz.info",
+          "github": "https://github.com/feliksr"
+        }
+      },
+      "location": "Salt Lake City, UT"
+    },
+    "education": [
+      {
+        "degree": "PhD in Neuroscience",
+        "institution": "University of Utah",
+        "start_date": "September 2011",
+        "end_date": "December 2019",
+        "duration": "8 years 3 months"
+      },
+      {
+        "degree": "Bachelor's degree in Biology",
+        "institution": "University of Utah",
+        "start_date": "September 2005",
+        "end_date": "May 2009",
+        "duration": "3 years 8 months"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Postdoctoral Research Associate",
+        "company": "University of Utah Health - Neurosurgery",
+        "location": "Salt Lake City, UT",
+        "start_date": "July 2022",
+        "end_date": "Present",
+        "duration": "Ongoing",
+        "projects": [
+          {
+            "name": "Neural decoding of visually presented stimuli",
+            "description": "Creation and management of full-stack (AWS) visualization and statistical analysis tool for EEG and other time-frequency domain recordings."
+          },
+          {
+            "techniques": ["ANOVA", "cluster-correction analysis", "permutation testing", "Support Vector Machine", "Principal Component Analysis"]
+          }
+        ],
+        "links": {
+          "project_website": "https://neuroviz.info"
+        }
+      },
+      {
+        "title": "Postdoctoral Research Associate",
+        "company": "University of Utah Health - Neurology",
+        "location": "Salt Lake City, UT",
+        "start_date": "January 2019",
+        "end_date": "December 2021",
+        "duration": "2 years 11 months",
+        "projects": [
+          {
+            "name": "Pre-clinical investigation of genetic therapy for ataxia",
+            "description": "Showed reduction in electrophysiological biomarkers of neurodegeneration with IONIS genetic therapy in mouse models."
+          },
+          {
+            "techniques": ["Mixed GLM", "ANOVA", "power analysis", "image analysis for 2-photon laser microscopy"]
+          }
+        ]
+      },
+      {
+        "title": "Graduate Research Assistant",
+        "company": "Neuronal Dynamics Lab - Biomedical Engineering Department, University of Utah",
+        "location": "Salt Lake City, UT",
+        "start_date": "January 2012",
+        "end_date": "December 2015",
+        "duration": "3 years 11 months",
+        "projects": [
+          {
+            "name": "Investigation of mechanisms underlying hippocampal theta oscillations",
+            "description": "Discovered novel mechanism for theta oscillations using ex vivo whole hippocampus."
+          },
+          {
+            "techniques": ["Single-neuron and concurrent field recordings", "signal processing", "statistical analysis"]
+          }
+        ]
+      }
+    ],
+    "skills": {
+      "programming_languages": ["Python", "JavaScript", "MATLAB", "SQL"],
+      "frameworks_and_libraries": ["Flask", "Numpy", "Scipy", "Tensorflow", "Matplotlib", "Pandas", "D3.js"],
+      "cloud_technologies": ["AWS (S3, EC2/ELB, RDS, Cloudfront, WAF, ACM, Route 53)"],
+      "statistical_analysis": ["Multi-variable and multi-variate analysis", "Linear mixed models"],
+      "signal_processing": ["FFT", "Wavelet analysis", "Time-series analysis"],
+      "machine_learning": ["CNN", "SVM", "PCA"],
+      "software_tools": ["GitHub", "Microsoft Excel"]
+    },
+    "certifications": [
+      {
+        "title": "AWS Certified Solutions Architect – Associate",
+        "links": {
+            "credential_url": "https://www.credly.com/badges/a65cc8b9-73ed-4c28-bd1b-8dfdba31439d/public_url"
+        }
+      }
+    ],
+    "publications": [
+      {
+        "title": "Balanced synaptic currents underlie low-frequency oscillations in the subiculum",
+        "journal": "Hippocampus",
+        "year": "2019"
+      }
+    ]
+  }
+  

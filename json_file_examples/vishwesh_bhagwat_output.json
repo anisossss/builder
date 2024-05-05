@@ -1,0 +1,127 @@
+{
+    "candidate Profile Description": {
+      "summary": "Experienced in designing frameworks for deep learning-based online anomaly detection on automotive test benches. Skilled in machine learning, computer vision, artificial intelligence, and data analytics. Proficient in programming languages and tools such as Python, Matlab, TensorFlow, PyTorch, and Docker."
+    },
+    "personal_info": {
+      "name": "Vishwesh Bhagwat",
+      "contact": {
+        "address": "Aachen, Germany",
+        "email": "vishwesh.bhagwat@rwth-aachen.de",
+        "phone": "+49 1635192819 / +91 8554898066"
+      },
+      "links": {
+        "LinkedIn": "https://www.linkedin.com/in/vishwesh-bhagwat-027a69195/",
+        "Xing": "https://www.xing.com/profile/Vishwesh_Bhagwat/cv"
+      }
+    },
+    "skills_and_achievements": {
+      "technical_skills": {
+        "software": [
+          "Matlab",
+          "MS Office suite"
+        ],
+        "programming": [
+          "Python - Pandas, NumPy, Matplotlib, scikit-learn, Seaborn, TensorFlow, Keras, PyTorch, Flask, MLFlow"
+        ],
+        "others": [
+          "Docker",
+          "Git and Github",
+          "AWS",
+          "MySQL"
+        ]
+      },
+      "languages": [
+        "English (C1)",
+        "German (B1)",
+        "Hindi",
+        "Marathi"
+      ],
+      "other_skills": [
+        "Experience working in international and interdisciplinary teams",
+        "Excellent communications skills",
+        "Strong leadership skills"
+      ],
+      "achievements": [
+        "Second rank holder in college during bachelor's in mechanical engineering."
+      ]
+    },
+    "work_experience": [
+      {
+        "company": "Mercedes-Benz AG",
+        "title": "Master's Thesis – Designing Framework for Deep Learning Based Online Anomaly Detection on Automotive Test Benches",
+        "location": "Germany",
+        "start_date": "Jan 2023",
+        "end_date": "Aug 2023",
+        "description": "Designed framework permits early stopping of anomalous test procedures which saves huge resources in terms of time and money. The project involved development of ETL pipeline, deep learning-based anomaly detection method optimization and online implementation using docker on test benches."
+      },
+      {
+        "company": "Mercedes-Benz AG",
+        "title": "Internship – Model Library Creation for Deep Learning Based Multivariate Time Series Anomaly Detection",
+        "location": "Germany",
+        "start_date": "May 2022",
+        "end_date": "Nov 2022",
+        "description": "Created an optimized model library for deep learning based multivariate time series anomaly detection using Tensorflow in python."
+      },
+      {
+        "company": "IGMR – RWTH Aachen University",
+        "title": "Wissenschaftliche Hilfskraft",
+        "location": "Germany",
+        "start_date": "Jun 2021",
+        "end_date": "Sept 2021",
+        "description": "Responsible for development of lecture, exercise content for the preparatory course in Mathematics for incoming master's students."
+      },
+      {
+        "company": "BAUER Kompressoren India Pvt. Ltd.",
+        "title": "Graduate Engineer Trainee (order and proposal Engineering)",
+        "location": "Pune, India",
+        "start_date": "Mar 2019",
+        "end_date": "Feb 2020",
+        "description": "Provided engineering support to the assembly and sales departments through collaboration with internal and external stakeholders."
+      },
+      {
+        "company": "Helical Auto Technology India Pvt. Ltd.",
+        "title": "Graduate Engineer Trainee (Development projects)",
+        "location": "Pune, India",
+        "start_date": "Jul 2018",
+        "end_date": "Dec 2018",
+        "description": "Contributed to the establishment of a new press shop for the company."
+      }
+    ],
+    "education": [
+      {
+        "institution": "RWTH Aachen University",
+        "degree": "M.Sc. Robotic Systems Engineering",
+        "grade": "2.0",
+        "start_date": "Nov 2020",
+        "end_date": "Sept 2023",
+        "courses": [
+          "Machine Learning",
+          "Advanced Machine Learning",
+          "Computer Vision",
+          "Computer Science in Mechanical Engineering",
+          "Introduction to Artificial Intelligence",
+          "Artificial Intelligence and Data Analytics for Engineers"
+        ]
+      },
+      {
+        "institution": "Savitribai PhulePune University",
+        "degree": "Bachelor in Mechanical Engineering",
+        "grade": "1.3",
+        "start_date": "June 2014",
+        "end_date": "May 2018"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Deep Learning based Object Detection on Nvidia Jetson Platform for Intelligent Wildlife Camera Trap Images",
+        "organization": "Techlabs Aachen and Wild Intelligence Lab (WIL)",
+        "description": "The project involved detection of number of animals per species, humans, and cars in the camera trapped images in Kalahari desserts."
+      },
+      {
+        "name": "Design and Manufacturing of Automated Quality Inspection and Segregation System",
+        "organization": "Helical Auto Technology India Pvt. Ltd., Pune (India)",
+        "description": "Two independent machines for automated weld strength checking and automated segregation of OK and NOK parts were designed and manufactured."
+      }
+    ]
+  }
+  

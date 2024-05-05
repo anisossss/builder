@@ -1,0 +1,166 @@
+{
+    "candidate Profile Description": {
+      "summary": "Hamed Khosravi is an Industrial Engineering Ph.D. student at West Virginia University specializing in Decision Sciences. With a strong foundation in data analysis, machine learning, and optimization, he has contributed to various research projects and publications. Hamed is proficient in Python, R, MATLAB, SQL, and Power BI, and has certifications in data science and machine learning."
+    },
+    "personal_info": {
+      "name": "Hamed Khosravi",
+      "contact": {
+        "phone": "(304) 216-0412",
+        "email": "hamedkhosravi181@gmail.com",
+        "links": {
+          "linkedin": "https://www.linkedin.com/in/hamed-khosravi1999/"
+        }
+      },
+      "location": "Morgantown, WV"
+    },
+    "education": [
+      {
+        "institution": "West Virginia University",
+        "location": "Morgantown, WV",
+        "degree": "Ph.D. in Industrial Engineering (Specialization: Decision Sciences)",
+        "start_date": "Aug 2022",
+        "end_date": "Present",
+        "overall_gpa": "4.0",
+        "duration": "Ongoing"
+      },
+      {
+        "institution": "Iran University of Science and Technology",
+        "location": "Tehran, Iran",
+        "degree": "Bachelor's in Industrial Engineering",
+        "start_date": "Sep 2017",
+        "end_date": "Feb 2022",
+        "overall_gpa": "3.75",
+        "duration": "4 years 5 months"
+      }
+    ],
+    "publications": [
+      {
+        "title": "An improved group teaching optimization algorithm based on local search and chaotic map for feature selection in high-dimensional data",
+        "journal": "Expert Systems with Applications",
+        "volume": "204",
+        "year": "2022",
+        "article_number": "117493"
+      },
+      {
+        "title": "A Data Driven Sequential Learning Framework to Accelerate and Optimize Multi-Objective Manufacturing Decisions",
+        "journal": "Journal of Intelligent Manufacturing",
+        "status": "Accepted",
+        "year": "2023",
+        "preprint": "arXiv:2304.09278"
+      },
+      {
+        "title": "Chatbots and ChatGPT: A bibliometric analysis and systematic review of publications in Web of Science and Scopus databases",
+        "journal": "International Journal of Data Mining, Modelling and Management",
+        "status": "Accepted",
+        "year": "2023",
+        "preprint": "arXiv:2304.05436"
+      },
+      {
+        "title": "Strategic Data Augmentation with CTGAN for Smart Manufacturing: Enhancing Machine Learning Predictions of Paper Breaks in Pulp-and-Paper Production",
+        "journal": "Manufacturing Letters Journal",
+        "status": "Accepted",
+        "year": "2023",
+        "preprint": "arXiv:2311.09333"
+      },
+      {
+        "title": "Optimizing Forest Fire Prediction: A Comparative Analysis of Machine Learning Models through Feature Selection and Time-Stage Evaluation",
+        "journal": "Preprints",
+        "year": "2023",
+        "preprint": "preprints202312.0577.v1"
+      },
+      {
+        "title": "Identification of the Factors Affecting the Reduction of Energy Consumption and Cost in Buildings Using Data Mining Techniques",
+        "journal": "arXiv",
+        "year": "2023",
+        "preprint": "arXiv:2305.08886"
+      }
+    ],
+    "skills": {
+      "technical_skills": [
+        "Python",
+        "Unix Shell Scripting",
+        "R",
+        "MATLAB",
+        "SQL",
+        "Power BI",
+        "SPSS",
+        "Git",
+        "JMP"
+      ],
+      "soft_skills": [
+        "Teamwork",
+        "Leadership",
+        "Management",
+        "Critical Thinking",
+        "Problem-Solving",
+        "Attention to Detail",
+        "Analytical thinking",
+        "Communication"
+      ],
+      "certifications": [
+        "SQL for Data Science",
+        "Applied Machine Learning in Python",
+        "Neural Networks and Deep Learning",
+        "Exploratory Data Analysis",
+        "Data Science Project Management (CRISP-DM)"
+      ]
+    },
+    "related_coursework": [
+      "Pattern Recognition (Computer Science Department, West Virginia University)",
+      "Math for Machine Learning (School of Math and Data Sciences, West Virginia University)",
+      "Design of experiments (Industrial Engineering Department, West Virginia University)",
+      "Engineering Data Analysis (Industrial Engineering Department", 
+      "Iran University of Science and Technology)",
+      "Business Statistical Methods (Business Data Analytics Program, West Virginia University)",
+      "Statistical Methods (Department of Statistics, West Virginia University)",
+      "Applied Linear Programming (Industrial Engineering Department, West Virginia University)",
+      "Engineering Statistics (Industrial Engineering Department, Iran University of Science and Technology)",
+      "Management Information System (Industrial Engineering Department, Iran University of Science and Technology)"
+    ],
+    "research_experience": [
+      {
+        "title": "Data Science Research Assistant",
+        "location": "Morgantown, West Virginia University",
+        "start_date": "Aug 2022",
+        "end_date": "Present",
+        "duration": "Ongoing",
+        "projects": [
+          "Proposed a novel feature selection model based on local search and chaos mapping called binary group teaching optimization algorithm (BGTOALC).",
+          "Developed a novel copula-based data augmentation method specifically tailored to be used for binary data named binary gaussian copula synthesizer (BGCS), to improve the performance of machine learning models by outperforming other data augmentation techniques.",
+          "Developed a novel enhanced farmland fertility algorithm using new adaptive operator for global optimization.",
+          "Proposed a novel modification of the Linear upper confidence bound (LinUCB) method for the stochastic multi-armed contextual bandit with integrating the k nearest neighbors (kNN) and introducing dynamic exploration rate named LinUCB-kNN."
+        ]
+      },
+      {
+        "title": "Autonomous Experimentation Platform Design for Accelerating Manufacturing of Advanced Materials",
+        "projects": [
+          "Presented a novel sequential learning method named multi-objective bayesian optimization with sequential learning (MOBOSL) to optimize multi-objective manufacturing decisions.",
+          "Introduced a new performance metric called adjusted proportional hypervolume (APHV) to assess models in multi-objective optimization problems.",
+          "Proposed a surprise-guided acquisition function integrating conditional tabular Generative Adversarial Network (CTGAN) in sequential learning framework to approximate a black-box function."
+        ]
+      },
+      {
+        "title": "Utilizing AI in Healthcare: Advancements and Applications",
+        "projects": [
+          "Presented a practical machine learning-based clinical decision support system (CDSS) incorporating decision tree model to assist clinicians in making evidence- based decisions regarding early dialysis prediction for chronic kidney disease (CKD) patients.",
+          "Developed and implemented advanced machine learning models using oversampling techniques and ensemble learning in a mental health analytics project, achieving a 19% improvement in the prediction accuracy of suicide ideation compared to baseline models."
+        ]
+      }
+    ],
+    "honors_and_awards": [
+      "Recipient of the 'Ph.D. Statler Fellowship' at West Virginia University (2023)",
+      "Awarded 'Distinguished Student' in 9 semesters of Bachelor's degree (2022)",
+      "Academic reviewer of 8 well-known journals including Expert Systems with Applications, Artificial Intelligence Review, Signal, Image and Video Processing, Neural Processing Letters, Machine Learning Research, and Machine Learning with Applications",
+      "Winner of the 'Financial Educational Reward' from Iran's National Elites Foundation, Iran University of Science and Technology, Iran (2020)",
+      "Ranked Top 0.8% among approximately 150,000 participants in the National Entrance Exam for Iranian universities, Iran (2017)",
+      "Accepted to take part in 'Math Olympiad Stage 2' from the top 5% of students in the National Organization for Development of Exceptional Talents, Birjand, Iran (2015)"
+    ],
+    "references": [
+      "Dr. Srinjoy Das (Assistant Professor and Data Scientist, School of Math and Data Sciences, West Virginia University)",
+      "Dr. Imtiaz Ahmed (Assistant Professor, Industrial Engineering Department, West Virginia University)",
+      "Dr. Omar Al-Shebeeb (Assistant Professor, Industrial Engineering Department, West Virginia University)",
+      "Dr. Babak Amiri (Assistant Professor and Data Scientist, Smart and Networked Systems (SNS Lab), Iran University of Science and Technology)"
+    ]
+  }
+  
+  

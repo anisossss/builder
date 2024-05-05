@@ -1,0 +1,123 @@
+{
+    "candidate Profile Description": {
+      "summary": "I am a skilled web developer and aspiring data scientist intern, passionate about creating engaging websites and analyzing data to drive insights and decision-making."
+    },
+    "personal_info": {
+      "name": "Firas Rebai",
+      "contact": {
+        "phone": "+(216) 90 336 332",
+        "email": "firasrebai01@gmail.com",
+        "location": "Sidi Fraj, Soukra, Tunis",
+        "Socials": "GitHub"
+      },
+      "links": {
+        "GitHub": "https://github.com/firas-rebai"
+      }
+    },
+    "education": [
+      {
+        "institution": "Faculty of Sciences of Bizerte",
+        "degree": "Professional Master's in Data Science",
+        "start_date": "2022",
+        "end_date": "Ongoing"
+      },
+      {
+        "institution": "Faculty of Sciences of Bizerte",
+        "degree": "License in Software Engineering and Information Systems",
+        "year": "2022"
+      },
+      {
+        "degree": "Baccalaureate in Experimental Sciences",
+        "year": "2019"
+      }
+    ],
+    "skills": {
+      "web_development": [
+        "HTML/CSS/JS",
+        "Java (JEE, Spring, Spring Boot, Gradle, Maven)",
+        "JavaScript (Angular)"
+      ],
+      "machine_learning": [
+        "Python (numpy, pandas, sklearn, pytorch, matplotlib)"
+      ],
+      "big_data": [
+        "Hadoop (Cloudera, PIG, HIVE)",
+        "Apache Spark"
+      ],
+      "data_analysis": [
+        "Tableau",
+        "Excel"
+      ],
+      "database": [
+        "Oracle Database",
+        "MySQL",
+        "MongoDB"
+      ],
+      "developer_tools": [
+        "IntelliJ Idea",
+        "Webstorm",
+        "Visual Studio Code",
+        "Git/GitHub"
+      ]
+    },
+    "experience": [
+      {
+        "company": "MINISIS INC.",
+        "title": "End of Studies Project",
+        "start_date": "Feb 2022",
+        "end_date": "June 2022",
+        "duration": "4 months",
+        "description": "The project entitled 'E-Courrier' is the continuation of another electronic document management project aimed at creating, saving, classifying, and indexing electronic documents.",
+        "technologies": [
+          "Spring Boot",
+          "Angular",
+          "Spring Security",
+          "Apache Tomcat",
+          "Maven",
+          "MySQL",
+          "JPA",
+          "Bootstrap",
+          "Hibernate",
+          "Git"
+        ]
+      }
+    ],
+    "personal_projects": [
+      {
+        "name": "WEB/DESKTOP APPLICATION FOR INVOICE/ESTIMATE MANAGEMENT",
+        "duration": "Jan 2023 - March 2023",
+        "description": "WEB/Desktop application for managing invoices/quotes/stock. Management of customers, suppliers, and stocks. Generation of invoices, quotes 100% editable. Generation of the desktop application with ElectronJS.",
+        "technologies": [
+          "Angular",
+          "Firebase",
+          "Spring Boot",
+          "ElectronJS"
+        ]
+      },
+      {
+        "name": "TEXT SUMMARIZATION FOR SCIENTIFIC PAPERS",
+        "description": "Text Summarization and Keywords Generation for research papers. Setting up the data and the sequence-to-sequence model. Training and testing the model with BERTScore. Deploying the model in Azure and using it with a frontend app.",
+        "technologies": [
+          "Python",
+          "Matplotlib",
+          "Pandas",
+          "TensorFlow",
+          "Keras",
+          "NLP",
+          "Deep Learning"
+        ]
+      },
+      {
+        "name": "BREAST CANCER DETECTION",
+        "date": "May 2023",
+        "description": "Use of several machine learning algorithms to detect breast cancer. Data analysis with matplotlib. Training algorithms on data with sklearn.",
+        "technologies": [
+          "Python",
+          "Matplotlib",
+          "Sklearn",
+          "Pandas"
+        ]
+      }
+    ]
+  }
+  
